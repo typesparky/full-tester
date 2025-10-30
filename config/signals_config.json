@@ -1,0 +1,17 @@
+{
+  "politics": {
+    "excludes": [
+      "custom_world_affairs/will-carney-say-land-reform-during-canadian-election-debate-on-april-17_537279.csv",
+      "geopolitics__foreign_policy_comprehensive/will-carney-say-land-reform-during-canadian-election-debate-on-april-17_537279.csv",
+      "custom_world_affairs/will-poilievre-say-land-lumber-during-canadian-election-debate-on-april-17_537297.csv",
+      "geopolitics__foreign_policy_comprehensive/will-poilievre-say-land-lumber-during-canadian-election-debate-on-april-17_537297.csv",
+      "custom_world_affairs/will-carney-say-elbows-up-during-canadian-election-debate-on-april-17_537278.csv",
+      "geopolitics__foreign_policy_comprehensive/will-carney-say-elbows-up-during-canadian-election-debate-on-april-17_537278.csv",
+      "custom_world_affairs/will-carney-say-doug-or-ford-during-canadian-election-debate-on-april-17_537282.csv",
+      "geopolitics__foreign_policy_comprehensive/will-carney-say-doug-or-ford-during-canadian-election-debate-on-april-17_537282.csv",
+      "custom_world_affairs/will-carney-say-french-3-times-during-canadian-election-debate-on-april-17_537275.csv",
+      "geopolitics__foreign_policy_comprehensive/will-carney-say-french-3-times-during-canadian-election-debate-on-april-17_537275.csv",
+      "politics_(us_election)/will-another-candidate-win-the-mi-12-democratic-house-primary_501362.csv"
+    ]
+  }
+}

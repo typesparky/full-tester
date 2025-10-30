@@ -1,0 +1,53 @@
+filename,question,volume,active
+negative_gdp_growth_in_q2_2025.csv,"Negative GDP growth in Q2 2025?",787464,false
+negative_gdp_growth_in_q1_2025.csv,"Negative GDP growth in Q1 2025?",679821,false
+will_us_gdp_growth_in_q2_2025_be_greater_than_2.csv,"Will US GDP growth in Q2 2025 be greater than 2%?",586032,false
+negative_gdp_growth_in_q3_2025.csv,"Negative GDP growth in Q3 2025?",530467,true
+will_us_gdp_growth_in_q2_2025_be_between_0_and_minus1.csv,"Will US GDP growth in Q2 2025 be between 0% and -1%?",453181,false
+us_gdp_declines_in_q3_2024.csv,"US GDP declines in Q3 2024?",346721,false
+5_gdp_contraction_in_q3_2025.csv,"5% GDP contraction in Q3 2025?",322539,true
+will_us_gdp_growth_in_q2_2025_be_between_1_and_0.csv,"Will US GDP growth in Q2 2025 be between 1% and 0%?",303646,false
+will_us_gdp_growth_in_2025_be_between_0_5_and_1_0.csv,"Will US GDP growth in 2025 be between 0.5% and 1.0%?",274715,true
+will_us_gdp_growth_in_q2_2025_be_between_minus1_and_minus2.csv,"Will US GDP growth in Q2 2025 be between -1% and -2%?",274453,false
+will_us_gdp_growth_in_q2_2025_be_less_than_2.csv,"Will US GDP growth in Q2 2025 be less than 2%?",257405,false
+will_us_gdp_growth_in_q2_2025_be_between_2_and_1.csv,"Will US GDP growth in Q2 2025 be between 2% and 1%?",221594,false
+will_us_gdp_growth_be_less_than_minus2_in_q1_2025.csv,"Will U.S. GDP growth be less than -2% in Q1 2025?",162013,false
+will_us_gdp_growth_in_q3_2025_be_less_than_1_0.csv,"Will US GDP growth in Q3 2025 be less than 1.0%?",153221,true
+will_us_gdp_growth_be_greater_than_2_in_q1_2025.csv,"Will U.S. GDP growth be greater than 2% in Q1 2025?",99756,false
+will_us_gdp_growth_be_between_2_and_1_in_q1_2025.csv,"Will U.S. GDP growth be between 2% and 1% in Q1 2025?",92949,false
+will_us_gdp_growth_in_q2_2025_be_greater_than_3_5.csv,"Will US GDP growth in Q2 2025 be greater than 3.5%?",92231,false
+will_us_gdp_growth_be_between_minus1_and_minus2_in_q1_2025.csv,"Will U.S. GDP growth be between -1% and -2% in Q1 2025?",80918,false
+will_us_gdp_growth_be_between_1_and_0_in_q1_2025.csv,"Will U.S. GDP growth be between 1% and 0% in Q1 2025?",80448,false
+will_us_gdp_growth_in_q3_2025_be_between_1_0_and_5_0.csv,"Will US GDP growth in Q3 2025 be between 1.0% and 5.0%?",74869,true
+will_us_gdp_growth_be_between_0_and_minus1_in_q1_2025.csv,"Will U.S. GDP growth be between 0% and -1% in Q1 2025?",77425,false
+will_us_gdp_growth_in_q3_2025_be_greater_than_5_0.csv,"Will US GDP growth in Q3 2025 be greater than 5.0%?",70094,false
+will_us_gdp_growth_in_q3_2025_be_between_minus5_and_0.csv,"Will US GDP growth in Q3 2025 be between -5% and 0%?",67995,false
+will_us_gdp_growth_in_q3_2025_be_between_0_and_1.csv,"Will US GDP growth in Q3 2025 be between 0% and 1%?",66982,true
+will_us_gdp_growth_in_2025_be_greater_than_4.csv,"Will US GDP growth in 2025 be greater than 4%?",62933,false
+will_us_gdp_growth_in_2025_be_between_2_and_4.csv,"Will US GDP growth in 2025 be between 2% and 4%?",62009,false
+will_us_gdp_growth_in_2025_be_between_1_and_2.csv,"Will US GDP growth in 2025 be between 1% and 2%?",61821,true
+will_us_gdp_shrink_for_a_3rd_straight_quarter.csv,"Will US GDP shrink for a 3rd straight quarter?",57508,false
+will_us_gdp_growth_in_q2_2025_be_between_0_and_1.csv,"Will US GDP growth in Q2 2025 be between 0% and 1%?",56881,false
+will_us_gdp_growth_in_2025_be_between_1_and_4.csv,"Will US GDP growth in 2025 be between 1% and 4%?",53252,false
+will_us_gdp_growth_be_more_than_4_9_in_q3_2025.csv,"Will US GDP growth be more than 4.9% in Q3 2025?",50857,false
+will_us_gdp_growth_in_2025_be_less_than_0.csv,"Will US GDP growth in 2025 be less than 0%?",48676,false
+will_us_gdp_growth_in_q2_2025_be_greater_than_0.csv,"Will US GDP growth in Q2 2025 be greater than 0%?",48517,false
+will_us_gdp_growth_in_q2_2025_be_greater_than_1.csv,"Will US GDP growth in Q2 2025 be greater than 1%?",48484,false
+will_us_gdp_growth_in_q2_2025_be_between_0_and_minus2.csv,"Will US GDP growth in Q2 2025 be between 0% and -2%?",48258,false
+will_us_gdp_growth_in_q2_2025_be_between_1_and_2.csv,"Will US GDP growth in Q2 2025 be between 1% and 2%?",48097,false
+will_us_gdp_growth_in_q2_2025_be_less_than_1.csv,"Will US GDP growth in Q2 2025 be less than 1%?",48005,false
+will_us_gdp_growth_in_q2_2025_be_between_minus0_5_and_0_5.csv,"Will US GDP growth in Q2 2025 be between -0.5% and 0.5%?",47947,false
+will_us_gdp_growth_in_q2_2025_be_between_2_and_3.csv,"Will US GDP growth in Q2 2025 be between 2% and 3%?",47891,false
+will_us_gdp_growth_in_q2_2025_be_between_3_and_4.csv,"Will US GDP growth in Q2 2025 be between 3% and 4%?",47884,false
+will_us_gdp_growth_in_q4_2025_be_between_0_and_2.csv,"Will US GDP growth in Q4 2025 be between 0% and 2%?",46832,true
+did_us_gdp_grow_1_0_or_more_in_q2_2023.csv,"Did US GDP grow 1.0% or more in Q2 2023?",46683,false
+did_us_gdp_grow_2_0_or_more_in_q2_2023.csv,"Did US GDP grow 2.0% or more in Q2 2023?",46650,false
+did_us_gdp_grow_3_0_or_more_in_q1_2023.csv,"Did US GDP grow 3.0% or more in Q1 2023?",46633,false
+did_us_gdp_grow_2_0_or_more_in_q1_2023.csv,"Did US GDP grow 2.0% or more in Q1 2023?",46629,false
+did_us_gdp_grow_more_than_2_5_in_q4_2022.csv,"Did US GDP grow more than 2.5% in Q4 2022?",45044,false
+did_us_gdp_grow_2_5_or_more_in_q1_2023.csv,"Did US GDP grow 2.5% or more in Q1 2023?",44920,false
+did_us_gdp_grow_0_0_or_more_in_q2_2023.csv,"Did US GDP grow 0.0% or more in Q2 2023?",43784,false
+what_will_us_gdp_growth_be_in_q1_2021.csv,"What will US GDP growth be in Q1 2021?",41165,false
+saudi_arabia_non_oil_gdp_percentage_up_in_q3.csv,"Saudi Arabia non-oil GDP % up in Q3?",252723,false
+saudi_arabia_nonoil_gdp__up_in_q3_252723.csv,"Saudi Arabia non-oil GDP % up in Q3?",252723,false
+estimator_q4_2024_535278.csv,"Estimator: Q4 2024",23882,true

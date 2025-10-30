@@ -1,0 +1,52 @@
+signal_name: GEO_UNCERTAINTY_SIMPLIFIED
+description: "Simplified Geopolitical Uncertainty Signal (Direct VWP Aggregation)."
+input_manifest_files:
+  - "polymarket_data/_manifest_geopolitics__foreign_policy_comprehensive.csv"
+  - "polymarket_data/_manifest_geopolitics__war.csv"
+  - "polymarket_data/_manifest_custom_world_affairs.csv"
+output_file: "sector_signals/geopolitical_uncertainty_signal.csv"
+generator_type: "vwp"
+min_quality_score: 20
+polarity_rules:
+  concept_description: "Geopolitical Uncertainty/Risk"
+  increase_uncertainty: # Keywords assigned +1 polarity (escalation/risk)
+    - "declare.*war"
+    - "invade"
+    - "strike.*on"
+    - "military.*action"
+    - "attack.*on"
+    - "facility.*destroy"
+    - "sanctions.*on"
+    - "nato.*article.*5"
+    - "nato.*article.*4"
+    - "coup"
+    - "arrested"
+    - "hacked"
+    - "close.*strait"
+    - "leader.*removed"
+    - "leadership.*change"
+    - "escalation"
+    - "break.*relations"
+    - "destroyed"
+    - "testing.*missile"  # North Korea missile tests as leverage/threat
+    - "will.*still be in power"  # Leadership continuity uncertainty
+    - "will.*resign"           # Leadership change risk
+    - "will.*out.*as"         # Leader removal events
+  decrease_uncertainty: # Keywords assigned -1 polarity (de-escalation/stability)
+    - "ceasefire"
+    - "peace.*deal"
+    - "normalize.*relations"
+    - "trade.*deal"
+    - "no.*more.*sanctions"
+    - "agree.*to"
+    - "alliance.*with"  # Could be positive or negative depending on context
+    - "lift.*ban"
+    - "stabilize"
+    - "cooperation"
+    - "signed.*agreement"
+    - "formal.*alliance"
+    - "normalization"
+  market_polarity_overrides:
+    # Any market-specific overrides can be added here
+    # Example format:
+    # "specific-market-slug": -1

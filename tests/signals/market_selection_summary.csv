@@ -1,0 +1,432 @@
+concept,filename,question,volume,polarity,matched_keywords
+fed_rates,custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-17-18m_535707.csv,Will voter turnout in the 2025 Canadian federal election be between 17-18m?,40129.839646,1,fed
+fed_rates,custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-20-21m_535710.csv,Will voter turnout in the 2025 Canadian federal election be between 20-21m?,37697.322903,1,fed
+fed_rates,custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-19-20m_535709.csv,Will voter turnout in the 2025 Canadian federal election be between 19-20m?,31315.843943,1,fed
+fed_rates,custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-greater-than-21m_535711.csv,Will voter turnout in the 2025 Canadian federal election be greater than 21m?,21700.074932,1,fed
+fed_rates,custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-less-than-16m_535705.csv,Will voter turnout in the 2025 Canadian federal election be less than 16m?,19913.903335,1,fed
+fed_rates,custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-16-17m_535706.csv,Will voter turnout in the 2025 Canadian federal election be between 16-17m?,18634.872952,1,fed
+fed_rates,custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-18-19m_535708.csv,Will voter turnout in the 2025 Canadian federal election be between 18-19m?,10969.444312,1,fed
+fed_rates,geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-17-18m_535707.csv,Will voter turnout in the 2025 Canadian federal election be between 17-18m?,40129.839646,1,fed
+fed_rates,geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-20-21m_535710.csv,Will voter turnout in the 2025 Canadian federal election be between 20-21m?,37697.322903,1,fed
+fed_rates,geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-19-20m_535709.csv,Will voter turnout in the 2025 Canadian federal election be between 19-20m?,31315.843943,1,fed
+fed_rates,geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-greater-than-21m_535711.csv,Will voter turnout in the 2025 Canadian federal election be greater than 21m?,21700.074932,1,fed
+fed_rates,geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-less-than-16m_535705.csv,Will voter turnout in the 2025 Canadian federal election be less than 16m?,19913.903335,1,fed
+fed_rates,geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-16-17m_535706.csv,Will voter turnout in the 2025 Canadian federal election be between 16-17m?,18634.872952,1,fed
+fed_rates,geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-18-19m_535708.csv,Will voter turnout in the 2025 Canadian federal election be between 18-19m?,10969.444312,1,fed
+us_gdp,treasury_&_yields_(2025)/saudi-arabia-non-oil-gdp-up-in-q3_252723.csv,Saudi Arabia non-oil GDP % up in Q3?,4327.58488,1,gdp
+us_gdp,us_gdp/saudi-arabia-non-oil-gdp-up-in-q3_252723.csv,Saudi Arabia non-oil GDP % up in Q3?,4327.58488,1,gdp
+us_gdp,inflation/saudi-arabia-non-oil-gdp-up-in-q3_252723.csv,Saudi Arabia non-oil GDP % up in Q3?,4327.58488,1,gdp
+us_gdp,fed_&_interest_rates/saudi-arabia-non-oil-gdp-up-in-q3_252723.csv,Saudi Arabia non-oil GDP % up in Q3?,4327.58488,1,gdp
+us_gdp,politics_(us_election)/will-us-gdp-growth-in-2025-be-between-0pt5-and-1pt0_576877.csv,Will US GDP growth in 2025 be between 0.5% and 1.0%?,12224.836605,1,gdp
+us_gdp,politics_(us_election)/will-us-gdp-growth-in-2025-be-greater-than-2pt5_576881.csv,Will US GDP growth in 2025 be greater than 2.5%?,12033.065522,1,gdp
+us_gdp,politics_(us_election)/will-us-gdp-growth-in-2025-be-between-2pt0-and-2pt5_576880.csv,Will US GDP growth in 2025 be between 2.0% and 2.5%?,11782.269631,1,gdp
+us_gdp,politics_(us_election)/will-us-gdp-growth-in-2025-be-between-1pt0-and-1pt5_576878.csv,Will US GDP growth in 2025 be between 1.0% and 1.5%?,10267.404372,1,gdp
+us_gdp,politics_(us_election)/will-us-gdp-growth-in-2025-be-between-1pt5-and-2pt0_576879.csv,Will US GDP growth in 2025 be between 1.5% and 2.0%?,9058.436403,1,gdp
+us_gdp,politics_(us_election)/will-us-gdp-growth-in-2025-be-less-than-0pt5_576876.csv,Will US GDP growth in 2025 be less than 0.5%?,6911.488096,1,gdp
+geopolitics,geopolitics__war/will-another-nation-declare-war-in-the-israel-hamas-conflict_252588.csv,Will another nation declare war in the Israel-Hamas conflict?,97301.030549,1,"war, conflict"
+geopolitics,custom_world_affairs/india-pakistan-declare-war-before-june_542196.csv,India-Pakistan declare war before June?,813337.756198,1,war
+geopolitics,custom_world_affairs/will-russia-capture-rodynske-by-august-31_566614.csv,Will Russia capture Rodynske by August 31?,471024.387734,1,russia
+geopolitics,custom_world_affairs/ukraine-hits-moscow-by-july-31_563659.csv,Ukraine hits Moscow by July 31?,330859.0402,1,ukraine
+geopolitics,custom_world_affairs/will-russia-capture-lyman-in-2025-816_566493.csv,Will Russia capture Lyman by December 31?,292610.513343,1,russia
+geopolitics,custom_world_affairs/will-russia-capture-slovainsk-in-2025_566326.csv,Will Russia capture Slovainsk in 2025?,276849.92522,1,russia
+geopolitics,custom_world_affairs/will-russia-capture-novopavlivka-by-august-31_566612.csv,Will Russia capture Novopavlivka by August 31?,264459.039321,1,russia
+geopolitics,custom_world_affairs/arch-will-russia-capture-myrnohard-by-september-30_566502.csv,Will Russia capture Myrnohard by September 30?,238598.059036,1,russia
+geopolitics,custom_world_affairs/nato-article-5-in-2025-763_547955.csv,NATO article 5 in 2025?,211479.948067,1,nato
+geopolitics,custom_world_affairs/will-russia-capture-myrnohard-by-december-31-368_595723.csv,Will Russia capture Myrnohard by December 31?,154549.74944,1,russia
+geopolitics,custom_world_affairs/more-eu-sanctions-on-russia-by-september-30_580839.csv,More EU sanctions on Russia by September 30?,127501.802681,-1,"sanctions, russia"
+geopolitics,custom_world_affairs/will-russia-capture-myrnohard-by-october-31_585602.csv,Will Russia capture Myrnohard by October 31?,115519.939262,1,russia
+geopolitics,custom_world_affairs/eu-sanctions-on-iran-by-september-30_575628.csv,EU sanctions on Iran by September 30? ,114009.682716,-1,sanctions
+geopolitics,custom_world_affairs/ukraine-hits-moscow-by-september-30_580857.csv,Ukraine hits Moscow by September 30?,95070.498725,1,ukraine
+geopolitics,custom_world_affairs/will-russia-capture-novopavlivka-by-september-30_580860.csv,Will Russia capture Novopavlivka by September 30?,91635.902419,1,russia
+geopolitics,custom_world_affairs/will-russia-capture-novopavlivka-by-october-31_595742.csv,Will Russia capture Novopavlivka by October 31?,90871.173456,1,russia
+geopolitics,custom_world_affairs/ukraine-hits-moscow-by-august-31_566911.csv,Ukraine hits Moscow by August 31?,80865.331022,1,ukraine
+geopolitics,custom_world_affairs/will-trump-increase-tariffs-on-china-by-friday_535723.csv,Will Trump increase tariffs on China by Friday?,72639.859769,1,china
+geopolitics,custom_world_affairs/azerbaijan-x-armenia-peace-deal-in-2025_563414.csv,Azerbaijan x Armenia peace deal in 2025?,72529.501622,1,peace
+geopolitics,custom_world_affairs/will-eu-increase-sanctions-on-russia-before-july_544719.csv,Will EU increase sanctions on Russia before July?,62552.175205,-1,"sanctions, russia"
+geopolitics,custom_world_affairs/more-eu-sanctions-on-russia-by-october-31_614692.csv,More EU sanctions on Russia by October 31?,57925.664009,-1,"sanctions, russia"
+geopolitics,custom_world_affairs/ukraine-hits-moscow-by-december-31_610235.csv,Ukraine hits Moscow by December 31?,56285.05529,1,ukraine
+geopolitics,custom_world_affairs/china-bans-us-films-in-april_535319.csv,China bans US films in April?,54774.352375,1,china
+geopolitics,custom_world_affairs/will-china-invade-taiwan-in-may_501793.csv,Will China invade Taiwan in May?,38336.093903,1,china
+geopolitics,custom_world_affairs/will-russia-capture-drobysheve-by-october-31_609609.csv,Will Russia capture Drobysheve by October 31?,36958.688308,1,russia
+geopolitics,custom_world_affairs/will-russia-capture-myrnohard-by-november-30_635802.csv,Will Russia capture Myrnohard by November 30?,33838.37072,1,russia
+geopolitics,custom_world_affairs/more-eu-sanctions-on-russia-by-august-31_566719.csv,More EU sanctions on Russia by August 31? ,33084.790306,-1,"sanctions, russia"
+geopolitics,custom_world_affairs/will-rutte-say-crypto-or-bitcoin-during-nato-public-forum-address-on-june-24_553609.csv,"Will Rutte say ""Crypto"" or ""Bitcoin"" during NATO Public Forum Address on June 24?",31017.951012,1,nato
+geopolitics,custom_world_affairs/another-nato-article-4-by-october-15_607631.csv,Another NATO article 4 by October 15?,26642.490681,1,nato
+geopolitics,custom_world_affairs/will-china-lift-rare-earths-export-ban-by-december-31_567265.csv,Will China lift rare earths export ban by December 31?,25302.896897,1,china
+geopolitics,custom_world_affairs/will-rutte-say-ai-or-artificial-intelligence-during-nato-public-forum-address-on-june-24_553608.csv,"Will Rutte say ""AI"" or ""Artificial Intelligence"" during NATO Public Forum Address on June 24?",18462.702301,1,nato
+geopolitics,custom_world_affairs/will-biden-let-ukraine-strike-russia-with-us-weapons_501910.csv,Will Biden let Ukraine strike Russia with US weapons?,16536.204367,1,"russia, ukraine"
+geopolitics,custom_world_affairs/will-rutte-say-trump-during-nato-public-forum-address-on-june-24_553599.csv,"Will Rutte say ""Trump"" during NATO Public Forum Address on June 24?",15713.689954,1,nato
+geopolitics,custom_world_affairs/will-rutte-say-nato-30-times-during-nato-public-forum-address-on-june-24_553594.csv,"Will Rutte say ""NATO"" 30+ times during NATO Public Forum Address on June 24?",13117.716324,1,nato
+geopolitics,custom_world_affairs/will-rutte-say-drone-during-nato-public-forum-address-on-june-24_553606.csv,"Will Rutte say ""Drone"" during NATO Public Forum Address on June 24?",12696.933033,1,nato
+geopolitics,custom_world_affairs/will-rutte-say-defense-20-times-during-nato-public-forum-address-on-june-24_553595.csv,"Will Rutte say ""Defense"" 20+ times during NATO Public Forum Address on June 24?",11825.170601,1,nato
+geopolitics,custom_world_affairs/will-rutte-say-poland-during-nato-public-forum-address-on-june-24_553600.csv,"Will Rutte say ""Poland"" during NATO Public Forum Address on June 24?",11164.568675,1,nato
+geopolitics,custom_world_affairs/will-austria-join-nato-by-december-31_569881.csv,Will Austria join NATO by December 31?,7554.281986,1,nato
+geopolitics,custom_world_affairs/will-rutte-say-russia-or-ukraine-10-times-during-nato-public-forum-address-on-june-24_553596.csv,"Will Rutte say ""Russia"" or ""Ukraine"" 10+ times during NATO Public Forum Address on June 24?",6521.018912,1,"nato, russia, ukraine"
+geopolitics,geopolitics__foreign_policy_comprehensive/india-pakistan-declare-war-before-june_542196.csv,India-Pakistan declare war before June?,813337.756198,1,war
+geopolitics,geopolitics__foreign_policy_comprehensive/will-russia-capture-rodynske-by-august-31_566614.csv,Will Russia capture Rodynske by August 31?,471024.387734,1,russia
+geopolitics,geopolitics__foreign_policy_comprehensive/ukraine-hits-moscow-by-july-31_563659.csv,Ukraine hits Moscow by July 31?,330859.0402,1,ukraine
+geopolitics,geopolitics__foreign_policy_comprehensive/will-russia-capture-lyman-in-2025-816_566493.csv,Will Russia capture Lyman by December 31?,316409.881171,1,russia
+geopolitics,geopolitics__foreign_policy_comprehensive/will-russia-capture-slovainsk-in-2025_566326.csv,Will Russia capture Slovainsk in 2025?,287105.665188,1,russia
+geopolitics,geopolitics__foreign_policy_comprehensive/will-russia-capture-novopavlivka-by-august-31_566612.csv,Will Russia capture Novopavlivka by August 31?,264459.039321,1,russia
+geopolitics,geopolitics__foreign_policy_comprehensive/arch-will-russia-capture-myrnohard-by-september-30_566502.csv,Will Russia capture Myrnohard by September 30?,238598.059036,1,russia
+geopolitics,geopolitics__foreign_policy_comprehensive/nato-article-5-in-2025-763_547955.csv,NATO article 5 in 2025?,214811.438187,1,nato
+geopolitics,geopolitics__foreign_policy_comprehensive/will-russia-capture-myrnohard-by-december-31-368_595723.csv,Will Russia capture Myrnohard by December 31?,189916.072855,1,russia
+geopolitics,geopolitics__foreign_policy_comprehensive/will-russia-capture-myrnohard-by-october-31_585602.csv,Will Russia capture Myrnohard by October 31?,170583.585736,1,russia
+geopolitics,geopolitics__foreign_policy_comprehensive/will-austria-join-nato-by-december-31_569881.csv,Will Austria join NATO by December 31?,164436.418533,1,nato
+geopolitics,geopolitics__foreign_policy_comprehensive/more-eu-sanctions-on-russia-by-september-30_580839.csv,More EU sanctions on Russia by September 30?,127501.802681,-1,"sanctions, russia"
+geopolitics,geopolitics__foreign_policy_comprehensive/eu-sanctions-on-iran-by-september-30_575628.csv,EU sanctions on Iran by September 30? ,114009.682716,-1,sanctions
+geopolitics,geopolitics__foreign_policy_comprehensive/ukraine-hits-moscow-by-september-30_580857.csv,Ukraine hits Moscow by September 30?,95070.498725,1,ukraine
+geopolitics,geopolitics__foreign_policy_comprehensive/will-russia-capture-novopavlivka-by-september-30_580860.csv,Will Russia capture Novopavlivka by September 30?,91635.902419,1,russia
+geopolitics,geopolitics__foreign_policy_comprehensive/will-russia-capture-novopavlivka-by-october-31_595742.csv,Will Russia capture Novopavlivka by October 31?,90871.173456,1,russia
+geopolitics,geopolitics__foreign_policy_comprehensive/more-eu-sanctions-on-russia-by-october-31_614692.csv,More EU sanctions on Russia by October 31?,82015.673896,-1,"sanctions, russia"
+geopolitics,geopolitics__foreign_policy_comprehensive/ukraine-hits-moscow-by-august-31_566911.csv,Ukraine hits Moscow by August 31?,80865.331022,1,ukraine
+geopolitics,geopolitics__foreign_policy_comprehensive/will-trump-increase-tariffs-on-china-by-friday_535723.csv,Will Trump increase tariffs on China by Friday?,72639.859769,1,china
+geopolitics,geopolitics__foreign_policy_comprehensive/azerbaijan-x-armenia-peace-deal-in-2025_563414.csv,Azerbaijan x Armenia peace deal in 2025?,72529.501622,1,peace
+geopolitics,geopolitics__foreign_policy_comprehensive/will-eu-increase-sanctions-on-russia-before-july_544719.csv,Will EU increase sanctions on Russia before July?,62552.175205,-1,"sanctions, russia"
+geopolitics,geopolitics__foreign_policy_comprehensive/ukraine-hits-moscow-by-december-31_610235.csv,Ukraine hits Moscow by December 31?,60845.335276,1,ukraine
+geopolitics,geopolitics__foreign_policy_comprehensive/will-russia-capture-myrnohard-by-november-30_635802.csv,Will Russia capture Myrnohard by November 30?,58132.84895,1,russia
+geopolitics,geopolitics__foreign_policy_comprehensive/china-bans-us-films-in-april_535319.csv,China bans US films in April?,54774.352375,1,china
+geopolitics,geopolitics__foreign_policy_comprehensive/will-russia-capture-drobysheve-by-october-31_609609.csv,Will Russia capture Drobysheve by October 31?,42661.058579,1,russia
+geopolitics,geopolitics__foreign_policy_comprehensive/will-china-invade-taiwan-in-may_501793.csv,Will China invade Taiwan in May?,38336.093903,1,china
+geopolitics,geopolitics__foreign_policy_comprehensive/more-eu-sanctions-on-russia-by-august-31_566719.csv,More EU sanctions on Russia by August 31? ,33084.790306,-1,"sanctions, russia"
+geopolitics,geopolitics__foreign_policy_comprehensive/will-rutte-say-crypto-or-bitcoin-during-nato-public-forum-address-on-june-24_553609.csv,"Will Rutte say ""Crypto"" or ""Bitcoin"" during NATO Public Forum Address on June 24?",31017.951012,1,nato
+geopolitics,geopolitics__foreign_policy_comprehensive/will-china-lift-rare-earths-export-ban-by-december-31_567265.csv,Will China lift rare earths export ban by December 31?,27579.529359,1,china
+geopolitics,geopolitics__foreign_policy_comprehensive/another-nato-article-4-by-october-15_607631.csv,Another NATO article 4 by October 15?,26642.490681,1,nato
+geopolitics,geopolitics__foreign_policy_comprehensive/will-rutte-say-ai-or-artificial-intelligence-during-nato-public-forum-address-on-june-24_553608.csv,"Will Rutte say ""AI"" or ""Artificial Intelligence"" during NATO Public Forum Address on June 24?",18462.702301,1,nato
+geopolitics,geopolitics__foreign_policy_comprehensive/will-biden-let-ukraine-strike-russia-with-us-weapons_501910.csv,Will Biden let Ukraine strike Russia with US weapons?,16536.204367,1,"russia, ukraine"
+geopolitics,geopolitics__foreign_policy_comprehensive/will-rutte-say-trump-during-nato-public-forum-address-on-june-24_553599.csv,"Will Rutte say ""Trump"" during NATO Public Forum Address on June 24?",15713.689954,1,nato
+geopolitics,geopolitics__foreign_policy_comprehensive/will-rutte-say-nato-30-times-during-nato-public-forum-address-on-june-24_553594.csv,"Will Rutte say ""NATO"" 30+ times during NATO Public Forum Address on June 24?",13117.716324,1,nato
+geopolitics,geopolitics__foreign_policy_comprehensive/will-rutte-say-drone-during-nato-public-forum-address-on-june-24_553606.csv,"Will Rutte say ""Drone"" during NATO Public Forum Address on June 24?",12696.933033,1,nato
+geopolitics,geopolitics__foreign_policy_comprehensive/will-rutte-say-defense-20-times-during-nato-public-forum-address-on-june-24_553595.csv,"Will Rutte say ""Defense"" 20+ times during NATO Public Forum Address on June 24?",11825.170601,1,nato
+geopolitics,geopolitics__foreign_policy_comprehensive/will-rutte-say-poland-during-nato-public-forum-address-on-june-24_553600.csv,"Will Rutte say ""Poland"" during NATO Public Forum Address on June 24?",11164.568675,1,nato
+geopolitics,geopolitics__foreign_policy_comprehensive/will-russia-capture-lyman-by-november-30-884_642531.csv,Will Russia capture Lyman by November 30?,7868.352741,1,russia
+geopolitics,geopolitics__foreign_policy_comprehensive/will-rutte-say-russia-or-ukraine-10-times-during-nato-public-forum-address-on-june-24_553596.csv,"Will Rutte say ""Russia"" or ""Ukraine"" 10+ times during NATO Public Forum Address on June 24?",6521.018912,1,"nato, russia, ukraine"
+geopolitics,geopolitics__foreign_policy_comprehensive/us-agrees-to-a-new-trade-deal-with-russia_566225.csv,"U.S. agrees to a new trade deal with ""Russia""?",5051.807432,1,russia
+politics,custom_world_affairs/will-lee-jun-seok-win-2nd-place-in-the-south-korean-presidential-election_541393.csv,Will Lee Jun-seok win 2nd place in the South Korean presidential election?,5714121.72447,1,election
+politics,custom_world_affairs/will-han-duck-soo-win-2nd-place-in-the-south-korean-presidential-election_541391.csv,Will Han Duck-soo win 2nd place in the South Korean presidential election?,4288767.039625,1,election
+politics,custom_world_affairs/will-kim-moon-soo-win-2nd-place-in-the-south-korean-presidential-election_541392.csv,Will Kim Moon-soo win 2nd place in the South Korean presidential election?,4024661.567987,1,election
+politics,custom_world_affairs/will-lee-jae-myung-win-2nd-place-in-the-south-korean-presidential-election_541390.csv,Will Lee Jae-myung win 2nd place in the South Korean presidential election?,2392656.791775,1,election
+politics,custom_world_affairs/will-han-dong-hoon-win-2nd-place-in-the-south-korean-presidential-election_541394.csv,Will Han Dong-hoon win 2nd place in the South Korean presidential election?,1070477.80612,1,election
+politics,custom_world_affairs/trump-increase-share-of-black-voters_502046.csv,Trump gets more black voters than in 2020?,888499.13331,-1,trump
+politics,custom_world_affairs/will-marco-francis-win-the-2025-seychelles-presidential-election_545056.csv,Will Marco Francis win the 2025 Seychelles presidential election?,729054.561386,1,election
+politics,custom_world_affairs/will-hwang-kyo-ahn-win-2nd-place-in-the-south-korean-presidential-election_541407.csv,Will Hwang Kyo-ahn win 2nd place in the South Korean presidential election?,507936.643206,1,election
+politics,custom_world_affairs/will-progress-singapore-party-psp-win-the-2025-singapore-parliamentary-election_539205.csv,Will Progress Singapore Party (PSP) win the 2025 Singapore parliamentary election?,341164.400658,1,election
+politics,custom_world_affairs/will-lee-nak-yon-win-2nd-place-in-the-south-korean-presidential-election_541399.csv,Will Lee Nak-yon win 2nd place in the South Korean presidential election?,310461.211,1,election
+politics,custom_world_affairs/will-wavel-ramkalawan-win-the-2025-seychelles-presidential-election_545054.csv,Will Wavel Ramkalawan win the 2025 Seychelles presidential election?,298235.064867,1,election
+politics,custom_world_affairs/will-labor-win-the-seat-of-bennelong-in-the-2025-australian-election_537449.csv,Will Labor win the Seat of Bennelong in the 2025 Australian Election?,225185.615153,1,election
+politics,custom_world_affairs/will-workers-party-wp-win-the-2025-singapore-parliamentary-election_539204.csv,Will Workers' Party (WP) win the 2025 Singapore parliamentary election?,204958.980323,1,election
+politics,custom_world_affairs/will-lazarus-chakwera-win-the-2025-malawi-presidential-election-164_545036.csv,Will Lazarus Chakwera win the 2025 Malawi presidential election?,191893.263957,1,election
+politics,custom_world_affairs/polish-snap-election-called-in-2025_549140.csv,Polish snap election called in 2025?,183048.93352,1,election
+politics,custom_world_affairs/will-peter-mutharika-win-the-2025-malawi-presidential-election-439_545037.csv,Will Peter Mutharika win the 2025 Malawi presidential election?,177766.60376,1,election
+politics,custom_world_affairs/will-peoples-action-party-pap-win-the-2025-singapore-parliamentary-election_539203.csv,Will People's Action Party (PAP) win the 2025 Singapore parliamentary election?,171261.24232,1,election
+politics,custom_world_affairs/will-kim-dong-yeon-win-2nd-place-in-the-south-korean-presidential-election_541395.csv,Will Kim Dong-yeon win 2nd place in the South Korean presidential election?,166643.1125,1,election
+politics,custom_world_affairs/will-dr-patrick-herminie-win-the-2025-seychelles-presidential-election_545055.csv,Will Dr Patrick Herminie win the 2025 Seychelles presidential election?,157339.602208,1,election
+politics,custom_world_affairs/israel-and-saudi-arabia-normalize-relations-before-us-election_501126.csv,Israel and Saudi Arabia normalize relations before U.S. election?,133184.532627,1,election
+politics,custom_world_affairs/will-the-greens-win-the-seat-of-brisbane-in-the-2025-australian-election_537442.csv,Will The Greens win the Seat of Brisbane in the 2025 Australian Election?,129527.591382,1,election
+politics,custom_world_affairs/new-netherlands-election-announced-before-summer-recess_549608.csv,New Netherlands election announced before Summer Recess?,125110.173606,1,election
+politics,custom_world_affairs/will-hong-joon-pyo-win-2nd-place-in-the-south-korean-presidential-election_541406.csv,Will Hong Joon-pyo win 2nd place in the South Korean presidential election?,114566.8245,1,election
+politics,custom_world_affairs/will-ahn-cheol-soo-win-2nd-place-in-the-south-korean-presidential-election_541398.csv,Will Ahn Cheol-soo win 2nd place in the South Korean presidential election?,100758.5655,1,election
+politics,custom_world_affairs/will-yoo-seong-min-win-2nd-place-in-the-south-korean-presidential-election_541396.csv,Will Yoo Seong-min win 2nd place in the South Korean presidential election?,96810.1935,1,election
+politics,custom_world_affairs/will-yoon-suk-yeol-win-2nd-place-in-the-south-korean-presidential-election_541401.csv,Will Yoon Suk Yeol win 2nd place in the South Korean presidential election?,72962.994833,1,election
+politics,custom_world_affairs/will-trump-increase-tariffs-on-china-by-friday_535723.csv,Will Trump increase tariffs on China by Friday?,72639.859769,-1,trump
+politics,custom_world_affairs/will-kisna-louise-win-the-2025-seychelles-presidential-election_545061.csv,Will Kisna Louise win the 2025 Seychelles presidential election?,72050.84705,1,election
+politics,custom_world_affairs/will-joe-biden-attend-pope-francis-funeral_538975.csv,Will Joe Biden attend Pope Francis' funeral?,71956.338345,1,biden
+politics,custom_world_affairs/will-cdp-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564630.csv,Will CDP hold the second most seats in the House of Councillors following the 2025 Japan election?,71930.355117,1,"election, house"
+politics,custom_world_affairs/will-poilievre-say-tariffs-3-times-during-canadian-election-debate-on-april-17_537295.csv,"Will Poilievre say ""Tariffs"" 3+ times during Canadian Election Debate on April 17?",70121.989819,1,election
+politics,custom_world_affairs/will-alain-st-ange-win-the-2025-seychelles-presidential-election_545057.csv,Will Alain St Ange win the 2025 Seychelles presidential election?,70065.263501,1,election
+politics,custom_world_affairs/will-na-kyung-won-win-2nd-place-in-the-south-korean-presidential-election_541397.csv,Will Na Kyung-won win 2nd place in the South Korean presidential election?,68774.3995,1,election
+politics,custom_world_affairs/will-poilievre-say-trump-3-times-during-canadian-election-debate-on-april-17_537293.csv,"Will Poilievre say ""Trump"" 3+ times during Canadian Election Debate on April 17?",66875.53055,-1,"trump, election"
+politics,custom_world_affairs/south-korea-election-scheduled-by-friday_534187.csv,South Korea election scheduled by Friday?,66313.73388,1,election
+politics,custom_world_affairs/will-poilievre-say-canada-first-during-canadian-election-debate-on-april-17_537301.csv,"Will Poilievre say ""Canada First"" during Canadian Election Debate on April 17?",65497.19787,1,election
+politics,custom_world_affairs/will-valid-votes-be-fewer-than-5pt8-million-in-bolivia-election_574991.csv,Will valid votes be fewer than 5.8 million in Bolivia election?,64393.604428,1,election
+politics,custom_world_affairs/will-charles-de-clarisse-win-the-2025-seychelles-presidential-election_545063.csv,Will Charles De Clarisse win the 2025 Seychelles presidential election?,63488.026508,1,election
+politics,custom_world_affairs/will-won-hee-ryong-win-2nd-place-in-the-south-korean-presidential-election_541403.csv,Will Won Hee-ryong win 2nd place in the South Korean presidential election?,61530.1277,1,election
+politics,custom_world_affairs/will-ralph-volcre-win-the-2025-seychelles-presidential-election_545058.csv,Will Ralph Volcère win the 2025 Seychelles presidential election?,60082.702563,1,election
+politics,custom_world_affairs/will-cho-kuk-win-2nd-place-in-the-south-korean-presidential-election_541400.csv,Will Cho Kuk win 2nd place in the South Korean presidential election?,59571.6805,1,election
+politics,custom_world_affairs/will-oh-se-hoon-win-2nd-place-in-the-south-korean-presidential-election_541405.csv,Will Oh Se-hoon win 2nd place in the South Korean presidential election?,59368.0465,1,election
+politics,custom_world_affairs/will-robin-johnston-win-the-2025-seychelles-presidential-election_545059.csv,Will Robin Johnston win the 2025 Seychelles presidential election?,57409.679761,1,election
+politics,custom_world_affairs/will-poilievre-say-elon-or-musk-during-canadian-election-debate-on-april-17_537296.csv,"Will Poilievre say ""Elon"" or ""Musk"" during Canadian Election Debate on April 17?",55463.613038,1,election
+politics,custom_world_affairs/will-pap-win-less-than-75-seats-in-the-singapore-election_539224.csv,Will PAP win less than 75 seats in the Singapore election?,54387.062141,1,election
+politics,custom_world_affairs/will-carney-say-immigration-3-times-during-canadian-election-debate-on-april-17_537273.csv,"Will Carney say ""Immigration"" 3+ times during Canadian Election Debate on April 17?",54169.486637,1,election
+politics,custom_world_affairs/will-kim-kyong-soo-win-2nd-place-in-the-south-korean-presidential-election_541404.csv,Will Kim Kyong-soo win 2nd place in the South Korean presidential election?,53192.282817,1,election
+politics,custom_world_affairs/trump-x-xi-talk-before-june_544925.csv,Trump x Xi talk before June?,52975.52629,-1,trump
+politics,custom_world_affairs/will-robert-moumou-win-the-2025-seychelles-presidential-election_545062.csv,Will Robert Moumou win the 2025 Seychelles presidential election?,52264.502312,1,election
+politics,custom_world_affairs/will-valid-votes-be-more-than-6pt2-million-in-bolivia-election_574994.csv,Will valid votes be more than 6.2 million in Bolivia election?,49911.128861,1,election
+politics,custom_world_affairs/will-joyce-banda-win-the-2025-malawi-presidential-election-739_545041.csv,Will Joyce Banda win the 2025 Malawi presidential election?,49574.23734,1,election
+politics,custom_world_affairs/spain-snap-election-called-in-2025_547957.csv,Spain snap election called in 2025?,49346.835577,1,election
+politics,custom_world_affairs/will-kim-boo-kyum-win-2nd-place-in-the-south-korean-presidential-election_541402.csv,Will Kim Boo-kyum win 2nd place in the South Korean presidential election?,47988.4685,1,election
+politics,custom_world_affairs/will-atupele-muluzi-win-the-2025-malawi-presidential-election-619_545038.csv,Will Atupele Muluzi win the 2025 Malawi presidential election?,47697.97624,1,election
+politics,custom_world_affairs/will-dalitso-kabame-win-the-2025-malawi-presidential-election-138_545039.csv,Will Dalitso Kabame win the 2025 Malawi presidential election?,44535.105182,1,election
+politics,custom_world_affairs/will-donald-trump-attend-pope-francis-funeral_538966.csv,Will Donald Trump attend Pope Francis' funeral?,43041.506676,-1,trump
+politics,custom_world_affairs/will-enoch-chihana-win-the-2025-malawi-presidential-election-382_545040.csv,Will Enoch Chihana win the 2025 Malawi presidential election?,41259.08266,1,election
+politics,custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-17-18m_535707.csv,Will voter turnout in the 2025 Canadian federal election be between 17-18m?,40129.839646,1,election
+politics,custom_world_affairs/will-danny-faure-win-the-2025-seychelles-presidential-election_545060.csv,Will Danny Faure win the 2025 Seychelles presidential election?,37880.08031,1,election
+politics,custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-20-21m_535710.csv,Will voter turnout in the 2025 Canadian federal election be between 20-21m?,37697.322903,1,election
+politics,custom_world_affairs/will-trump-meet-with-zelenskyy-before-august_555844.csv,Will Trump meet with Zelenskyy before August?,37445.560039,-1,trump
+politics,custom_world_affairs/will-pap-win-between-87-and-89-seats-in-the-singapore-election_539229.csv,Will PAP win between 87 and 89 seats in the Singapore election?,35543.759584,1,election
+politics,custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-19-20m_535709.csv,Will voter turnout in the 2025 Canadian federal election be between 19-20m?,31315.843943,1,election
+politics,custom_world_affairs/will-trump-visit-turkey-before-june_544904.csv,Will Trump visit Turkey before June?,27958.089394,-1,trump
+politics,custom_world_affairs/will-the-winner-of-czech-parliamentary-election-form-a-government_567268.csv,Will ANO form a government after Czech election ?,24553.511158,1,election
+politics,custom_world_affairs/will-pap-win-90-or-more-seats-in-the-singapore-election_539230.csv,Will PAP win 90 or more seats in the Singapore election?,24336.042426,1,election
+politics,custom_world_affairs/will-pope-leo-xiv-meet-with-donald-trump-in-2025_546091.csv,Will Pope Leo XIV meet with Donald Trump in 2025?,23414.17769,-1,trump
+politics,custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-greater-than-21m_535711.csv,Will voter turnout in the 2025 Canadian federal election be greater than 21m?,21700.074932,1,election
+politics,custom_world_affairs/will-pap-win-between-84-and-86-seats-in-the-singapore-election_539228.csv,Will PAP win between 84 and 86 seats in the Singapore election?,21494.894441,1,election
+politics,custom_world_affairs/trump-burger-owner-deported-by-september-30_574584.csv,"""Trump Burger"" owner deported by September 30?",21000.345333,-1,trump
+politics,custom_world_affairs/will-melania-trump-attend-pope-francis-funeral_538967.csv,Will Melania Trump attend Pope Francis' funeral?,20879.709051,-1,trump
+politics,custom_world_affairs/will-luis-abinader-win-the-2024-dominican-republic-presidential-election_501582.csv,Will Luis Abinader win the 2024 Dominican Republic presidential election?,20526.187089,1,election
+politics,custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-less-than-16m_535705.csv,Will voter turnout in the 2025 Canadian federal election be less than 16m?,19913.903335,1,election
+politics,custom_world_affairs/will-pap-win-between-75-and-77-seats-in-the-singapore-election_539225.csv,Will PAP win between 75 and 77 seats in the Singapore election?,19317.411554,1,election
+politics,custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-16-17m_535706.csv,Will voter turnout in the 2025 Canadian federal election be between 16-17m?,18634.872952,1,election
+politics,custom_world_affairs/romania-parliamentary-election-called-in-2025_562257.csv,Romania Parliamentary Election called in 2025?,18567.164464,1,election
+politics,custom_world_affairs/will-pap-win-between-81-and-83-seats-in-the-singapore-election_539227.csv,Will PAP win between 81 and 83 seats in the Singapore election?,17908.394629,1,election
+politics,custom_world_affairs/will-pap-win-between-78-and-80-seats-in-the-singapore-election_539226.csv,Will PAP win between 78 and 80 seats in the Singapore election?,17356.679448,1,election
+politics,custom_world_affairs/will-biden-let-ukraine-strike-russia-with-us-weapons_501910.csv,Will Biden let Ukraine strike Russia with US weapons?,16536.204367,1,biden
+politics,custom_world_affairs/will-ldp-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564629.csv,Will LDP hold the second most seats in the House of Councillors following the 2025 Japan election?,16022.015836,1,"election, house"
+politics,custom_world_affairs/will-valid-votes-be-between-6-6pt2-million-in-bolivia-election_574993.csv,Will valid votes be between 6-6.2 million in Bolivia election?,15762.749698,1,election
+politics,custom_world_affairs/will-rutte-say-trump-during-nato-public-forum-address-on-june-24_553599.csv,"Will Rutte say ""Trump"" during NATO Public Forum Address on June 24?",15713.689954,-1,trump
+politics,custom_world_affairs/will-trump-visit-pakistan-by-september-30_564627.csv,Will Trump visit Pakistan by September 30?,14646.075301,-1,trump
+politics,custom_world_affairs/will-poilievre-say-crypto-or-bitcoin-during-canadian-election-debate-on-april-17_537305.csv,"Will Poilievre say ""Crypto"" or ""Bitcoin"" during Canadian Election Debate on April 17?",13251.07805,1,election
+politics,custom_world_affairs/will-valid-votes-be-between-5pt8-6-million-in-bolivia-election_574992.csv,Will valid votes be between 5.8-6 million in Bolivia election?,13133.195958,1,election
+politics,custom_world_affairs/will-diy-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564638.csv,Will DIY hold the second most seats in the House of Councillors following the 2025 Japan election?,12883.176147,1,"election, house"
+politics,custom_world_affairs/will-family-first-win-the-seat-of-bennelong-in-the-2025-australian-election_537451.csv,Will Family First win the Seat of Bennelong in the 2025 Australian Election?,11616.978321,1,election
+politics,custom_world_affairs/will-carney-say-trudeau-during-canadian-election-debate-on-april-17_537284.csv,"Will Carney say ""Trudeau"" during Canadian Election Debate on April 17?",11274.751878,1,election
+politics,custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-18-19m_535708.csv,Will voter turnout in the 2025 Canadian federal election be between 18-19m?,10969.444312,1,election
+politics,custom_world_affairs/will-poilievre-say-trudeau-during-canadian-election-debate-on-april-17_537303.csv,"Will Poilievre say ""Trudeau"" during Canadian Election Debate on April 17?",10513.190407,1,election
+politics,custom_world_affairs/will-poilievre-say-immigration-3-times-during-canadian-election-debate-on-april-17_537292.csv,"Will Poilievre say ""Immigration"" 3+ times during Canadian Election Debate on April 17?",10323.890666,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-lee-jun-seok-win-2nd-place-in-the-south-korean-presidential-election_541393.csv,Will Lee Jun-seok win 2nd place in the South Korean presidential election?,5714121.72447,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-han-duck-soo-win-2nd-place-in-the-south-korean-presidential-election_541391.csv,Will Han Duck-soo win 2nd place in the South Korean presidential election?,4288767.039625,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-kim-moon-soo-win-2nd-place-in-the-south-korean-presidential-election_541392.csv,Will Kim Moon-soo win 2nd place in the South Korean presidential election?,4024661.567987,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-lee-jae-myung-win-2nd-place-in-the-south-korean-presidential-election_541390.csv,Will Lee Jae-myung win 2nd place in the South Korean presidential election?,2392656.791775,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-han-dong-hoon-win-2nd-place-in-the-south-korean-presidential-election_541394.csv,Will Han Dong-hoon win 2nd place in the South Korean presidential election?,1070477.80612,1,election
+politics,geopolitics__foreign_policy_comprehensive/trump-increase-share-of-black-voters_502046.csv,Trump gets more black voters than in 2020?,888499.13331,-1,trump
+politics,geopolitics__foreign_policy_comprehensive/will-marco-francis-win-the-2025-seychelles-presidential-election_545056.csv,Will Marco Francis win the 2025 Seychelles presidential election?,729054.561386,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-hwang-kyo-ahn-win-2nd-place-in-the-south-korean-presidential-election_541407.csv,Will Hwang Kyo-ahn win 2nd place in the South Korean presidential election?,507936.643206,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-progress-singapore-party-psp-win-the-2025-singapore-parliamentary-election_539205.csv,Will Progress Singapore Party (PSP) win the 2025 Singapore parliamentary election?,341164.400658,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-lee-nak-yon-win-2nd-place-in-the-south-korean-presidential-election_541399.csv,Will Lee Nak-yon win 2nd place in the South Korean presidential election?,310461.211,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-wavel-ramkalawan-win-the-2025-seychelles-presidential-election_545054.csv,Will Wavel Ramkalawan win the 2025 Seychelles presidential election?,298235.064867,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-labor-win-the-seat-of-bennelong-in-the-2025-australian-election_537449.csv,Will Labor win the Seat of Bennelong in the 2025 Australian Election?,225185.615153,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-workers-party-wp-win-the-2025-singapore-parliamentary-election_539204.csv,Will Workers' Party (WP) win the 2025 Singapore parliamentary election?,204958.980323,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-lazarus-chakwera-win-the-2025-malawi-presidential-election-164_545036.csv,Will Lazarus Chakwera win the 2025 Malawi presidential election?,191893.263957,1,election
+politics,geopolitics__foreign_policy_comprehensive/polish-snap-election-called-in-2025_549140.csv,Polish snap election called in 2025?,183062.195681,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-peter-mutharika-win-the-2025-malawi-presidential-election-439_545037.csv,Will Peter Mutharika win the 2025 Malawi presidential election?,177766.60376,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-peoples-action-party-pap-win-the-2025-singapore-parliamentary-election_539203.csv,Will People's Action Party (PAP) win the 2025 Singapore parliamentary election?,171261.24232,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-kim-dong-yeon-win-2nd-place-in-the-south-korean-presidential-election_541395.csv,Will Kim Dong-yeon win 2nd place in the South Korean presidential election?,166643.1125,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-dr-patrick-herminie-win-the-2025-seychelles-presidential-election_545055.csv,Will Dr Patrick Herminie win the 2025 Seychelles presidential election?,157339.602208,1,election
+politics,geopolitics__foreign_policy_comprehensive/israel-and-saudi-arabia-normalize-relations-before-us-election_501126.csv,Israel and Saudi Arabia normalize relations before U.S. election?,133184.532627,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-the-greens-win-the-seat-of-brisbane-in-the-2025-australian-election_537442.csv,Will The Greens win the Seat of Brisbane in the 2025 Australian Election?,129527.591382,1,election
+politics,geopolitics__foreign_policy_comprehensive/new-netherlands-election-announced-before-summer-recess_549608.csv,New Netherlands election announced before Summer Recess?,125110.173606,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-hong-joon-pyo-win-2nd-place-in-the-south-korean-presidential-election_541406.csv,Will Hong Joon-pyo win 2nd place in the South Korean presidential election?,114566.8245,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-ahn-cheol-soo-win-2nd-place-in-the-south-korean-presidential-election_541398.csv,Will Ahn Cheol-soo win 2nd place in the South Korean presidential election?,100758.5655,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-yoo-seong-min-win-2nd-place-in-the-south-korean-presidential-election_541396.csv,Will Yoo Seong-min win 2nd place in the South Korean presidential election?,96810.1935,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-yoon-suk-yeol-win-2nd-place-in-the-south-korean-presidential-election_541401.csv,Will Yoon Suk Yeol win 2nd place in the South Korean presidential election?,72962.994833,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-trump-increase-tariffs-on-china-by-friday_535723.csv,Will Trump increase tariffs on China by Friday?,72639.859769,-1,trump
+politics,geopolitics__foreign_policy_comprehensive/will-kisna-louise-win-the-2025-seychelles-presidential-election_545061.csv,Will Kisna Louise win the 2025 Seychelles presidential election?,72050.84705,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-joe-biden-attend-pope-francis-funeral_538975.csv,Will Joe Biden attend Pope Francis' funeral?,71956.338345,1,biden
+politics,geopolitics__foreign_policy_comprehensive/will-cdp-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564630.csv,Will CDP hold the second most seats in the House of Councillors following the 2025 Japan election?,71930.355117,1,"election, house"
+politics,geopolitics__foreign_policy_comprehensive/will-poilievre-say-tariffs-3-times-during-canadian-election-debate-on-april-17_537295.csv,"Will Poilievre say ""Tariffs"" 3+ times during Canadian Election Debate on April 17?",70121.989819,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-alain-st-ange-win-the-2025-seychelles-presidential-election_545057.csv,Will Alain St Ange win the 2025 Seychelles presidential election?,70065.263501,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-na-kyung-won-win-2nd-place-in-the-south-korean-presidential-election_541397.csv,Will Na Kyung-won win 2nd place in the South Korean presidential election?,68774.3995,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-poilievre-say-trump-3-times-during-canadian-election-debate-on-april-17_537293.csv,"Will Poilievre say ""Trump"" 3+ times during Canadian Election Debate on April 17?",66875.53055,-1,"trump, election"
+politics,geopolitics__foreign_policy_comprehensive/south-korea-election-scheduled-by-friday_534187.csv,South Korea election scheduled by Friday?,66313.73388,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-poilievre-say-canada-first-during-canadian-election-debate-on-april-17_537301.csv,"Will Poilievre say ""Canada First"" during Canadian Election Debate on April 17?",65497.19787,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-valid-votes-be-fewer-than-5pt8-million-in-bolivia-election_574991.csv,Will valid votes be fewer than 5.8 million in Bolivia election?,64393.604428,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-charles-de-clarisse-win-the-2025-seychelles-presidential-election_545063.csv,Will Charles De Clarisse win the 2025 Seychelles presidential election?,63488.026508,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-won-hee-ryong-win-2nd-place-in-the-south-korean-presidential-election_541403.csv,Will Won Hee-ryong win 2nd place in the South Korean presidential election?,61530.1277,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-ralph-volcre-win-the-2025-seychelles-presidential-election_545058.csv,Will Ralph Volcère win the 2025 Seychelles presidential election?,60082.702563,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-cho-kuk-win-2nd-place-in-the-south-korean-presidential-election_541400.csv,Will Cho Kuk win 2nd place in the South Korean presidential election?,59571.6805,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-oh-se-hoon-win-2nd-place-in-the-south-korean-presidential-election_541405.csv,Will Oh Se-hoon win 2nd place in the South Korean presidential election?,59368.0465,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-robin-johnston-win-the-2025-seychelles-presidential-election_545059.csv,Will Robin Johnston win the 2025 Seychelles presidential election?,57409.679761,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-poilievre-say-elon-or-musk-during-canadian-election-debate-on-april-17_537296.csv,"Will Poilievre say ""Elon"" or ""Musk"" during Canadian Election Debate on April 17?",55463.613038,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-pap-win-less-than-75-seats-in-the-singapore-election_539224.csv,Will PAP win less than 75 seats in the Singapore election?,54387.062141,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-carney-say-immigration-3-times-during-canadian-election-debate-on-april-17_537273.csv,"Will Carney say ""Immigration"" 3+ times during Canadian Election Debate on April 17?",54169.486637,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-kim-kyong-soo-win-2nd-place-in-the-south-korean-presidential-election_541404.csv,Will Kim Kyong-soo win 2nd place in the South Korean presidential election?,53192.282817,1,election
+politics,geopolitics__foreign_policy_comprehensive/spain-snap-election-called-in-2025_547957.csv,Spain snap election called in 2025?,53033.640189,1,election
+politics,geopolitics__foreign_policy_comprehensive/trump-x-xi-talk-before-june_544925.csv,Trump x Xi talk before June?,52975.52629,-1,trump
+politics,geopolitics__foreign_policy_comprehensive/will-robert-moumou-win-the-2025-seychelles-presidential-election_545062.csv,Will Robert Moumou win the 2025 Seychelles presidential election?,52264.502312,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-valid-votes-be-more-than-6pt2-million-in-bolivia-election_574994.csv,Will valid votes be more than 6.2 million in Bolivia election?,49911.128861,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-joyce-banda-win-the-2025-malawi-presidential-election-739_545041.csv,Will Joyce Banda win the 2025 Malawi presidential election?,49574.23734,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-kim-boo-kyum-win-2nd-place-in-the-south-korean-presidential-election_541402.csv,Will Kim Boo-kyum win 2nd place in the South Korean presidential election?,47988.4685,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-atupele-muluzi-win-the-2025-malawi-presidential-election-619_545038.csv,Will Atupele Muluzi win the 2025 Malawi presidential election?,47697.97624,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-dalitso-kabame-win-the-2025-malawi-presidential-election-138_545039.csv,Will Dalitso Kabame win the 2025 Malawi presidential election?,44535.105182,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-donald-trump-attend-pope-francis-funeral_538966.csv,Will Donald Trump attend Pope Francis' funeral?,43041.506676,-1,trump
+politics,geopolitics__foreign_policy_comprehensive/will-enoch-chihana-win-the-2025-malawi-presidential-election-382_545040.csv,Will Enoch Chihana win the 2025 Malawi presidential election?,41259.08266,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-17-18m_535707.csv,Will voter turnout in the 2025 Canadian federal election be between 17-18m?,40129.839646,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-danny-faure-win-the-2025-seychelles-presidential-election_545060.csv,Will Danny Faure win the 2025 Seychelles presidential election?,37880.08031,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-20-21m_535710.csv,Will voter turnout in the 2025 Canadian federal election be between 20-21m?,37697.322903,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-trump-meet-with-zelenskyy-before-august_555844.csv,Will Trump meet with Zelenskyy before August?,37445.560039,-1,trump
+politics,geopolitics__foreign_policy_comprehensive/will-pap-win-between-87-and-89-seats-in-the-singapore-election_539229.csv,Will PAP win between 87 and 89 seats in the Singapore election?,35543.759584,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-the-winner-of-czech-parliamentary-election-form-a-government_567268.csv,Will ANO form a government after Czech election ?,32366.864563,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-19-20m_535709.csv,Will voter turnout in the 2025 Canadian federal election be between 19-20m?,31315.843943,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-trump-visit-turkey-before-june_544904.csv,Will Trump visit Turkey before June?,27958.089394,-1,trump
+politics,geopolitics__foreign_policy_comprehensive/will-pap-win-90-or-more-seats-in-the-singapore-election_539230.csv,Will PAP win 90 or more seats in the Singapore election?,24336.042426,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-pope-leo-xiv-meet-with-donald-trump-in-2025_546091.csv,Will Pope Leo XIV meet with Donald Trump in 2025?,23666.772927,-1,trump
+politics,geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-greater-than-21m_535711.csv,Will voter turnout in the 2025 Canadian federal election be greater than 21m?,21700.074932,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-pap-win-between-84-and-86-seats-in-the-singapore-election_539228.csv,Will PAP win between 84 and 86 seats in the Singapore election?,21494.894441,1,election
+politics,geopolitics__foreign_policy_comprehensive/trump-burger-owner-deported-by-september-30_574584.csv,"""Trump Burger"" owner deported by September 30?",21000.345333,-1,trump
+politics,geopolitics__foreign_policy_comprehensive/will-melania-trump-attend-pope-francis-funeral_538967.csv,Will Melania Trump attend Pope Francis' funeral?,20879.709051,-1,trump
+politics,geopolitics__foreign_policy_comprehensive/will-luis-abinader-win-the-2024-dominican-republic-presidential-election_501582.csv,Will Luis Abinader win the 2024 Dominican Republic presidential election?,20526.187089,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-less-than-16m_535705.csv,Will voter turnout in the 2025 Canadian federal election be less than 16m?,19913.903335,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-pap-win-between-75-and-77-seats-in-the-singapore-election_539225.csv,Will PAP win between 75 and 77 seats in the Singapore election?,19317.411554,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-16-17m_535706.csv,Will voter turnout in the 2025 Canadian federal election be between 16-17m?,18634.872952,1,election
+politics,geopolitics__foreign_policy_comprehensive/romania-parliamentary-election-called-in-2025_562257.csv,Romania Parliamentary Election called in 2025?,18568.244464,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-pap-win-between-81-and-83-seats-in-the-singapore-election_539227.csv,Will PAP win between 81 and 83 seats in the Singapore election?,17908.394629,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-pap-win-between-78-and-80-seats-in-the-singapore-election_539226.csv,Will PAP win between 78 and 80 seats in the Singapore election?,17356.679448,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-biden-let-ukraine-strike-russia-with-us-weapons_501910.csv,Will Biden let Ukraine strike Russia with US weapons?,16536.204367,1,biden
+politics,geopolitics__foreign_policy_comprehensive/will-ldp-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564629.csv,Will LDP hold the second most seats in the House of Councillors following the 2025 Japan election?,16022.015836,1,"election, house"
+politics,geopolitics__foreign_policy_comprehensive/will-valid-votes-be-between-6-6pt2-million-in-bolivia-election_574993.csv,Will valid votes be between 6-6.2 million in Bolivia election?,15762.749698,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-rutte-say-trump-during-nato-public-forum-address-on-june-24_553599.csv,"Will Rutte say ""Trump"" during NATO Public Forum Address on June 24?",15713.689954,-1,trump
+politics,geopolitics__foreign_policy_comprehensive/will-trump-visit-pakistan-by-september-30_564627.csv,Will Trump visit Pakistan by September 30?,14646.075301,-1,trump
+politics,geopolitics__foreign_policy_comprehensive/will-poilievre-say-crypto-or-bitcoin-during-canadian-election-debate-on-april-17_537305.csv,"Will Poilievre say ""Crypto"" or ""Bitcoin"" during Canadian Election Debate on April 17?",13251.07805,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-valid-votes-be-between-5pt8-6-million-in-bolivia-election_574992.csv,Will valid votes be between 5.8-6 million in Bolivia election?,13133.195958,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-diy-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564638.csv,Will DIY hold the second most seats in the House of Councillors following the 2025 Japan election?,12883.176147,1,"election, house"
+politics,geopolitics__foreign_policy_comprehensive/will-family-first-win-the-seat-of-bennelong-in-the-2025-australian-election_537451.csv,Will Family First win the Seat of Bennelong in the 2025 Australian Election?,11616.978321,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-carney-say-trudeau-during-canadian-election-debate-on-april-17_537284.csv,"Will Carney say ""Trudeau"" during Canadian Election Debate on April 17?",11274.751878,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-18-19m_535708.csv,Will voter turnout in the 2025 Canadian federal election be between 18-19m?,10969.444312,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-poilievre-say-trudeau-during-canadian-election-debate-on-april-17_537303.csv,"Will Poilievre say ""Trudeau"" during Canadian Election Debate on April 17?",10513.190407,1,election
+politics,geopolitics__foreign_policy_comprehensive/will-poilievre-say-immigration-3-times-during-canadian-election-debate-on-april-17_537292.csv,"Will Poilievre say ""Immigration"" 3+ times during Canadian Election Debate on April 17?",10323.890666,1,election
+politics,politics_(us_election)/democrats-and-republicans-both-lose-the-2024-presidential-election_253836.csv,Democrats and Republicans both lose the 2024 Presidential Election?,20963826.152231,1,"election, democrat, republican"
+politics,politics_(us_election)/will-a-candidate-from-another-party-win-ohio-us-senate-election_500120.csv,Will a candidate from another party win Ohio US Senate Election?,13006615.346782,1,"election, senate"
+politics,politics_(us_election)/2024-balance-of-power-r-prez-r-senate-r-house_500631.csv,2024 Balance of Power: R Prez R Senate R House,11132803.610888,1,"senate, house"
+politics,politics_(us_election)/2024-balance-of-power-republican-presidency-and-senate-democratic-house_500637.csv,"2024 Balance of Power: R Prez, R Senate, D House",9322470.30561,1,"senate, house"
+politics,politics_(us_election)/will-a-republican-win-arizona-us-senate-election_500615.csv,Will a Republican win Arizona US Senate Election?,8258327.18658,-1,"election, senate, republican"
+politics,politics_(us_election)/2024-presidential-election-gop-wins-by-65-104_253677.csv,2024 presidential election: GOP wins by 65-104,7563202.909916,1,election
+politics,politics_(us_election)/2024-presidential-election-gop-wins-by-215_253675.csv,2024 presidential election: GOP wins by 215+,7262055.993012,1,election
+politics,politics_(us_election)/will-a-democrat-win-arizona-us-senate-election_500614.csv,Will a Democrat win Arizona US Senate Election?,6754633.942725,1,"election, senate, democrat"
+politics,politics_(us_election)/2024-presidential-election-gop-wins-by-35-64_253678.csv,2024 presidential election: GOP wins by 35-64,6753406.418423,1,election
+politics,politics_(us_election)/2024-balance-of-power-republican-presidency-democratic-house-and-senate_500639.csv,"2024 Balance of Power: R Prez, D Senate, D House",6481908.722395,1,"senate, house"
+politics,politics_(us_election)/2024-presidential-election-gop-wins-by-105-154_253704.csv,2024 presidential election: GOP wins by 105-154,6473740.733323,1,election
+politics,politics_(us_election)/2024-balance-of-power-republican-presidency-and-house-democratic-senate_500636.csv,"2024 Balance of Power: R Prez, D Senate, R House",6332605.568078,1,"senate, house"
+politics,politics_(us_election)/2024-presidential-election-democrats-win-by-5-14_253683.csv,2024 presidential election: Democrats win by 5-14,6235007.012558,1,"election, democrat"
+politics,politics_(us_election)/2024-presidential-election-democrats-win-by-105-154_253687.csv,2024 presidential election: Democrats win by 105-154,6153981.286456,1,"election, democrat"
+politics,politics_(us_election)/2024-presidential-election-democrats-win-by-215_253688.csv,2024 presidential election: Democrats win by 215+,6016787.147049,1,"election, democrat"
+politics,politics_(us_election)/2024-balance-of-power-democratic-presidency-and-senate-republican-house_500635.csv,"2024 Balance of Power: D Prez, D Senate, R House",5833432.223511,1,"senate, house"
+politics,politics_(us_election)/2024-presidential-election-democrats-win-by-15-34_253684.csv,2024 presidential election: Democrats win by 15-34,5813696.52381,1,"election, democrat"
+politics,politics_(us_election)/2024-presidential-election-gop-wins-by-1-4_253680.csv,2024 presidential election: GOP wins by 1-4,5813309.892014,1,election
+politics,politics_(us_election)/2024-presidential-election-democrats-win-by-0-4_253682.csv,2024 presidential election: Democrats win by 0-4,5777920.118906,1,"election, democrat"
+politics,politics_(us_election)/2024-presidential-election-democrats-win-by-65-104_253686.csv,2024 presidential election: Democrats win by 65-104,5777360.064778,1,"election, democrat"
+politics,politics_(us_election)/will-joe-biden-win-the-us-2024-democratic-presidential-nomination_240382.csv,[Single Market] Will Joe Biden win the U.S. 2024 Democratic presidential nomination?,5770423.692215,1,"biden, democrat"
+politics,politics_(us_election)/2024-balance-of-power-democratic-presidency-republican-house-and-senate_500638.csv,"2024 Balance of Power: D Prez, R Senate, R House",5546240.024256,1,"senate, house"
+politics,politics_(us_election)/2024-election-democratic-presidency-and-house-republican-senate_500632.csv,"2024 Balance of Power: D Prez, R Senate, D House",5535870.047873,1,"senate, house"
+politics,politics_(us_election)/democratic-sweep-in-2024-election_500630.csv,"2024 Balance of Power: D Prez, D Senate, D House",5444340.53142,1,"senate, house"
+politics,politics_(us_election)/2024-presidential-election-gop-wins-by-5-14_253681.csv,2024 presidential election: GOP wins by 5-14,5436305.368101,1,election
+politics,politics_(us_election)/2024-presidential-election-democrats-win-by-155-214_253705.csv,2024 presidential election: Democrats win by 155-214,5393718.822278,1,"election, democrat"
+politics,politics_(us_election)/2024-presidential-election-gop-wins-by-155-214_253676.csv,2024 presidential election: GOP wins by 155-214,5230770.736357,1,election
+politics,politics_(us_election)/2024-presidential-election-gop-wins-by-15-34_253679.csv,2024 presidential election: GOP wins by 15-34,5040359.62268,1,election
+politics,politics_(us_election)/will-a-candidate-from-another-party-win-arizona-us-senate-election_500616.csv,Will a candidate from another party win Arizona US Senate Election?,4982822.83402,1,"election, senate"
+politics,politics_(us_election)/will-republicans-have-55-seats-in-senate-after-election_501700.csv,Will Republicans have 55 seats in Senate after election?,4595290.400508,1,"election, senate, republican"
+politics,politics_(us_election)/2024-presidential-election-democrats-win-by-35-64_253685.csv,2024 presidential election: Democrats win by 35-64,4503321.804578,1,"election, democrat"
+politics,politics_(us_election)/will-a-candidate-from-another-party-win-montana-us-senate-election_500116.csv,Will a candidate from another party win Montana US Senate Election?,2701136.853558,1,"election, senate"
+politics,politics_(us_election)/will-nicolas-maduro-win-the-2024-venezuela-presidential-election_502002.csv,Will Nicolas Maduro Win the 2024 Venezuela presidential election?,2594710.242202,1,election
+politics,politics_(us_election)/presidential-election-republicans-win-a-solid-blue-state_501062.csv,Trump wins a solid blue state?,2292725.611237,-1,trump
+politics,politics_(us_election)/will-republicans-have-56-or-more-seats-in-senate-after-election_501701.csv,Will Republicans have 56 or more seats in Senate after election?,2267278.199233,1,"election, senate, republican"
+politics,politics_(us_election)/will-a-candidate-from-another-party-win-colorado-presidential-election_255067.csv,Will a candidate from another party win Colorado Presidential Election?,2261038.457125,1,election
+politics,politics_(us_election)/will-a-candidate-from-another-party-win-arkansas-presidential-election_255057.csv,Will a candidate from another party win Arkansas Presidential Election?,1808562.113133,1,election
+politics,politics_(us_election)/will-edmundo-gonzalez-win-the-2024-venezuela-presidential-election_502006.csv,Will Edmundo González win the 2024 Venezuela presidential election?,1734378.789587,1,election
+politics,politics_(us_election)/will-a-republican-win-ohio-us-senate-election_500118.csv,Will a Republican win Ohio US Senate Election?,1556618.387565,-1,"election, senate, republican"
+politics,politics_(us_election)/will-a-democrat-win-michigan-senate-election_500105.csv,Will a Democrat win Nevada US Senate Election?,1540056.717832,1,"election, senate, democrat"
+politics,politics_(us_election)/will-republicans-have-49-or-fewer-seats-in-senate-after-election_501694.csv,Will Republicans have 49 or fewer seats in Senate after election?,1537159.776966,1,"election, senate, republican"
+politics,politics_(us_election)/will-a-democrat-win-colorado-in-the-2024-us-presidential-election_255065.csv,Will a Democrat win Colorado Presidential Election?,1522857.242694,1,"election, democrat"
+politics,politics_(us_election)/will-republicans-have-53-seats-in-senate-after-election_501698.csv,Will Republicans have 53 seats in Senate after election?,1285723.48474,1,"election, senate, republican"
+politics,politics_(us_election)/will-a-democrat-win-california-in-the-2024-us-presidential-election_255060.csv,Will a Democrat win California Presidential Election?,1078748.419647,1,"election, democrat"
+politics,politics_(us_election)/will-a-candidate-from-another-party-win-california-presidential-election_255062.csv,Will a candidate from another party win California Presidential Election?,1065194.379936,1,election
+politics,politics_(us_election)/dems-flip-a-2020-trump-state_500924.csv,Kamala flips a 2020 Trump state?,1064673.512691,-1,trump
+politics,politics_(us_election)/will-a-republican-win-nevada-us-senate-election_500106.csv,Will a Republican win Nevada US Senate Election?,1056287.755275,-1,"election, senate, republican"
+politics,politics_(us_election)/will-republicans-have-54-seats-in-senate-after-election_501699.csv,Will Republicans have 54 seats in Senate after election?,1046717.85044,1,"election, senate, republican"
+politics,politics_(us_election)/will-a-republican-win-colorado-in-the-2024-us-presidential-election_255066.csv,Will a Republican win Colorado Presidential Election?,1022853.789162,-1,"election, republican"
+politics,politics_(us_election)/trump-margin-of-victory-in-new-hampshire-primary-15_253891.csv,Trump margin of victory in New Hampshire Primary >15%,997617.257422,-1,trump
+politics,politics_(us_election)/will-a-republican-win-california-in-the-2024-us-presidential-election_255061.csv,Will a Republican win California Presidential Election?,990768.222498,-1,"election, republican"
+politics,politics_(us_election)/will-a-democrat-win-ohio-us-senate-election_500117.csv,Will a Democrat win Ohio US Senate Election?,892763.549064,1,"election, senate, democrat"
+politics,politics_(us_election)/trump-increase-share-of-black-voters_502046.csv,Trump gets more black voters than in 2020?,888499.13331,-1,trump
+politics,politics_(us_election)/will-antonio-ecarri-angola-win-the-2024-venezuela-presidential-election_502003.csv,Will Antonio Ecarri Angola Win the 2024 Venezuela presidential election?,858714.829516,1,election
+politics,politics_(us_election)/will-a-democrat-win-alaska-in-the-2024-us-presidential-election_255044.csv,Will a Democrat win Alaska Presidential Election?,835760.561065,1,"election, democrat"
+politics,politics_(us_election)/will-a-republican-win-alaska-in-the-2024-us-presidential-election_255045.csv,Will a Republican win Alaska Presidential Election?,796279.059822,-1,"election, republican"
+politics,politics_(us_election)/will-republicans-have-52-seats-in-senate-after-election_501697.csv,Will Republicans have 52 seats in Senate after election?,760865.143349,1,"election, senate, republican"
+politics,politics_(us_election)/will-a-democrat-win-montana-us-senate-election_500114.csv,Will a Democrat win Montana US Senate Election?,686243.598846,1,"election, senate, democrat"
+politics,politics_(us_election)/will-robert-f-kennedy-jr-win-the-us-2024-democratic-presidential-nomination_250482.csv,[Single Market] Will Robert F. Kennedy Jr. win the U.S. 2024 Democratic presidential nomination?,641848.952562,1,democrat
+politics,politics_(us_election)/will-a-republican-win-montana-us-senate-election_500115.csv,Will a Republican win Montana US Senate Election?,621186.16041,-1,"election, senate, republican"
+politics,politics_(us_election)/will-gavin-newsom-win-the-us-2024-democratic-presidential-nomination_246667.csv,[Single Market] Will Gavin Newsom win the U.S. 2024 Democratic presidential nomination?,576046.71026,1,democrat
+politics,politics_(us_election)/will-another-candidate-win-the-2024-venezuela-presidential-election-ites_502005.csv,Will another candidate Win the 2024 Venezuela presidential election?,537980.832049,1,election
+politics,politics_(us_election)/will-javier-bertucci-win-the-2024-venezuela-presidential-election_502004.csv,Will Javier Bertucci Win the 2024 Venezuela presidential election?,426456.694772,1,election
+politics,politics_(us_election)/will-a-candidate-from-another-party-win-alaska-presidential-election_255047.csv,Will a candidate from another party win Alaska Presidential Election?,426228.126714,1,election
+politics,politics_(us_election)/trump-margin-of-victory-in-new-hampshire-primary-10-12pt5_253896.csv,Trump margin of victory in New Hampshire Primary 10-12.5%,344986.22496499994,-1,trump
+politics,politics_(us_election)/republicans-flip-a-2020-biden-state_500925.csv,Trump flips a 2020 Biden state?,338528.214849,-1,"trump, biden"
+politics,politics_(us_election)/biden-campaign-accepts-crypto-donations-before-august_502799.csv,Biden campaign accepts crypto donations before August?,336293.770823,1,biden
+politics,politics_(us_election)/will-a-republican-win-kansas-in-the-2024-us-presidential-election_255117.csv,Will a Republican win Kansas Presidential Election?,330794.585408,-1,"election, republican"
+politics,politics_(us_election)/will-nigel-farage-win-election-to-uk-parliament_502041.csv,Will Nigel Farage win election to UK parliament?,326337.441075,1,election
+politics,politics_(us_election)/will-republicans-have-50-seats-in-senate-after-election_501695.csv,Will Republicans have 50 seats in Senate after election?,321803.188168,1,"election, senate, republican"
+politics,politics_(us_election)/will-a-candidate-from-another-party-win-kansas-presidential-election_255118.csv,Will a candidate from another party win Kansas Presidential Election?,319580.156672,1,election
+politics,politics_(us_election)/trump-margin-of-victory-in-new-hampshire-primary-12pt5-15_253894.csv,Trump margin of victory in New Hampshire Primary 12.5-15%,313736.56215199997,-1,trump
+politics,politics_(us_election)/will-a-candidate-from-another-party-win-nevada-us-senate-election_500107.csv,Will a candidate from another party win Nevada US Senate Election?,295575.655242,1,"election, senate"
+politics,politics_(us_election)/will-republicans-have-51-seats-in-senate-after-election_501696.csv,Will Republicans have 51 seats in Senate after election?,271918.963629,1,"election, senate, republican"
+politics,politics_(us_election)/trump-margin-of-victory-in-new-hampshire-primary-7pt5-10_253897.csv,Trump margin of victory in New Hampshire Primary 7.5-10%,266382.937415,-1,trump
+politics,politics_(us_election)/will-a-candidate-from-another-party-win-alabama-presidential-election_255037.csv,Will a candidate from another party win Alabama Presidential Election?,241200.090557,1,election
+politics,politics_(us_election)/will-a-democrat-win-kansas-in-the-2024-us-presidential-election_255116.csv,Will a Democrat win Kansas Presidential Election?,224269.290234,1,"election, democrat"
+politics,politics_(us_election)/will-a-republican-win-alabama-in-the-2024-us-presidential-election_255036.csv,Will a Republican win Alabama Presidential Election?,218302.372288,-1,"election, republican"
+politics,politics_(us_election)/conservatives-win-the-second-most-seats-in-next-uk-election_502267.csv,Conservatives win the second most seats in next UK election? ,185828.817133,1,election
+politics,politics_(us_election)/reform-wins-the-second-most-seats-in-next-uk-election_502269.csv,Reform wins the second most seats in next UK election? ,185284.928663,1,election
+politics,politics_(us_election)/will-a-republican-win-arkansas-in-the-2024-us-presidential-election_255056.csv,Will a Republican win Arkansas Presidential Election?,156941.381624,-1,"election, republican"
+politics,politics_(us_election)/will-trump-lose-the-new-hampshire-primary_253901.csv,Will Trump lose the New Hampshire Primary?,152499.560264,-1,trump
+politics,politics_(us_election)/will-trump-announce-his-vp-pick-later_500430.csv,Will Trump announce his VP pick later?,140195.79014,-1,trump
+politics,politics_(us_election)/will-trump-announce-his-vp-pick-in-may_500427.csv,Will Trump announce his VP pick in May?,127791.023218,-1,trump
+politics,politics_(us_election)/will-biden-be-on-the-ohio-presidential-ballot_501776.csv,Will Biden be on Ohio Presidential Ballot?,126405.755937,1,biden
+politics,politics_(us_election)/will-nikki-haley-endorse-trump-before-june_501198.csv,Will Nikki Haley endorse Trump before June?,122153.45488,-1,trump
+politics,politics_(us_election)/will-a-democrat-win-alabama-in-the-2024-us-presidential-election_255035.csv,Will a Democrat win Alabama Presidential Election?,101648.309655,1,"election, democrat"
+politics,politics_(us_election)/trump-margin-of-victory-in-new-hampshire-primary-0-2pt5_253898.csv,Trump margin of victory in New Hampshire Primary 0-2.5%,99924.953131,-1,trump
+politics,politics_(us_election)/will-trump-announce-his-vp-pick-in-april_500426.csv,Will Trump announce his VP pick in April?,96470.835958,-1,trump
+politics,politics_(us_election)/faithless-elector-in-us-election_502705.csv,Faithless elector in US election?,96366.97054,1,election
+politics,politics_(us_election)/will-trump-announce-his-vp-pick-in-july_500429.csv,Will Trump announce his VP pick in July?,94922.759018,-1,trump
+politics,politics_(us_election)/trump-margin-of-victory-in-new-hampshire-primary-5-7pt5_253899.csv,Trump margin of victory in New Hampshire Primary 5-7.5%,93899.713299,-1,trump
+politics,politics_(us_election)/will-a-democrat-win-washington-dc-presidential-election_501012.csv,Will a Democrat win Washington DC Presidential Election?,93874.99787,1,"election, democrat"
+politics,politics_(us_election)/biden-drops-out-before-may_500562.csv,Biden drops out before May?,91667.675465,1,biden
+politics,politics_(us_election)/will-kamala-harris-win-the-us-2024-democratic-presidential-nomination_240383.csv,[Single Market] Will Kamala Harris win the U.S. 2024 Democratic presidential nomination?,86512.574076,1,democrat
+politics,politics_(us_election)/trump-margin-of-victory-in-iowa-caucus-35-40_253765.csv,Trump margin of victory in Iowa Caucus 35-40%,84533.105041,-1,trump
+politics,politics_(us_election)/trump-margin-of-victory-in-iowa-caucus-40_253766.csv,Trump margin of victory in Iowa Caucus >40%,84429.919685,-1,trump
+politics,politics_(us_election)/will-trump-announce-his-vp-pick-in-june_500428.csv,Will Trump announce his VP pick in June?,83537.732073,-1,trump
+politics,politics_(us_election)/liberal-democrats-win-the-second-most-seats-in-next-uk-election_502268.csv,Liberal Democrats win the second most seats in next UK election? ,81654.21448,1,"election, democrat"
+politics,politics_(us_election)/will-hillary-clinton-win-the-us-2024-democratic-presidential-nomination_240385.csv,[Single Market] Will Hillary Clinton win the U.S. 2024 Democratic presidential nomination?,80797.384269,1,democrat
+politics,politics_(us_election)/trump-margin-of-victory-in-new-hampshire-primary-2pt5-5_253900.csv,Trump margin of victory in New Hampshire Primary 2.5-5%,79804.463649,-1,trump
+politics,politics_(us_election)/will-cori-bush-win-the-mo-1-democratic-house-primary_500753.csv,Will Cori Bush win the MO-1 Democratic House Primary?,76625.604917,1,"house, democrat"
+politics,politics_(us_election)/will-trump-win-the-michigan-primary-by-between-20-30-of-the-vote_254669.csv,Will Trump win the Michigan Primary by between 20-30% of the vote?,75105.569442,-1,trump
+politics,politics_(us_election)/trump-margin-of-victory-in-iowa-caucus-30-35_253764.csv,Trump margin of victory in Iowa Caucus 30-35%,74964.85853499999,-1,trump
+politics,politics_(us_election)/trump-convicted-of-another-felony-before-election_502232.csv,Trump convicted of another felony before election?,73860.445713,-1,"trump, election"
+politics,politics_(us_election)/will-a-republican-win-washington-dc-presidential-election_501013.csv,Will a Republican win Washington DC Presidential Election?,73030.340923,-1,"election, republican"
+politics,politics_(us_election)/will-trump-win-the-michigan-primary-by-between-50-60-of-the-vote_254665.csv,Will Trump win the Michigan Primary by between 50-60% of the vote?,72815.182906,-1,trump
+politics,politics_(us_election)/labour-wins-the-second-most-seats-in-next-uk-election_502292.csv,Labour wins the second most seats in next UK election?,72733.583377,1,election
+politics,politics_(us_election)/will-stancil-wins-minnesota-61a-house-primary_502255.csv,Will Stancil wins Minnesota House Democratic Primary?,68734.352967,1,"house, democrat"
+politics,politics_(us_election)/trump-margin-of-victory-in-iowa-caucus-20_253760.csv,Trump margin of victory in Iowa Caucus <20%,58933.875558,-1,trump
+politics,politics_(us_election)/trump-margin-of-victory-in-iowa-caucus-25-30_253763.csv,Trump margin of victory in Iowa Caucus 25-30%,58545.832415,-1,trump
+politics,politics_(us_election)/will-trump-win-the-michigan-primary-by-more-than-60-of-the-vote_254664.csv,Will Trump win the Michigan Primary by more than 60% of the vote?,56603.066529,-1,trump
+politics,politics_(us_election)/will-a-democrat-win-arkansas-in-the-2024-us-presidential-election_255055.csv,Will a Democrat win Arkansas Presidential Election?,56355.385326,1,"election, democrat"
+politics,politics_(us_election)/will-biden-show-up-for-debate_502602.csv,Will Biden show up for debate?,56017.337824,1,biden
+politics,politics_(us_election)/trump-margin-of-victory-in-iowa-caucus-20-25_253762.csv,Trump margin of victory in Iowa Caucus 20-25%,55430.978938,-1,trump
+politics,politics_(us_election)/will-trump-win-the-michigan-primary-by-between-40-50-of-the-vote_254666.csv,Will Trump win the Michigan Primary by between 40-50% of the vote?,55318.041207,-1,trump
+politics,politics_(us_election)/will-todd-fine-win-the-2024-us-presidential-election_501393.csv,Will Todd Fine win the 2024 US Presidential Election?,49913.588492,1,election
+politics,politics_(us_election)/will-a-candidate-from-another-party-win-washington-dc-presidential-election_501014.csv,Will a candidate from another party win Washington DC Presidential Election?,49392.804242,1,election
+politics,politics_(us_election)/will-wesley-bell-win-the-mo-1-democratic-house-primary_500754.csv,Will Wesley Bell win the MO-1 Democratic House Primary?,46338.288644,1,"house, democrat"
+politics,politics_(us_election)/will-trump-win-the-michigan-primary-by-between-30-40-of-the-vote_254667.csv,Will Trump win the Michigan Primary by between 30-40% of the vote?,44362.708338,-1,trump
+politics,politics_(us_election)/will-trump-win-the-michigan-primary-by-less-than-20-of-the-vote_254668.csv,Will Trump win the Michigan Primary by less than 20% of the vote?,43185.227266999995,-1,trump
+politics,politics_(us_election)/trump-on-ballot-in-every-state_501945.csv,Trump on ballot in every state?,42314.370084,-1,trump
+politics,politics_(us_election)/will-sam-brown-win-the-2024-nevada-senate-republican-primary_502152.csv,Will Sam Brown win the 2024 Nevada Senate Republican Primary?,33738.466225,1,"senate, republican"
+politics,politics_(us_election)/another-party-wins-the-second-most-seats-in-next-uk-election_502272.csv,Another party wins the second most seats in next UK election? ,30326.116997,1,election
+politics,politics_(us_election)/greens-win-the-second-most-seats-in-next-uk-election_502271.csv,Greens win the second most seats in next UK election? ,30064.230521,1,election
+politics,politics_(us_election)/biden-campaign-to-accept-crypto-donations-in-may_501739.csv,Biden campaign accepts crypto donations in May?,28907.477336,1,biden
+politics,politics_(us_election)/will-pete-buttigieg-win-the-us-2024-democratic-presidential-nomination_240384.csv,[Single Market] Will Pete Buttigieg win the U.S. 2024 Democratic presidential nomination?,26606.36708,1,democrat
+politics,politics_(us_election)/istanbul-mayoral-election-2024-will-chp-win_254165.csv,Istanbul Mayoral Election 2024: Will CHP win?,25660.454637,1,election
+politics,politics_(us_election)/will-ryan-foster-win-the-mi-12-democratic-house-primary_501360.csv,Will Ryan Foster win the MI-12 Democratic House Primary?,25558.552442,1,"house, democrat"
+politics,politics_(us_election)/will-alexandria-ocasio-cortez-win-the-ny-14-democratic-house-primary_501356.csv,Will Alexandria Ocasio-Cortez win the NY-14 Democratic House Primary?,25145.333786,1,"house, democrat"
+politics,politics_(us_election)/will-rashida-tlaib-win-the-mi-12-democratic-house-primary_501359.csv,Will Rashida Tlaib win the MI-12 Democratic House Primary?,23242.388558,1,"house, democrat"
+politics,politics_(us_election)/will-royce-kinniebrew-win-the-mi-12-democratic-house-primary_501361.csv,Will Royce Kinniebrew win the MI-12 Democratic House Primary?,21607.6911,1,"house, democrat"
+politics,politics_(us_election)/will-luis-abinader-win-the-2024-dominican-republic-presidential-election_501582.csv,Will Luis Abinader win the 2024 Dominican Republic presidential election?,20526.187089,1,election
+politics,politics_(us_election)/will-andy-kim-win-new-jersey-dem-senate-primary_502030.csv,Will Andy Kim win New Jersey Dem Senate Primary?,20319.583829,1,senate
+politics,politics_(us_election)/will-trump-lose-the-2024-iowa-caucus_253761.csv,Will Trump lose the 2024 Iowa Caucus?,19806.269334,-1,trump
+politics,politics_(us_election)/will-marty-dolan-win-the-ny-14-democratic-house-primary_501357.csv,Will Marty Dolan win the NY-14 Democratic House Primary?,19408.671677,1,"house, democrat"
+politics,politics_(us_election)/istanbul-mayoral-election-2024-will-ak-win_254166.csv,Istanbul Mayoral Election 2024: Will AK win?,17905.297573,1,election
+politics,politics_(us_election)/will-trump-announce-his-vp-pick-in-march_500425.csv,Will Trump announce his VP pick in March?,17696.574,-1,trump
+politics,politics_(us_election)/will-the-rcp-polling-spread-between-trump-and-biden-be-less-than-trump-1pt4-2_500398.csv,RCP polling: Trump by less than 1.4 on April 5?,16098.975044,-1,trump
+politics,politics_(us_election)/will-tony-grady-win-the-2024-nevada-senate-republican-primary_502155.csv,Will Tony Grady win the 2024 Nevada Senate Republican Primary?,14309.953,1,"senate, republican"
+politics,politics_(us_election)/will-jeff-gunter-win-the-2024-nevada-senate-republican-primary_502153.csv,Will Jeff Gunter win the 2024 Nevada Senate Republican Primary?,12602.113052,1,"senate, republican"
+politics,politics_(us_election)/istanbul-mayoral-election-2024-will-another-party-win_254167.csv,Istanbul Mayoral Election 2024: Will another party win?,12022.06,1,election
+politics,politics_(us_election)/will-arnar-r-jnsson-win-the-iceland-presidential-election_501883.csv,Will Arnar Þór Jónsson win the Iceland Presidential Election?,11054.562554,1,election
+politics,politics_(us_election)/will-the-rcp-polling-spread-between-trump-and-biden-be-between-trump-1pt7-1pt9-1_500401.csv,RCP: Trump by +2.0-2.2 on April 5?,11012.050999,-1,trump
+politics,politics_(us_election)/will-halla-tmasdttir-win-the-iceland-presidential-election_501880.csv,Will Halla Tómasdóttir win the Iceland Presidential Election?,10884.343165,1,election
+politics,politics_(us_election)/will-jim-marchant-win-the-2024-nevada-senate-republican-primary_502154.csv,Will Jim Marchant win the 2024 Nevada Senate Republican Primary?,10602.559998,1,"senate, republican"

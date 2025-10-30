@@ -1,0 +1,121 @@
+Gold:
+  best_corr: !!python/object/apply:numpy._core.multiarray.scalar
+  - &id001 !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    UvKwo1l1w78=
+  best_lag: lag_0
+  correlations:
+    lag_-1: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      R9bYVUw9rz8=
+    lag_-3: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      EfVVt8Rokj8=
+    lag_-5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      asVkMH9Mqj8=
+    lag_0: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      UvKwo1l1w78=
+    lag_1: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      z/cJW0Grwb8=
+    lag_3: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      X+1Icnm1pj8=
+    lag_5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      3J2IGOybwb8=
+  sample_size: 206
+Oil:
+  best_corr: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    UmE3ZrRnwb8=
+  best_lag: lag_0
+  correlations:
+    lag_-1: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      ZJBpEW0Qnz8=
+    lag_-3: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      0bGVCFBltT8=
+    lag_-5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      CNx2wFDeqj8=
+    lag_0: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      UmE3ZrRnwb8=
+    lag_1: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      cU//VQ8otT8=
+    lag_3: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      3RYsLYhRoz8=
+    lag_5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      XDGc0vaHsr8=
+  sample_size: 208
+SP500:
+  best_corr: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    Z+8jknOo378=
+  best_lag: lag_0
+  correlations:
+    lag_-1: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      xMOuRiRnt78=
+    lag_-3: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      +CBpqpipqr8=
+    lag_-5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      BI++C2RUqD8=
+    lag_0: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Z+8jknOo378=
+    lag_1: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Kdc5ewxByz8=
+    lag_3: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      XtzbaxQLxj8=
+    lag_5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      2FIBybdSxj8=
+  sample_size: 194

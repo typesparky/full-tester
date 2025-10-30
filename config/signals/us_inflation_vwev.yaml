@@ -1,0 +1,41 @@
+signal_name: US_INFLATION
+description: "Expected Inflation Signal - Volume Weighted Expected Value from CPI Markets"
+input_manifest_files:
+  - "polymarket_data/manifest/_manifest_inflation.csv"
+output_file: "data/processed_signals/signal_vwev_inflation.csv"
+generator_type: "vwev_rolled"
+
+# Event grouping and rolling configuration - group by event type for testing
+event_grouping_pattern: "(monthly|inflation).*?(2025|September)"  # Group by event (monthly vs annual inflation)
+roll_on_field: "volume"
+open_bin_handling_method: "fit_pareto"
+
+# Signal generation parameters - more lenient for testing
+min_quality_score: 5  # Reduced for testing
+lookback_days: 180
+
+# Expected value calculation parameters - simplified
+distribution_bins:
+  percentiles: [0.5]  # Simplified percentiles
+  min_sample_size: 2   # Allow smaller groups for testing
+
+# Analysis configuration - use signal changes, not levels
+use_signal_changes: true
+
+polarity_rules:
+  concept_description: "US Inflation Expectation Change"
+  increase_inflation: # Keywords indicating rising inflation
+    - "increase.*by"
+    - "rise.*by"
+    - "grow.*by"
+    - "higher.*than"
+    - "exceed"
+    - "reach.*more.*than"
+  decrease_inflation: # Keywords indicating falling inflation
+    - "decrease.*by"
+    - "fall.*by"
+    - "lower.*than"
+    - "below"
+    - "less.*than"
+  market_polarity_overrides:
+    # Manual polarity overrides can be added here if needed

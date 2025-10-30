@@ -1,0 +1,50 @@
+{
+  "custom_world_affairs/will-carney-say-land-reform-during-canadian-election-debate-on-april-17_537279.csv": {
+    "decision": "exclude",
+    "timestamp": "2025-10-27T14:30:10.945811"
+  },
+  "geopolitics__foreign_policy_comprehensive/will-carney-say-land-reform-during-canadian-election-debate-on-april-17_537279.csv": {
+    "decision": "exclude",
+    "timestamp": "2025-10-27T14:30:11.551348"
+  },
+  "custom_world_affairs/will-poilievre-say-land-lumber-during-canadian-election-debate-on-april-17_537297.csv": {
+    "decision": "exclude",
+    "timestamp": "2025-10-27T14:30:12.461194"
+  },
+  "geopolitics__foreign_policy_comprehensive/will-poilievre-say-land-lumber-during-canadian-election-debate-on-april-17_537297.csv": {
+    "decision": "exclude",
+    "timestamp": "2025-10-27T14:30:12.950614"
+  },
+  "custom_world_affairs/will-carney-say-elbows-up-during-canadian-election-debate-on-april-17_537278.csv": {
+    "decision": "exclude",
+    "timestamp": "2025-10-27T14:30:13.474766"
+  },
+  "geopolitics__foreign_policy_comprehensive/will-carney-say-elbows-up-during-canadian-election-debate-on-april-17_537278.csv": {
+    "decision": "exclude",
+    "timestamp": "2025-10-27T14:30:14.078723"
+  },
+  "custom_world_affairs/will-carney-say-doug-or-ford-during-canadian-election-debate-on-april-17_537282.csv": {
+    "decision": "exclude",
+    "timestamp": "2025-10-27T14:30:14.638914"
+  },
+  "geopolitics__foreign_policy_comprehensive/will-carney-say-doug-or-ford-during-canadian-election-debate-on-april-17_537282.csv": {
+    "decision": "exclude",
+    "timestamp": "2025-10-27T14:30:15.241524"
+  },
+  "custom_world_affairs/will-carney-say-french-3-times-during-canadian-election-debate-on-april-17_537275.csv": {
+    "decision": "exclude",
+    "timestamp": "2025-10-27T14:30:16.427406"
+  },
+  "geopolitics__foreign_policy_comprehensive/will-carney-say-french-3-times-during-canadian-election-debate-on-april-17_537275.csv": {
+    "decision": "exclude",
+    "timestamp": "2025-10-27T14:30:17.415370"
+  },
+  "politics_(us_election)/will-another-candidate-win-the-mi-12-democratic-house-primary_501362.csv": {
+    "decision": "exclude",
+    "timestamp": "2025-10-27T14:47:53.878667"
+  },
+  "NaN": {
+    "decision": "exclude",
+    "timestamp": "2025-10-27T14:48:16.024366"
+  }
+}

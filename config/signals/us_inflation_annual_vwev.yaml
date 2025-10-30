@@ -1,0 +1,41 @@
+signal_name: US_INFLATION_ANNUAL
+description: "Annual Inflation Level Expectations - Volume Weighted Expected Value from CPI Threshold Markets"
+input_manifest_files:
+  - "polymarket_data/manifest/_manifest_inflation.csv"
+output_file: "data/processed_signals/signal_vwev_inflation_annual.csv"
+
+# Event grouping for annual forecasts - groups by year/annual periods
+event_grouping_pattern: "2025"  # Simple pattern - matches "2025" in questions
+generator_type: "vwev_rolled"
+
+# Event grouping for annual forecasts - groups by year or annual periods
+event_grouping_pattern: "(20\d{2})|(annual inflation)"  # Matches 2025, 2024, etc. or "annual inflation"
+roll_on_field: "volume"
+open_bin_handling_method: "fit_pareto"
+
+# Signal generation parameters
+min_quality_score: 20
+lookback_days: 180
+
+# Expected value calculation parameters
+distribution_bins:
+  percentiles: [0.1, 0.25, 0.5, 0.75, 0.9, 0.95, 0.99]
+
+# Analysis configuration - use signal changes, not levels
+use_signal_changes: true
+
+polarity_rules:
+  concept_description: "Annual Inflation Levels"
+  increase_inflation: # Keywords indicating high inflation expectations
+    - "reach.*more.*than"
+    - "more.*than"
+    - "higher.*than"
+    - "exceed"
+    - "above"
+  decrease_inflation: # Keywords indicating low inflation expectations
+    - "less.*than"
+    - "below"
+    - "lower.*than"
+    - "under"
+  market_polarity_overrides:
+    # Manual polarity overrides can be added here if needed

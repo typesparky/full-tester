@@ -1,0 +1,32 @@
+{
+  "manual_flags": {
+    "us_inflation": {
+      "excludes": [
+        "some_irrelevant_market.csv"
+      ],
+      "includes": [
+        "will-cpi-be-above-3-percent-by-end-of-year.csv"
+      ]
+    },
+    "fed_rates": {
+      "excludes": [],
+      "includes": []
+    },
+    "us_gdp": {
+      "excludes": [],
+      "includes": []
+    },
+    "geopolitics": {
+      "excludes": [
+        "will-there-be-a-squirrel-sighting-today.csv"
+      ],
+      "includes": []
+    },
+    "politics": {
+      "excludes": [],
+      "includes": [
+        "will-trump-win-2024-presidential-election.csv"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+filename,question,volume,active
+will_monthly_inflation_increase_by_01_or_less_in_s_594153.csv,"Will monthly inflation increase by 0.1% or less in September?",5000,true
+will_monthly_inflation_increase_by_02_in_september_594154.csv,"Will monthly inflation increase by 0.2% in September?",3000,true
+will_monthly_inflation_increase_by_03_in_september_594155.csv,"Will monthly inflation increase by 0.3% in September?",4000,true
+will_monthly_inflation_increase_by_04_in_september_594156.csv,"Will monthly inflation increase by 0.4% in September?",2500,true
+will_monthly_inflation_increase_by_05_or_more_in_s_594157.csv,"Will monthly inflation increase by 0.5% or more in September?",3500,true
+will_inflation_reach_more_than_3_in_2025_522145.csv,"Will inflation reach more than 3% in 2025?",6000,true
+will_inflation_reach_more_than_4_in_2025_522146.csv,"Will inflation reach more than 4% in 2025?",5200,true
+will_inflation_reach_more_than_5_in_2025_522147.csv,"Will inflation reach more than 5% in 2025?",4800,true
+will_inflation_reach_more_than_6_in_2025_522148.csv,"Will inflation reach more than 6% in 2025?",4500,true
+will_inflation_reach_more_than_8_in_2025_522149.csv,"Will inflation reach more than 8% in 2025?",4000,true
+will_inflation_reach_more_than_10_in_2025_522150.csv,"Will inflation reach more than 10% in 2025?",3800,true

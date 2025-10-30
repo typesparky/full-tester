@@ -1,0 +1,14 @@
+analysis_name: "Geopolitical_Uncertainty_Changes_Correlation_Analysis"
+analyzer_type: "correlation"
+signal_file: "sector_signals/geopolitical_uncertainty_signal.csv"
+asset_config: "config/assets/assets_to_test.yaml"
+parameters:
+  calculate_log_returns: true  # Keep log returns for assets (best practice)
+  check_stationarity: true     # Perform ADF tests on all series
+  use_signal_changes: true     # Use signal.diff() for proper stationarity (CRITICAL FIX)
+  lags_to_test: [-5, -3, -1, 0, 1, 3, 5]
+  rolling_window: 60
+  run_simple_regression: true  # Run AssetReturn ~ SignalChange regression
+  test_granger_causality: true # ADD: Test if signal changes Granger-cause asset returns
+  plot_autocorrelation: true   # ADD: Plot signal change autocorrelation
+output_dir: "analysis_results_proper_stationarity/"

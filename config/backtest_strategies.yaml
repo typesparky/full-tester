@@ -1,0 +1,138 @@
+# ==========================================================
+# PREMADE STRATEGY LIBRARY FOR MILITARY ACTIONS
+# ==========================================================
+# Defines 6 core entry strategies that can be combined with ATR exit.
+# Entry strategies are based on different hypotheses of how signals relate to price.
+#
+# ENTRY STRATEGIES (6 total)
+# 1. MOMENTUM_LS - Direct signal follower (long/short)
+# 2. MOMENTUM_LONG_ONLY - Direct signal follower (long only)
+# 3. MOMENTUM_SHORT_ONLY - Direct signal follower (short only)
+# 4. MEAN_REVERSION_LS - Counter-indicator (long/short)
+# 5. MEAN_REVERSION_LONG_ONLY - Counter-indicator (long only)
+# 6. MEAN_REVERSION_SHORT_ONLY - Counter-indicator (short only)
+#
+# EXIT STRATEGY OPTIONS
+# - SIGNAL_NEUTRAL: Exit when signal returns to neutral zone (40-60%)
+# - ATR_TRAILING_STOP: 1.5x Daily ATR trailing profit stop
+#
+# Configuration Reference:
+# strategy_type: "momentum" or "mean_reversion"
+# strategy_direction: "long_short", "long_only", or "short_only"
+# entry_percentile_high: Signal percentile for trigger (higher = rare events)
+# entry_percentile_low: Signal percentile for fade trigger (lower = extreme)
+# exit_logic: Exit method (currently both support same exit options)
+# ==========================================================
+
+strategies:
+
+  # --- MOMENTUM HYPOTHESIS: Follow the signal directly ---
+
+  MOMENTUM_LS:
+    name: "Momentum (Long/Short)"
+    description: "Direct follower: Long when signal rises above 80%, Short when signal drops below 20%"
+    strategy_type: "momentum"
+    strategy_direction: "long_short"
+    entry_percentile_high: 0.80  # Enter LONG when signal > 80th percentile
+    entry_percentile_low: 0.20   # Enter SHORT when signal < 20th percentile
+    compatible_exits: ["signal_neutral", "atr_trailing_stop"]
+    notes: "Classic momentum strategy - assumes high signal = upward momentum, low signal = downward momentum"
+
+  MOMENTUM_LONG_ONLY:
+    name: "Momentum (Long Only)"
+    description: "Direct follower for longs only: Enter long when signal rises above 80%"
+    strategy_type: "momentum"
+    strategy_direction: "long_only"
+    entry_percentile_high: 0.80  # Enter LONG when signal > 80th percentile
+    entry_percentile_low: 0.0    # (Not used)
+    compatible_exits: ["signal_neutral", "atr_trailing_stop"]
+    notes: "Conservative version - only takes long positions when momentum is positive"
+
+  MOMENTUM_SHORT_ONLY:
+    name: "Momentum (Short Only)"
+    description: "Direct follower for shorts only: Enter short when signal drops below 20%"
+    strategy_type: "momentum"
+    strategy_direction: "short_only"
+    entry_percentile_high: 1.0   # (Not used)
+    entry_percentile_low: 0.20   # Enter SHORT when signal < 20th percentile
+    compatible_exits: ["signal_neutral", "atr_trailing_stop"]
+    notes: "Hedging version - only takes short positions when momentum turns negative"
+
+  # --- MEAN REVERSION HYPOTHESIS: Fade signal extremes ---
+
+  MEAN_REVERSION_LS:
+    name: "Mean Reversion (Long/Short)"
+    description: "Counter-indicator: Enter long when signal is extremely low (<10%), short when extremely high (>90%)"
+    strategy_type: "mean_reversion"
+    strategy_direction: "long_short"
+    entry_percentile_high: 0.90  # Enter SHORT when signal > 90th percentile (extreme high = reversal)
+    entry_percentile_low: 0.10   # Enter LONG when signal < 10th percentile (extreme low = reversal)
+    compatible_exits: ["signal_neutral", "atr_trailing_stop"]
+    notes: "Assumes signal extremes are overreactions that get corrected"
+
+  MEAN_REVERSION_LONG_ONLY:
+    name: "Mean Reversion (Long Only)"
+    description: "Buy the dip: Enter long when signal crashes below 10%"
+    strategy_type: "mean_reversion"
+    strategy_direction: "long_only"
+    entry_percentile_high: 1.0   # (Not used)
+    entry_percentile_low: 0.10   # Enter LONG when signal < 10th percentile
+    compatible_exits: ["signal_neutral", "atr_trailing_stop"]
+    notes: "Classic 'buy the fear' strategy - enters during panic selling"
+
+  MEAN_REVERSION_SHORT_ONLY:
+    name: "Mean Reversion (Short Only)"
+    description: "Sell the greed: Enter short when signal peaks above 90%"
+    strategy_type: "mean_reversion"
+    strategy_direction: "short_only"
+    entry_percentile_high: 0.90  # Enter SHORT when signal > 90th percentile
+    entry_percentile_low: 0.0    # (Not used)
+    compatible_exits: ["signal_neutral", "atr_trailing_stop"]
+    notes: "Classic 'sell the euphoria' strategy - fades extreme bullish sentiment"
+
+exit_logic_options:
+
+  signal_neutral:
+    name: "Signal Neutral Exit"
+    description: "Exit position when signal returns to neutral zone (40-60% percentile)"
+    params:
+      neutral_band: [0.40, 0.60]
+    notes: "Good for signal-driven strategies, exits when signal normalizes"
+
+  atr_trailing_stop:
+    name: "ATR Trailing Stop Exit"
+    description: "Use Average True Range for trailing profit stop-loss"
+    params:
+      atr_period: 14            # Lookback period for ATR calculation
+      atr_multiplier: 1.5       # ATR multiplier for stop distance
+      atr_timeframe: "DAILY"    # Use daily ATR (can be "WEEKLY" for 5-day rolling)
+    notes: "Professional risk management - trails profits, cuts losses automatically"
+
+# --- TESTING WORKFLOWS ---
+
+testing_workflows:
+
+  full_comparison:
+    name: "Full Strategy Comparison"
+    description: "Test all 6 strategies with both exit types (12 total combinations)"
+    strategies: ["MOMENTUM_LS", "MOMENTUM_LONG_ONLY", "MOMENTUM_SHORT_ONLY",
+                 "MEAN_REVERSION_LS", "MEAN_REVERSION_LONG_ONLY", "MEAN_REVERSION_SHORT_ONLY"]
+    exit_logic: "both"  # Test with both exit types
+
+  momentum_only:
+    name: "Momentum Strategies Only"
+    description: "Test all momentum-based strategies with ATR exits"
+    strategies: ["MOMENTUM_LS", "MOMENTUM_LONG_ONLY", "MOMENTUM_SHORT_ONLY"]
+    exit_logic: "atr_trailing_stop"
+
+  mean_reversion_atr:
+    name: "Mean Reversion with ATR"
+    description: "Test counter-indicator strategies with ATR exits"
+    strategies: ["MEAN_REVERSION_LS", "MEAN_REVERSION_LONG_ONLY", "MEAN_REVERSION_SHORT_ONLY"]
+    exit_logic: "atr_trailing_stop"
+
+  best_practices:
+    name: "Best Practice Combo"
+    description: "Industry-standard momentum + ATR combination"
+    strategies: ["MOMENTUM_LS"]
+    exit_logic: "atr_trailing_stop"

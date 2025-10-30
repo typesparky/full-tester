@@ -1,0 +1,23 @@
+MILITARY ACTIONS SIGNAL - COMPREHENSIVE MARKET ANALYSIS
+============================================================
+
+Total Markets Considered: 434
+Markets Included in Signal: 34
+Markets Filtered Out: 400
+Inclusion Rate: 7.8%
+
+Total Volume Considered: $380,406,865
+Total Volume Included: $5,372,869
+
+SIGNAL GENERATION PROCESS:
+1. Keyword matching from YAML config with regex patterns
+2. Special case handling for NATO Article 5 and military terms
+3. Quality filters (international, non-speech markets)
+4. Volume-based weighting in VWP calculation
+5. Risk polarity scoring (+ for escalation, - for de-escalation)
+6. Daily aggregation and normalization
+
+OUTPUT FILES:
+- all_434_markets_considered_comprehensive.csv (complete list)
+- markets_included_in_signal_66.csv (final signal markets)
+- markets_filtered_out_368.csv (excluded markets)

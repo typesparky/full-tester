@@ -1,0 +1,121 @@
+filter_categories:
+  foreign_markets:
+    excluded: !!python/object/apply:numpy._core.multiarray.scalar
+    - &id001 !!python/object/apply:numpy.dtype
+      args:
+      - i8
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - -1
+      - -1
+      - 0
+    - !!binary |
+      AAAAAAAAAAA=
+    reasons: {}
+    remaining: 433
+  irrelevant_content:
+    excluded: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAAAA=
+    reasons:
+      'Pattern: celebrity leader': !!python/object/apply:numpy._core.multiarray.scalar
+      - *id001
+      - !!binary |
+        AAAAAAAAAAA=
+      'Pattern: first leader out in': !!python/object/apply:numpy._core.multiarray.scalar
+      - *id001
+      - !!binary |
+        AAAAAAAAAAA=
+      'Pattern: nobel peace prize': !!python/object/apply:numpy._core.multiarray.scalar
+      - *id001
+      - !!binary |
+        AAAAAAAAAAA=
+      'Pattern: rap permusic': !!python/object/apply:numpy._core.multiarray.scalar
+      - *id001
+      - !!binary |
+        AAAAAAAAAAA=
+    remaining: 319
+  placeholders_template:
+    excluded: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      cgAAAAAAAAA=
+    reasons:
+      'Pattern: candidate [1-9]': !!python/object/apply:numpy._core.multiarray.scalar
+      - *id001
+      - !!binary |
+        AAAAAAAAAAA=
+      'Pattern: country [a-z]': !!python/object/apply:numpy._core.multiarray.scalar
+      - *id001
+      - !!binary |
+        AAAAAAAAAAA=
+      'Pattern: hold the second most seats': !!python/object/apply:numpy._core.multiarray.scalar
+      - *id001
+      - !!binary |
+        EwAAAAAAAAA=
+      'Pattern: option [a-z]': !!python/object/apply:numpy._core.multiarray.scalar
+      - *id001
+      - !!binary |
+        AAAAAAAAAAA=
+      'Pattern: party [a-z]': !!python/object/apply:numpy._core.multiarray.scalar
+      - *id001
+      - !!binary |
+        FAAAAAAAAAA=
+      'Pattern: person [a-z]': !!python/object/apply:numpy._core.multiarray.scalar
+      - *id001
+      - !!binary |
+        UwAAAAAAAAA=
+    remaining: 319
+  speech_rhetoric:
+    excluded: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAAAA=
+    reasons:
+      'Pattern: debate.*word': !!python/object/apply:numpy._core.multiarray.scalar
+      - *id001
+      - !!binary |
+        AAAAAAAAAAA=
+      'Pattern: will.*comment.*on': !!python/object/apply:numpy._core.multiarray.scalar
+      - *id001
+      - !!binary |
+        AAAAAAAAAAA=
+      'Pattern: will.*mention.*during': !!python/object/apply:numpy._core.multiarray.scalar
+      - *id001
+      - !!binary |
+        AAAAAAAAAAA=
+      'Pattern: will.*say.*how': !!python/object/apply:numpy._core.multiarray.scalar
+      - *id001
+      - !!binary |
+        AAAAAAAAAAA=
+      'Pattern: will.*speak.*during': !!python/object/apply:numpy._core.multiarray.scalar
+      - *id001
+      - !!binary |
+        AAAAAAAAAAA=
+      'Pattern: will.*statement.*about': !!python/object/apply:numpy._core.multiarray.scalar
+      - *id001
+      - !!binary |
+        AAAAAAAAAAA=
+    remaining: 433
+  trivial_minimal:
+    excluded: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      BQAAAAAAAAA=
+    reasons:
+      'Volume: 0 < vol < 100': !!python/object/apply:numpy._core.multiarray.scalar
+      - *id001
+      - !!binary |
+        BQAAAAAAAAA=
+    remaining: 314
+final_count: 314
+original_count: 433
+timestamp: '2025-10-27T17:33:55.700158'
+total_excluded: 119

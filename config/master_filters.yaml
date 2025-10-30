@@ -1,0 +1,44 @@
+master_filters:
+  # Exclusion categories applied globally before signal generation
+  categories:
+    foreign_markets:
+      enabled: true
+      description: "Exclude non-domestic markets for domestic signal focus"
+      detect_pattern: "questions involving international entities for US signals"
+
+    speech_rhetoric:
+      enabled: true
+      description: "Exclude speech/rhetoric markets ('will X say...')"
+      detect_patterns:
+        - "will.*say.*how"
+        - "will.*speak.*during"
+        - "will.*comment.*on"
+        - "will.*statement.*about"
+        - "will.*mention.*during"
+        - "debate.*word"
+
+    placeholders_template:
+      enabled: true
+      description: "Exclude template/placeholder markets"
+      detect_patterns:
+        - "person [a-z]"
+        - "party [a-z]"
+        - "country [a-z]"
+        - "candidate [1-9]"
+        - "option [a-z]"
+        - "hold the second most seats"
+
+    irrelevant_content:
+      enabled: true
+      description: "Exclude irrelevant/ironic content"
+      detect_patterns:
+        - "nobel peace prize"
+        - "first leader out in"
+        - "rap permusic"  # Note: typo in original, keeping as-is
+        - "celebrity leader"
+
+    trivial_minimal:
+      enabled: true
+      description: "Exclude trivial or very low information markets"
+      volume_threshold: 100
+      description_length_max: 50

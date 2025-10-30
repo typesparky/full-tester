@@ -1,0 +1,51 @@
+UNIFIED SIGNAL METHODOLOGY END-TO-END TEST REPORT
+============================================================
+
+SUCCESS RATE: 3/5 concepts generated
+SUCCESSFUL: us_gdp, geopolitics, politics
+FAILED: us_inflation, fed_rates
+
+CONCEPT: US_INFLATION
+  Success: False
+  Error: empty_result
+  Stage 1 Markets: 0
+  Stage 2 Days: 0
+  Stage 3: {}
+
+CONCEPT: FED_RATES
+  Success: False
+  Error: empty_result
+  Stage 1 Markets: 14
+  Stage 2 Days: 0
+  Stage 3: {}
+
+CONCEPT: US_GDP
+  Success: True
+  Signal Days: 72
+  Signal Mean: 0.2478
+  Signal Std: 0.0494
+  Signal Range: [0.1977, 0.3322]
+  Stage 1 Markets: 10
+  Stage 2 Days: 72
+  Stage 3: {'days': 72, 'status': 'EMERGING'}
+
+CONCEPT: GEOPOLITICS
+  Success: True
+  Signal Days: 290
+  Signal Mean: 0.1479
+  Signal Std: 0.1432
+  Signal Range: [0.0035, 0.9940]
+  Stage 1 Markets: 79
+  Stage 2 Days: 290
+  Stage 3: {'days': 290, 'status': 'EMERGING'}
+
+CONCEPT: POLITICS
+  Success: True
+  Signal Days: 923
+  Signal Mean: 0.3704
+  Signal Std: 0.2281
+  Signal Range: [0.0867, 0.9955]
+  Stage 1 Markets: 328
+  Stage 2 Days: 923
+  Stage 3: {'days': 923, 'status': 'VALID'}
+

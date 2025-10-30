@@ -1,0 +1,4341 @@
+{
+  "us_inflation": {
+    "concept_name": "US Inflation Pressure",
+    "keywords": [
+      "inflation",
+      "cpi",
+      "price increases",
+      "consumer price"
+    ],
+    "market_type": "quantitative",
+    "min_volume": 2000.0,
+    "total_markets_found": 0,
+    "manual_flags": {},
+    "valid_markets_detailed": [],
+    "excluded_files": [],
+    "low_volume_files": []
+  },
+  "fed_rates": {
+    "concept_name": "Fed Interest Rate Expectations",
+    "keywords": [
+      "fed",
+      "federal reserve",
+      "interest rate",
+      "fed funds",
+      "fomc"
+    ],
+    "market_type": "quantitative",
+    "min_volume": 2000.0,
+    "total_markets_found": 14,
+    "manual_flags": {},
+    "valid_markets_detailed": [
+      {
+        "filename": "custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-17-18m_535707.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be between 17-18m?",
+        "volume": 40129.839646,
+        "polarity": 1,
+        "matched_keywords": [
+          "fed"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-20-21m_535710.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be between 20-21m?",
+        "volume": 37697.322903,
+        "polarity": 1,
+        "matched_keywords": [
+          "fed"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-19-20m_535709.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be between 19-20m?",
+        "volume": 31315.843943,
+        "polarity": 1,
+        "matched_keywords": [
+          "fed"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-greater-than-21m_535711.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be greater than 21m?",
+        "volume": 21700.074932,
+        "polarity": 1,
+        "matched_keywords": [
+          "fed"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-less-than-16m_535705.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be less than 16m?",
+        "volume": 19913.903335,
+        "polarity": 1,
+        "matched_keywords": [
+          "fed"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-16-17m_535706.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be between 16-17m?",
+        "volume": 18634.872952,
+        "polarity": 1,
+        "matched_keywords": [
+          "fed"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-18-19m_535708.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be between 18-19m?",
+        "volume": 10969.444312,
+        "polarity": 1,
+        "matched_keywords": [
+          "fed"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-17-18m_535707.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be between 17-18m?",
+        "volume": 40129.839646,
+        "polarity": 1,
+        "matched_keywords": [
+          "fed"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-20-21m_535710.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be between 20-21m?",
+        "volume": 37697.322903,
+        "polarity": 1,
+        "matched_keywords": [
+          "fed"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-19-20m_535709.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be between 19-20m?",
+        "volume": 31315.843943,
+        "polarity": 1,
+        "matched_keywords": [
+          "fed"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-greater-than-21m_535711.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be greater than 21m?",
+        "volume": 21700.074932,
+        "polarity": 1,
+        "matched_keywords": [
+          "fed"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-less-than-16m_535705.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be less than 16m?",
+        "volume": 19913.903335,
+        "polarity": 1,
+        "matched_keywords": [
+          "fed"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-16-17m_535706.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be between 16-17m?",
+        "volume": 18634.872952,
+        "polarity": 1,
+        "matched_keywords": [
+          "fed"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-18-19m_535708.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be between 18-19m?",
+        "volume": 10969.444312,
+        "polarity": 1,
+        "matched_keywords": [
+          "fed"
+        ]
+      }
+    ],
+    "excluded_files": [],
+    "low_volume_files": []
+  },
+  "us_gdp": {
+    "concept_name": "US Economic Growth",
+    "keywords": [
+      "gdp",
+      "economic growth",
+      "economy",
+      "recession"
+    ],
+    "market_type": "quantitative",
+    "min_volume": 2000.0,
+    "total_markets_found": 10,
+    "manual_flags": {},
+    "valid_markets_detailed": [
+      {
+        "filename": "treasury_&_yields_(2025)/saudi-arabia-non-oil-gdp-up-in-q3_252723.csv",
+        "question": "Saudi Arabia non-oil GDP % up in Q3?",
+        "volume": 4327.58488,
+        "polarity": 1,
+        "matched_keywords": [
+          "gdp"
+        ]
+      },
+      {
+        "filename": "us_gdp/saudi-arabia-non-oil-gdp-up-in-q3_252723.csv",
+        "question": "Saudi Arabia non-oil GDP % up in Q3?",
+        "volume": 4327.58488,
+        "polarity": 1,
+        "matched_keywords": [
+          "gdp"
+        ]
+      },
+      {
+        "filename": "inflation/saudi-arabia-non-oil-gdp-up-in-q3_252723.csv",
+        "question": "Saudi Arabia non-oil GDP % up in Q3?",
+        "volume": 4327.58488,
+        "polarity": 1,
+        "matched_keywords": [
+          "gdp"
+        ]
+      },
+      {
+        "filename": "fed_&_interest_rates/saudi-arabia-non-oil-gdp-up-in-q3_252723.csv",
+        "question": "Saudi Arabia non-oil GDP % up in Q3?",
+        "volume": 4327.58488,
+        "polarity": 1,
+        "matched_keywords": [
+          "gdp"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-us-gdp-growth-in-2025-be-between-0pt5-and-1pt0_576877.csv",
+        "question": "Will US GDP growth in 2025 be between 0.5% and 1.0%?",
+        "volume": 12224.836605,
+        "polarity": 1,
+        "matched_keywords": [
+          "gdp"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-us-gdp-growth-in-2025-be-greater-than-2pt5_576881.csv",
+        "question": "Will US GDP growth in 2025 be greater than 2.5%?",
+        "volume": 12033.065522,
+        "polarity": 1,
+        "matched_keywords": [
+          "gdp"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-us-gdp-growth-in-2025-be-between-2pt0-and-2pt5_576880.csv",
+        "question": "Will US GDP growth in 2025 be between 2.0% and 2.5%?",
+        "volume": 11782.269631,
+        "polarity": 1,
+        "matched_keywords": [
+          "gdp"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-us-gdp-growth-in-2025-be-between-1pt0-and-1pt5_576878.csv",
+        "question": "Will US GDP growth in 2025 be between 1.0% and 1.5%?",
+        "volume": 10267.404372,
+        "polarity": 1,
+        "matched_keywords": [
+          "gdp"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-us-gdp-growth-in-2025-be-between-1pt5-and-2pt0_576879.csv",
+        "question": "Will US GDP growth in 2025 be between 1.5% and 2.0%?",
+        "volume": 9058.436403,
+        "polarity": 1,
+        "matched_keywords": [
+          "gdp"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-us-gdp-growth-in-2025-be-less-than-0pt5_576876.csv",
+        "question": "Will US GDP growth in 2025 be less than 0.5%?",
+        "volume": 6911.488096,
+        "polarity": 1,
+        "matched_keywords": [
+          "gdp"
+        ]
+      }
+    ],
+    "excluded_files": [],
+    "low_volume_files": []
+  },
+  "geopolitics": {
+    "concept_name": "Global Geopolitical Stability",
+    "keywords": [
+      "war",
+      "conflict",
+      "peace",
+      "sanctions",
+      "nato",
+      "china",
+      "russia",
+      "ukraine"
+    ],
+    "market_type": "binary",
+    "min_volume": 5000.0,
+    "total_markets_found": 97,
+    "manual_flags": {},
+    "valid_markets_detailed": [
+      {
+        "filename": "geopolitics__war/will-another-nation-declare-war-in-the-israel-hamas-conflict_252588.csv",
+        "question": "Will another nation declare war in the Israel-Hamas conflict?",
+        "volume": 97301.030549,
+        "polarity": 1,
+        "matched_keywords": [
+          "war",
+          "conflict"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/india-pakistan-declare-war-before-june_542196.csv",
+        "question": "India-Pakistan declare war before June?",
+        "volume": 813337.756198,
+        "polarity": 1,
+        "matched_keywords": [
+          "war"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-russia-capture-rodynske-by-august-31_566614.csv",
+        "question": "Will Russia capture Rodynske by August 31?",
+        "volume": 471024.387734,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/ukraine-hits-moscow-by-july-31_563659.csv",
+        "question": "Ukraine hits Moscow by July 31?",
+        "volume": 330859.0402,
+        "polarity": 1,
+        "matched_keywords": [
+          "ukraine"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-russia-capture-lyman-in-2025-816_566493.csv",
+        "question": "Will Russia capture Lyman by December 31?",
+        "volume": 292610.513343,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-russia-capture-slovainsk-in-2025_566326.csv",
+        "question": "Will Russia capture Slovainsk in 2025?",
+        "volume": 276849.92522,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-russia-capture-novopavlivka-by-august-31_566612.csv",
+        "question": "Will Russia capture Novopavlivka by August 31?",
+        "volume": 264459.039321,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/arch-will-russia-capture-myrnohard-by-september-30_566502.csv",
+        "question": "Will Russia capture Myrnohard by September 30?",
+        "volume": 238598.059036,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/nato-article-5-in-2025-763_547955.csv",
+        "question": "NATO article 5 in 2025?",
+        "volume": 211479.948067,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-russia-capture-myrnohard-by-december-31-368_595723.csv",
+        "question": "Will Russia capture Myrnohard by December 31?",
+        "volume": 154549.74944,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/more-eu-sanctions-on-russia-by-september-30_580839.csv",
+        "question": "More EU sanctions on Russia by September 30?",
+        "volume": 127501.802681,
+        "polarity": -1,
+        "matched_keywords": [
+          "sanctions",
+          "russia"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-russia-capture-myrnohard-by-october-31_585602.csv",
+        "question": "Will Russia capture Myrnohard by October 31?",
+        "volume": 115519.939262,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/eu-sanctions-on-iran-by-september-30_575628.csv",
+        "question": "EU sanctions on Iran by September 30? ",
+        "volume": 114009.682716,
+        "polarity": -1,
+        "matched_keywords": [
+          "sanctions"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/ukraine-hits-moscow-by-september-30_580857.csv",
+        "question": "Ukraine hits Moscow by September 30?",
+        "volume": 95070.498725,
+        "polarity": 1,
+        "matched_keywords": [
+          "ukraine"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-russia-capture-novopavlivka-by-september-30_580860.csv",
+        "question": "Will Russia capture Novopavlivka by September 30?",
+        "volume": 91635.902419,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-russia-capture-novopavlivka-by-october-31_595742.csv",
+        "question": "Will Russia capture Novopavlivka by October 31?",
+        "volume": 90871.173456,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/ukraine-hits-moscow-by-august-31_566911.csv",
+        "question": "Ukraine hits Moscow by August 31?",
+        "volume": 80865.331022,
+        "polarity": 1,
+        "matched_keywords": [
+          "ukraine"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-trump-increase-tariffs-on-china-by-friday_535723.csv",
+        "question": "Will Trump increase tariffs on China by Friday?",
+        "volume": 72639.859769,
+        "polarity": 1,
+        "matched_keywords": [
+          "china"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/azerbaijan-x-armenia-peace-deal-in-2025_563414.csv",
+        "question": "Azerbaijan x Armenia peace deal in 2025?",
+        "volume": 72529.501622,
+        "polarity": 1,
+        "matched_keywords": [
+          "peace"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-eu-increase-sanctions-on-russia-before-july_544719.csv",
+        "question": "Will EU increase sanctions on Russia before July?",
+        "volume": 62552.175205,
+        "polarity": -1,
+        "matched_keywords": [
+          "sanctions",
+          "russia"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/more-eu-sanctions-on-russia-by-october-31_614692.csv",
+        "question": "More EU sanctions on Russia by October 31?",
+        "volume": 57925.664009,
+        "polarity": -1,
+        "matched_keywords": [
+          "sanctions",
+          "russia"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/ukraine-hits-moscow-by-december-31_610235.csv",
+        "question": "Ukraine hits Moscow by December 31?",
+        "volume": 56285.05529,
+        "polarity": 1,
+        "matched_keywords": [
+          "ukraine"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/china-bans-us-films-in-april_535319.csv",
+        "question": "China bans US films in April?",
+        "volume": 54774.352375,
+        "polarity": 1,
+        "matched_keywords": [
+          "china"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-china-invade-taiwan-in-may_501793.csv",
+        "question": "Will China invade Taiwan in May?",
+        "volume": 38336.093903,
+        "polarity": 1,
+        "matched_keywords": [
+          "china"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-russia-capture-drobysheve-by-october-31_609609.csv",
+        "question": "Will Russia capture Drobysheve by October 31?",
+        "volume": 36958.688308,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-russia-capture-myrnohard-by-november-30_635802.csv",
+        "question": "Will Russia capture Myrnohard by November 30?",
+        "volume": 33838.37072,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/more-eu-sanctions-on-russia-by-august-31_566719.csv",
+        "question": "More EU sanctions on Russia by August 31? ",
+        "volume": 33084.790306,
+        "polarity": -1,
+        "matched_keywords": [
+          "sanctions",
+          "russia"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-rutte-say-crypto-or-bitcoin-during-nato-public-forum-address-on-june-24_553609.csv",
+        "question": "Will Rutte say \"Crypto\" or \"Bitcoin\" during NATO Public Forum Address on June 24?",
+        "volume": 31017.951012,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/another-nato-article-4-by-october-15_607631.csv",
+        "question": "Another NATO article 4 by October 15?",
+        "volume": 26642.490681,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-china-lift-rare-earths-export-ban-by-december-31_567265.csv",
+        "question": "Will China lift rare earths export ban by December 31?",
+        "volume": 25302.896897,
+        "polarity": 1,
+        "matched_keywords": [
+          "china"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-rutte-say-ai-or-artificial-intelligence-during-nato-public-forum-address-on-june-24_553608.csv",
+        "question": "Will Rutte say \"AI\" or \"Artificial Intelligence\" during NATO Public Forum Address on June 24?",
+        "volume": 18462.702301,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-biden-let-ukraine-strike-russia-with-us-weapons_501910.csv",
+        "question": "Will Biden let Ukraine strike Russia with US weapons?",
+        "volume": 16536.204367,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia",
+          "ukraine"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-rutte-say-trump-during-nato-public-forum-address-on-june-24_553599.csv",
+        "question": "Will Rutte say \"Trump\" during NATO Public Forum Address on June 24?",
+        "volume": 15713.689954,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-rutte-say-nato-30-times-during-nato-public-forum-address-on-june-24_553594.csv",
+        "question": "Will Rutte say \"NATO\" 30+ times during NATO Public Forum Address on June 24?",
+        "volume": 13117.716324,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-rutte-say-drone-during-nato-public-forum-address-on-june-24_553606.csv",
+        "question": "Will Rutte say \"Drone\" during NATO Public Forum Address on June 24?",
+        "volume": 12696.933033,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-rutte-say-defense-20-times-during-nato-public-forum-address-on-june-24_553595.csv",
+        "question": "Will Rutte say \"Defense\" 20+ times during NATO Public Forum Address on June 24?",
+        "volume": 11825.170601,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-rutte-say-poland-during-nato-public-forum-address-on-june-24_553600.csv",
+        "question": "Will Rutte say \"Poland\" during NATO Public Forum Address on June 24?",
+        "volume": 11164.568675,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-austria-join-nato-by-december-31_569881.csv",
+        "question": "Will Austria join NATO by December 31?",
+        "volume": 7554.281986,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-rutte-say-russia-or-ukraine-10-times-during-nato-public-forum-address-on-june-24_553596.csv",
+        "question": "Will Rutte say \"Russia\" or \"Ukraine\" 10+ times during NATO Public Forum Address on June 24?",
+        "volume": 6521.018912,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato",
+          "russia",
+          "ukraine"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/india-pakistan-declare-war-before-june_542196.csv",
+        "question": "India-Pakistan declare war before June?",
+        "volume": 813337.756198,
+        "polarity": 1,
+        "matched_keywords": [
+          "war"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-russia-capture-rodynske-by-august-31_566614.csv",
+        "question": "Will Russia capture Rodynske by August 31?",
+        "volume": 471024.387734,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/ukraine-hits-moscow-by-july-31_563659.csv",
+        "question": "Ukraine hits Moscow by July 31?",
+        "volume": 330859.0402,
+        "polarity": 1,
+        "matched_keywords": [
+          "ukraine"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-russia-capture-lyman-in-2025-816_566493.csv",
+        "question": "Will Russia capture Lyman by December 31?",
+        "volume": 316409.881171,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-russia-capture-slovainsk-in-2025_566326.csv",
+        "question": "Will Russia capture Slovainsk in 2025?",
+        "volume": 287105.665188,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-russia-capture-novopavlivka-by-august-31_566612.csv",
+        "question": "Will Russia capture Novopavlivka by August 31?",
+        "volume": 264459.039321,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/arch-will-russia-capture-myrnohard-by-september-30_566502.csv",
+        "question": "Will Russia capture Myrnohard by September 30?",
+        "volume": 238598.059036,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/nato-article-5-in-2025-763_547955.csv",
+        "question": "NATO article 5 in 2025?",
+        "volume": 214811.438187,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-russia-capture-myrnohard-by-december-31-368_595723.csv",
+        "question": "Will Russia capture Myrnohard by December 31?",
+        "volume": 189916.072855,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-russia-capture-myrnohard-by-october-31_585602.csv",
+        "question": "Will Russia capture Myrnohard by October 31?",
+        "volume": 170583.585736,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-austria-join-nato-by-december-31_569881.csv",
+        "question": "Will Austria join NATO by December 31?",
+        "volume": 164436.418533,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/more-eu-sanctions-on-russia-by-september-30_580839.csv",
+        "question": "More EU sanctions on Russia by September 30?",
+        "volume": 127501.802681,
+        "polarity": -1,
+        "matched_keywords": [
+          "sanctions",
+          "russia"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/eu-sanctions-on-iran-by-september-30_575628.csv",
+        "question": "EU sanctions on Iran by September 30? ",
+        "volume": 114009.682716,
+        "polarity": -1,
+        "matched_keywords": [
+          "sanctions"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/ukraine-hits-moscow-by-september-30_580857.csv",
+        "question": "Ukraine hits Moscow by September 30?",
+        "volume": 95070.498725,
+        "polarity": 1,
+        "matched_keywords": [
+          "ukraine"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-russia-capture-novopavlivka-by-september-30_580860.csv",
+        "question": "Will Russia capture Novopavlivka by September 30?",
+        "volume": 91635.902419,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-russia-capture-novopavlivka-by-october-31_595742.csv",
+        "question": "Will Russia capture Novopavlivka by October 31?",
+        "volume": 90871.173456,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/more-eu-sanctions-on-russia-by-october-31_614692.csv",
+        "question": "More EU sanctions on Russia by October 31?",
+        "volume": 82015.673896,
+        "polarity": -1,
+        "matched_keywords": [
+          "sanctions",
+          "russia"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/ukraine-hits-moscow-by-august-31_566911.csv",
+        "question": "Ukraine hits Moscow by August 31?",
+        "volume": 80865.331022,
+        "polarity": 1,
+        "matched_keywords": [
+          "ukraine"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-trump-increase-tariffs-on-china-by-friday_535723.csv",
+        "question": "Will Trump increase tariffs on China by Friday?",
+        "volume": 72639.859769,
+        "polarity": 1,
+        "matched_keywords": [
+          "china"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/azerbaijan-x-armenia-peace-deal-in-2025_563414.csv",
+        "question": "Azerbaijan x Armenia peace deal in 2025?",
+        "volume": 72529.501622,
+        "polarity": 1,
+        "matched_keywords": [
+          "peace"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-eu-increase-sanctions-on-russia-before-july_544719.csv",
+        "question": "Will EU increase sanctions on Russia before July?",
+        "volume": 62552.175205,
+        "polarity": -1,
+        "matched_keywords": [
+          "sanctions",
+          "russia"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/ukraine-hits-moscow-by-december-31_610235.csv",
+        "question": "Ukraine hits Moscow by December 31?",
+        "volume": 60845.335276,
+        "polarity": 1,
+        "matched_keywords": [
+          "ukraine"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-russia-capture-myrnohard-by-november-30_635802.csv",
+        "question": "Will Russia capture Myrnohard by November 30?",
+        "volume": 58132.84895,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/china-bans-us-films-in-april_535319.csv",
+        "question": "China bans US films in April?",
+        "volume": 54774.352375,
+        "polarity": 1,
+        "matched_keywords": [
+          "china"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-russia-capture-drobysheve-by-october-31_609609.csv",
+        "question": "Will Russia capture Drobysheve by October 31?",
+        "volume": 42661.058579,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-china-invade-taiwan-in-may_501793.csv",
+        "question": "Will China invade Taiwan in May?",
+        "volume": 38336.093903,
+        "polarity": 1,
+        "matched_keywords": [
+          "china"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/more-eu-sanctions-on-russia-by-august-31_566719.csv",
+        "question": "More EU sanctions on Russia by August 31? ",
+        "volume": 33084.790306,
+        "polarity": -1,
+        "matched_keywords": [
+          "sanctions",
+          "russia"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-rutte-say-crypto-or-bitcoin-during-nato-public-forum-address-on-june-24_553609.csv",
+        "question": "Will Rutte say \"Crypto\" or \"Bitcoin\" during NATO Public Forum Address on June 24?",
+        "volume": 31017.951012,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-china-lift-rare-earths-export-ban-by-december-31_567265.csv",
+        "question": "Will China lift rare earths export ban by December 31?",
+        "volume": 27579.529359,
+        "polarity": 1,
+        "matched_keywords": [
+          "china"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/another-nato-article-4-by-october-15_607631.csv",
+        "question": "Another NATO article 4 by October 15?",
+        "volume": 26642.490681,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-rutte-say-ai-or-artificial-intelligence-during-nato-public-forum-address-on-june-24_553608.csv",
+        "question": "Will Rutte say \"AI\" or \"Artificial Intelligence\" during NATO Public Forum Address on June 24?",
+        "volume": 18462.702301,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-biden-let-ukraine-strike-russia-with-us-weapons_501910.csv",
+        "question": "Will Biden let Ukraine strike Russia with US weapons?",
+        "volume": 16536.204367,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia",
+          "ukraine"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-rutte-say-trump-during-nato-public-forum-address-on-june-24_553599.csv",
+        "question": "Will Rutte say \"Trump\" during NATO Public Forum Address on June 24?",
+        "volume": 15713.689954,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-rutte-say-nato-30-times-during-nato-public-forum-address-on-june-24_553594.csv",
+        "question": "Will Rutte say \"NATO\" 30+ times during NATO Public Forum Address on June 24?",
+        "volume": 13117.716324,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-rutte-say-drone-during-nato-public-forum-address-on-june-24_553606.csv",
+        "question": "Will Rutte say \"Drone\" during NATO Public Forum Address on June 24?",
+        "volume": 12696.933033,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-rutte-say-defense-20-times-during-nato-public-forum-address-on-june-24_553595.csv",
+        "question": "Will Rutte say \"Defense\" 20+ times during NATO Public Forum Address on June 24?",
+        "volume": 11825.170601,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-rutte-say-poland-during-nato-public-forum-address-on-june-24_553600.csv",
+        "question": "Will Rutte say \"Poland\" during NATO Public Forum Address on June 24?",
+        "volume": 11164.568675,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-russia-capture-lyman-by-november-30-884_642531.csv",
+        "question": "Will Russia capture Lyman by November 30?",
+        "volume": 7868.352741,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-rutte-say-russia-or-ukraine-10-times-during-nato-public-forum-address-on-june-24_553596.csv",
+        "question": "Will Rutte say \"Russia\" or \"Ukraine\" 10+ times during NATO Public Forum Address on June 24?",
+        "volume": 6521.018912,
+        "polarity": 1,
+        "matched_keywords": [
+          "nato",
+          "russia",
+          "ukraine"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/us-agrees-to-a-new-trade-deal-with-russia_566225.csv",
+        "question": "U.S. agrees to a new trade deal with \"Russia\"?",
+        "volume": 5051.807432,
+        "polarity": 1,
+        "matched_keywords": [
+          "russia"
+        ]
+      }
+    ],
+    "excluded_files": [],
+    "low_volume_files": [
+      "custom_world_affairs/us-agrees-to-a-new-trade-deal-with-russia_566225.csv",
+      "custom_world_affairs/will-rutte-say-nuclear-during-nato-public-forum-address-on-june-24_553602.csv",
+      "custom_world_affairs/will-rutte-say-deadlock-during-nato-public-forum-address-on-june-24_553597.csv",
+      "custom_world_affairs/will-rutte-say-cyberattack-or-cyber-attack-during-nato-public-forum-address-on-june-24_553607.csv",
+      "custom_world_affairs/will-rutte-say-lethal-during-nato-public-forum-address-on-june-24_553603.csv",
+      "custom_world_affairs/will-rutte-say-dome-during-nato-public-forum-address-on-june-24_553605.csv",
+      "custom_world_affairs/will-rutte-say-nazi-or-hitler-during-nato-public-forum-address-on-june-24_553604.csv",
+      "custom_world_affairs/will-rutte-say-f-35-during-nato-public-forum-address-on-june-24_553598.csv",
+      "custom_world_affairs/will-russia-capture-lyman-by-november-30-884_642531.csv",
+      "custom_world_affairs/will-rutte-say-slovakia-during-nato-public-forum-address-on-june-24_553601.csv",
+      "geopolitics__foreign_policy_comprehensive/will-rutte-say-nuclear-during-nato-public-forum-address-on-june-24_553602.csv",
+      "geopolitics__foreign_policy_comprehensive/will-rutte-say-deadlock-during-nato-public-forum-address-on-june-24_553597.csv",
+      "geopolitics__foreign_policy_comprehensive/will-rutte-say-cyberattack-or-cyber-attack-during-nato-public-forum-address-on-june-24_553607.csv",
+      "geopolitics__foreign_policy_comprehensive/will-rutte-say-lethal-during-nato-public-forum-address-on-june-24_553603.csv",
+      "geopolitics__foreign_policy_comprehensive/will-rutte-say-dome-during-nato-public-forum-address-on-june-24_553605.csv",
+      "geopolitics__foreign_policy_comprehensive/will-rutte-say-nazi-or-hitler-during-nato-public-forum-address-on-june-24_553604.csv",
+      "geopolitics__foreign_policy_comprehensive/will-rutte-say-f-35-during-nato-public-forum-address-on-june-24_553598.csv",
+      "geopolitics__foreign_policy_comprehensive/will-rutte-say-slovakia-during-nato-public-forum-address-on-june-24_553601.csv"
+    ]
+  },
+  "politics": {
+    "concept_name": "US Political Stability",
+    "keywords": [
+      "trump",
+      "biden",
+      "election",
+      "senate",
+      "house",
+      "democrat",
+      "republican"
+    ],
+    "market_type": "binary",
+    "min_volume": 10000.0,
+    "total_markets_found": 569,
+    "manual_flags": {},
+    "valid_markets_detailed": [
+      {
+        "filename": "custom_world_affairs/will-lee-jun-seok-win-2nd-place-in-the-south-korean-presidential-election_541393.csv",
+        "question": "Will Lee Jun-seok win 2nd place in the South Korean presidential election?",
+        "volume": 5714121.72447,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-han-duck-soo-win-2nd-place-in-the-south-korean-presidential-election_541391.csv",
+        "question": "Will Han Duck-soo win 2nd place in the South Korean presidential election?",
+        "volume": 4288767.039625,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-kim-moon-soo-win-2nd-place-in-the-south-korean-presidential-election_541392.csv",
+        "question": "Will Kim Moon-soo win 2nd place in the South Korean presidential election?",
+        "volume": 4024661.567987,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-lee-jae-myung-win-2nd-place-in-the-south-korean-presidential-election_541390.csv",
+        "question": "Will Lee Jae-myung win 2nd place in the South Korean presidential election?",
+        "volume": 2392656.791775,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-han-dong-hoon-win-2nd-place-in-the-south-korean-presidential-election_541394.csv",
+        "question": "Will Han Dong-hoon win 2nd place in the South Korean presidential election?",
+        "volume": 1070477.80612,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/trump-increase-share-of-black-voters_502046.csv",
+        "question": "Trump gets more black voters than in 2020?",
+        "volume": 888499.13331,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-marco-francis-win-the-2025-seychelles-presidential-election_545056.csv",
+        "question": "Will Marco Francis win the 2025 Seychelles presidential election?",
+        "volume": 729054.561386,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-hwang-kyo-ahn-win-2nd-place-in-the-south-korean-presidential-election_541407.csv",
+        "question": "Will Hwang Kyo-ahn win 2nd place in the South Korean presidential election?",
+        "volume": 507936.643206,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-progress-singapore-party-psp-win-the-2025-singapore-parliamentary-election_539205.csv",
+        "question": "Will Progress Singapore Party (PSP) win the 2025 Singapore parliamentary election?",
+        "volume": 341164.400658,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-lee-nak-yon-win-2nd-place-in-the-south-korean-presidential-election_541399.csv",
+        "question": "Will Lee Nak-yon win 2nd place in the South Korean presidential election?",
+        "volume": 310461.211,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-wavel-ramkalawan-win-the-2025-seychelles-presidential-election_545054.csv",
+        "question": "Will Wavel Ramkalawan win the 2025 Seychelles presidential election?",
+        "volume": 298235.064867,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-labor-win-the-seat-of-bennelong-in-the-2025-australian-election_537449.csv",
+        "question": "Will Labor win the Seat of Bennelong in the 2025 Australian Election?",
+        "volume": 225185.615153,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-workers-party-wp-win-the-2025-singapore-parliamentary-election_539204.csv",
+        "question": "Will Workers' Party (WP) win the 2025 Singapore parliamentary election?",
+        "volume": 204958.980323,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-lazarus-chakwera-win-the-2025-malawi-presidential-election-164_545036.csv",
+        "question": "Will Lazarus Chakwera win the 2025 Malawi presidential election?",
+        "volume": 191893.263957,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/polish-snap-election-called-in-2025_549140.csv",
+        "question": "Polish snap election called in 2025?",
+        "volume": 183048.93352,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-peter-mutharika-win-the-2025-malawi-presidential-election-439_545037.csv",
+        "question": "Will Peter Mutharika win the 2025 Malawi presidential election?",
+        "volume": 177766.60376,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-peoples-action-party-pap-win-the-2025-singapore-parliamentary-election_539203.csv",
+        "question": "Will People's Action Party (PAP) win the 2025 Singapore parliamentary election?",
+        "volume": 171261.24232,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-kim-dong-yeon-win-2nd-place-in-the-south-korean-presidential-election_541395.csv",
+        "question": "Will Kim Dong-yeon win 2nd place in the South Korean presidential election?",
+        "volume": 166643.1125,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-dr-patrick-herminie-win-the-2025-seychelles-presidential-election_545055.csv",
+        "question": "Will Dr Patrick Herminie win the 2025 Seychelles presidential election?",
+        "volume": 157339.602208,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/israel-and-saudi-arabia-normalize-relations-before-us-election_501126.csv",
+        "question": "Israel and Saudi Arabia normalize relations before U.S. election?",
+        "volume": 133184.532627,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-the-greens-win-the-seat-of-brisbane-in-the-2025-australian-election_537442.csv",
+        "question": "Will The Greens win the Seat of Brisbane in the 2025 Australian Election?",
+        "volume": 129527.591382,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/new-netherlands-election-announced-before-summer-recess_549608.csv",
+        "question": "New Netherlands election announced before Summer Recess?",
+        "volume": 125110.173606,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-hong-joon-pyo-win-2nd-place-in-the-south-korean-presidential-election_541406.csv",
+        "question": "Will Hong Joon-pyo win 2nd place in the South Korean presidential election?",
+        "volume": 114566.8245,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-ahn-cheol-soo-win-2nd-place-in-the-south-korean-presidential-election_541398.csv",
+        "question": "Will Ahn Cheol-soo win 2nd place in the South Korean presidential election?",
+        "volume": 100758.5655,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-yoo-seong-min-win-2nd-place-in-the-south-korean-presidential-election_541396.csv",
+        "question": "Will Yoo Seong-min win 2nd place in the South Korean presidential election?",
+        "volume": 96810.1935,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-yoon-suk-yeol-win-2nd-place-in-the-south-korean-presidential-election_541401.csv",
+        "question": "Will Yoon Suk Yeol win 2nd place in the South Korean presidential election?",
+        "volume": 72962.994833,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-trump-increase-tariffs-on-china-by-friday_535723.csv",
+        "question": "Will Trump increase tariffs on China by Friday?",
+        "volume": 72639.859769,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-kisna-louise-win-the-2025-seychelles-presidential-election_545061.csv",
+        "question": "Will Kisna Louise win the 2025 Seychelles presidential election?",
+        "volume": 72050.84705,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-joe-biden-attend-pope-francis-funeral_538975.csv",
+        "question": "Will Joe Biden attend Pope Francis' funeral?",
+        "volume": 71956.338345,
+        "polarity": 1,
+        "matched_keywords": [
+          "biden"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-cdp-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564630.csv",
+        "question": "Will CDP hold the second most seats in the House of Councillors following the 2025 Japan election?",
+        "volume": 71930.355117,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "house"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-poilievre-say-tariffs-3-times-during-canadian-election-debate-on-april-17_537295.csv",
+        "question": "Will Poilievre say \"Tariffs\" 3+ times during Canadian Election Debate on April 17?",
+        "volume": 70121.989819,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-alain-st-ange-win-the-2025-seychelles-presidential-election_545057.csv",
+        "question": "Will Alain St Ange win the 2025 Seychelles presidential election?",
+        "volume": 70065.263501,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-na-kyung-won-win-2nd-place-in-the-south-korean-presidential-election_541397.csv",
+        "question": "Will Na Kyung-won win 2nd place in the South Korean presidential election?",
+        "volume": 68774.3995,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-poilievre-say-trump-3-times-during-canadian-election-debate-on-april-17_537293.csv",
+        "question": "Will Poilievre say \"Trump\" 3+ times during Canadian Election Debate on April 17?",
+        "volume": 66875.53055,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump",
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/south-korea-election-scheduled-by-friday_534187.csv",
+        "question": "South Korea election scheduled by Friday?",
+        "volume": 66313.73388,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-poilievre-say-canada-first-during-canadian-election-debate-on-april-17_537301.csv",
+        "question": "Will Poilievre say \"Canada First\" during Canadian Election Debate on April 17?",
+        "volume": 65497.19787,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-valid-votes-be-fewer-than-5pt8-million-in-bolivia-election_574991.csv",
+        "question": "Will valid votes be fewer than 5.8 million in Bolivia election?",
+        "volume": 64393.604428,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-charles-de-clarisse-win-the-2025-seychelles-presidential-election_545063.csv",
+        "question": "Will Charles De Clarisse win the 2025 Seychelles presidential election?",
+        "volume": 63488.026508,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-won-hee-ryong-win-2nd-place-in-the-south-korean-presidential-election_541403.csv",
+        "question": "Will Won Hee-ryong win 2nd place in the South Korean presidential election?",
+        "volume": 61530.1277,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-ralph-volcre-win-the-2025-seychelles-presidential-election_545058.csv",
+        "question": "Will Ralph Volcère win the 2025 Seychelles presidential election?",
+        "volume": 60082.702563,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-cho-kuk-win-2nd-place-in-the-south-korean-presidential-election_541400.csv",
+        "question": "Will Cho Kuk win 2nd place in the South Korean presidential election?",
+        "volume": 59571.6805,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-oh-se-hoon-win-2nd-place-in-the-south-korean-presidential-election_541405.csv",
+        "question": "Will Oh Se-hoon win 2nd place in the South Korean presidential election?",
+        "volume": 59368.0465,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-robin-johnston-win-the-2025-seychelles-presidential-election_545059.csv",
+        "question": "Will Robin Johnston win the 2025 Seychelles presidential election?",
+        "volume": 57409.679761,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-poilievre-say-elon-or-musk-during-canadian-election-debate-on-april-17_537296.csv",
+        "question": "Will Poilievre say \"Elon\" or \"Musk\" during Canadian Election Debate on April 17?",
+        "volume": 55463.613038,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-pap-win-less-than-75-seats-in-the-singapore-election_539224.csv",
+        "question": "Will PAP win less than 75 seats in the Singapore election?",
+        "volume": 54387.062141,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-carney-say-immigration-3-times-during-canadian-election-debate-on-april-17_537273.csv",
+        "question": "Will Carney say \"Immigration\" 3+ times during Canadian Election Debate on April 17?",
+        "volume": 54169.486637,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-kim-kyong-soo-win-2nd-place-in-the-south-korean-presidential-election_541404.csv",
+        "question": "Will Kim Kyong-soo win 2nd place in the South Korean presidential election?",
+        "volume": 53192.282817,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/trump-x-xi-talk-before-june_544925.csv",
+        "question": "Trump x Xi talk before June?",
+        "volume": 52975.52629,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-robert-moumou-win-the-2025-seychelles-presidential-election_545062.csv",
+        "question": "Will Robert Moumou win the 2025 Seychelles presidential election?",
+        "volume": 52264.502312,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-valid-votes-be-more-than-6pt2-million-in-bolivia-election_574994.csv",
+        "question": "Will valid votes be more than 6.2 million in Bolivia election?",
+        "volume": 49911.128861,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-joyce-banda-win-the-2025-malawi-presidential-election-739_545041.csv",
+        "question": "Will Joyce Banda win the 2025 Malawi presidential election?",
+        "volume": 49574.23734,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/spain-snap-election-called-in-2025_547957.csv",
+        "question": "Spain snap election called in 2025?",
+        "volume": 49346.835577,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-kim-boo-kyum-win-2nd-place-in-the-south-korean-presidential-election_541402.csv",
+        "question": "Will Kim Boo-kyum win 2nd place in the South Korean presidential election?",
+        "volume": 47988.4685,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-atupele-muluzi-win-the-2025-malawi-presidential-election-619_545038.csv",
+        "question": "Will Atupele Muluzi win the 2025 Malawi presidential election?",
+        "volume": 47697.97624,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-dalitso-kabame-win-the-2025-malawi-presidential-election-138_545039.csv",
+        "question": "Will Dalitso Kabame win the 2025 Malawi presidential election?",
+        "volume": 44535.105182,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-donald-trump-attend-pope-francis-funeral_538966.csv",
+        "question": "Will Donald Trump attend Pope Francis' funeral?",
+        "volume": 43041.506676,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-enoch-chihana-win-the-2025-malawi-presidential-election-382_545040.csv",
+        "question": "Will Enoch Chihana win the 2025 Malawi presidential election?",
+        "volume": 41259.08266,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-17-18m_535707.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be between 17-18m?",
+        "volume": 40129.839646,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-danny-faure-win-the-2025-seychelles-presidential-election_545060.csv",
+        "question": "Will Danny Faure win the 2025 Seychelles presidential election?",
+        "volume": 37880.08031,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-20-21m_535710.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be between 20-21m?",
+        "volume": 37697.322903,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-trump-meet-with-zelenskyy-before-august_555844.csv",
+        "question": "Will Trump meet with Zelenskyy before August?",
+        "volume": 37445.560039,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-pap-win-between-87-and-89-seats-in-the-singapore-election_539229.csv",
+        "question": "Will PAP win between 87 and 89 seats in the Singapore election?",
+        "volume": 35543.759584,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-19-20m_535709.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be between 19-20m?",
+        "volume": 31315.843943,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-trump-visit-turkey-before-june_544904.csv",
+        "question": "Will Trump visit Turkey before June?",
+        "volume": 27958.089394,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-the-winner-of-czech-parliamentary-election-form-a-government_567268.csv",
+        "question": "Will ANO form a government after Czech election ?",
+        "volume": 24553.511158,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-pap-win-90-or-more-seats-in-the-singapore-election_539230.csv",
+        "question": "Will PAP win 90 or more seats in the Singapore election?",
+        "volume": 24336.042426,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-pope-leo-xiv-meet-with-donald-trump-in-2025_546091.csv",
+        "question": "Will Pope Leo XIV meet with Donald Trump in 2025?",
+        "volume": 23414.17769,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-greater-than-21m_535711.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be greater than 21m?",
+        "volume": 21700.074932,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-pap-win-between-84-and-86-seats-in-the-singapore-election_539228.csv",
+        "question": "Will PAP win between 84 and 86 seats in the Singapore election?",
+        "volume": 21494.894441,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/trump-burger-owner-deported-by-september-30_574584.csv",
+        "question": "\"Trump Burger\" owner deported by September 30?",
+        "volume": 21000.345333,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-melania-trump-attend-pope-francis-funeral_538967.csv",
+        "question": "Will Melania Trump attend Pope Francis' funeral?",
+        "volume": 20879.709051,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-luis-abinader-win-the-2024-dominican-republic-presidential-election_501582.csv",
+        "question": "Will Luis Abinader win the 2024 Dominican Republic presidential election?",
+        "volume": 20526.187089,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-less-than-16m_535705.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be less than 16m?",
+        "volume": 19913.903335,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-pap-win-between-75-and-77-seats-in-the-singapore-election_539225.csv",
+        "question": "Will PAP win between 75 and 77 seats in the Singapore election?",
+        "volume": 19317.411554,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-16-17m_535706.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be between 16-17m?",
+        "volume": 18634.872952,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/romania-parliamentary-election-called-in-2025_562257.csv",
+        "question": "Romania Parliamentary Election called in 2025?",
+        "volume": 18567.164464,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-pap-win-between-81-and-83-seats-in-the-singapore-election_539227.csv",
+        "question": "Will PAP win between 81 and 83 seats in the Singapore election?",
+        "volume": 17908.394629,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-pap-win-between-78-and-80-seats-in-the-singapore-election_539226.csv",
+        "question": "Will PAP win between 78 and 80 seats in the Singapore election?",
+        "volume": 17356.679448,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-biden-let-ukraine-strike-russia-with-us-weapons_501910.csv",
+        "question": "Will Biden let Ukraine strike Russia with US weapons?",
+        "volume": 16536.204367,
+        "polarity": 1,
+        "matched_keywords": [
+          "biden"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-ldp-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564629.csv",
+        "question": "Will LDP hold the second most seats in the House of Councillors following the 2025 Japan election?",
+        "volume": 16022.015836,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "house"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-valid-votes-be-between-6-6pt2-million-in-bolivia-election_574993.csv",
+        "question": "Will valid votes be between 6-6.2 million in Bolivia election?",
+        "volume": 15762.749698,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-rutte-say-trump-during-nato-public-forum-address-on-june-24_553599.csv",
+        "question": "Will Rutte say \"Trump\" during NATO Public Forum Address on June 24?",
+        "volume": 15713.689954,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-trump-visit-pakistan-by-september-30_564627.csv",
+        "question": "Will Trump visit Pakistan by September 30?",
+        "volume": 14646.075301,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-poilievre-say-crypto-or-bitcoin-during-canadian-election-debate-on-april-17_537305.csv",
+        "question": "Will Poilievre say \"Crypto\" or \"Bitcoin\" during Canadian Election Debate on April 17?",
+        "volume": 13251.07805,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-valid-votes-be-between-5pt8-6-million-in-bolivia-election_574992.csv",
+        "question": "Will valid votes be between 5.8-6 million in Bolivia election?",
+        "volume": 13133.195958,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-diy-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564638.csv",
+        "question": "Will DIY hold the second most seats in the House of Councillors following the 2025 Japan election?",
+        "volume": 12883.176147,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "house"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-family-first-win-the-seat-of-bennelong-in-the-2025-australian-election_537451.csv",
+        "question": "Will Family First win the Seat of Bennelong in the 2025 Australian Election?",
+        "volume": 11616.978321,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-carney-say-trudeau-during-canadian-election-debate-on-april-17_537284.csv",
+        "question": "Will Carney say \"Trudeau\" during Canadian Election Debate on April 17?",
+        "volume": 11274.751878,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-18-19m_535708.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be between 18-19m?",
+        "volume": 10969.444312,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-poilievre-say-trudeau-during-canadian-election-debate-on-april-17_537303.csv",
+        "question": "Will Poilievre say \"Trudeau\" during Canadian Election Debate on April 17?",
+        "volume": 10513.190407,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "custom_world_affairs/will-poilievre-say-immigration-3-times-during-canadian-election-debate-on-april-17_537292.csv",
+        "question": "Will Poilievre say \"Immigration\" 3+ times during Canadian Election Debate on April 17?",
+        "volume": 10323.890666,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-lee-jun-seok-win-2nd-place-in-the-south-korean-presidential-election_541393.csv",
+        "question": "Will Lee Jun-seok win 2nd place in the South Korean presidential election?",
+        "volume": 5714121.72447,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-han-duck-soo-win-2nd-place-in-the-south-korean-presidential-election_541391.csv",
+        "question": "Will Han Duck-soo win 2nd place in the South Korean presidential election?",
+        "volume": 4288767.039625,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-kim-moon-soo-win-2nd-place-in-the-south-korean-presidential-election_541392.csv",
+        "question": "Will Kim Moon-soo win 2nd place in the South Korean presidential election?",
+        "volume": 4024661.567987,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-lee-jae-myung-win-2nd-place-in-the-south-korean-presidential-election_541390.csv",
+        "question": "Will Lee Jae-myung win 2nd place in the South Korean presidential election?",
+        "volume": 2392656.791775,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-han-dong-hoon-win-2nd-place-in-the-south-korean-presidential-election_541394.csv",
+        "question": "Will Han Dong-hoon win 2nd place in the South Korean presidential election?",
+        "volume": 1070477.80612,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/trump-increase-share-of-black-voters_502046.csv",
+        "question": "Trump gets more black voters than in 2020?",
+        "volume": 888499.13331,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-marco-francis-win-the-2025-seychelles-presidential-election_545056.csv",
+        "question": "Will Marco Francis win the 2025 Seychelles presidential election?",
+        "volume": 729054.561386,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-hwang-kyo-ahn-win-2nd-place-in-the-south-korean-presidential-election_541407.csv",
+        "question": "Will Hwang Kyo-ahn win 2nd place in the South Korean presidential election?",
+        "volume": 507936.643206,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-progress-singapore-party-psp-win-the-2025-singapore-parliamentary-election_539205.csv",
+        "question": "Will Progress Singapore Party (PSP) win the 2025 Singapore parliamentary election?",
+        "volume": 341164.400658,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-lee-nak-yon-win-2nd-place-in-the-south-korean-presidential-election_541399.csv",
+        "question": "Will Lee Nak-yon win 2nd place in the South Korean presidential election?",
+        "volume": 310461.211,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-wavel-ramkalawan-win-the-2025-seychelles-presidential-election_545054.csv",
+        "question": "Will Wavel Ramkalawan win the 2025 Seychelles presidential election?",
+        "volume": 298235.064867,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-labor-win-the-seat-of-bennelong-in-the-2025-australian-election_537449.csv",
+        "question": "Will Labor win the Seat of Bennelong in the 2025 Australian Election?",
+        "volume": 225185.615153,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-workers-party-wp-win-the-2025-singapore-parliamentary-election_539204.csv",
+        "question": "Will Workers' Party (WP) win the 2025 Singapore parliamentary election?",
+        "volume": 204958.980323,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-lazarus-chakwera-win-the-2025-malawi-presidential-election-164_545036.csv",
+        "question": "Will Lazarus Chakwera win the 2025 Malawi presidential election?",
+        "volume": 191893.263957,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/polish-snap-election-called-in-2025_549140.csv",
+        "question": "Polish snap election called in 2025?",
+        "volume": 183062.195681,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-peter-mutharika-win-the-2025-malawi-presidential-election-439_545037.csv",
+        "question": "Will Peter Mutharika win the 2025 Malawi presidential election?",
+        "volume": 177766.60376,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-peoples-action-party-pap-win-the-2025-singapore-parliamentary-election_539203.csv",
+        "question": "Will People's Action Party (PAP) win the 2025 Singapore parliamentary election?",
+        "volume": 171261.24232,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-kim-dong-yeon-win-2nd-place-in-the-south-korean-presidential-election_541395.csv",
+        "question": "Will Kim Dong-yeon win 2nd place in the South Korean presidential election?",
+        "volume": 166643.1125,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-dr-patrick-herminie-win-the-2025-seychelles-presidential-election_545055.csv",
+        "question": "Will Dr Patrick Herminie win the 2025 Seychelles presidential election?",
+        "volume": 157339.602208,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/israel-and-saudi-arabia-normalize-relations-before-us-election_501126.csv",
+        "question": "Israel and Saudi Arabia normalize relations before U.S. election?",
+        "volume": 133184.532627,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-the-greens-win-the-seat-of-brisbane-in-the-2025-australian-election_537442.csv",
+        "question": "Will The Greens win the Seat of Brisbane in the 2025 Australian Election?",
+        "volume": 129527.591382,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/new-netherlands-election-announced-before-summer-recess_549608.csv",
+        "question": "New Netherlands election announced before Summer Recess?",
+        "volume": 125110.173606,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-hong-joon-pyo-win-2nd-place-in-the-south-korean-presidential-election_541406.csv",
+        "question": "Will Hong Joon-pyo win 2nd place in the South Korean presidential election?",
+        "volume": 114566.8245,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-ahn-cheol-soo-win-2nd-place-in-the-south-korean-presidential-election_541398.csv",
+        "question": "Will Ahn Cheol-soo win 2nd place in the South Korean presidential election?",
+        "volume": 100758.5655,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-yoo-seong-min-win-2nd-place-in-the-south-korean-presidential-election_541396.csv",
+        "question": "Will Yoo Seong-min win 2nd place in the South Korean presidential election?",
+        "volume": 96810.1935,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-yoon-suk-yeol-win-2nd-place-in-the-south-korean-presidential-election_541401.csv",
+        "question": "Will Yoon Suk Yeol win 2nd place in the South Korean presidential election?",
+        "volume": 72962.994833,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-trump-increase-tariffs-on-china-by-friday_535723.csv",
+        "question": "Will Trump increase tariffs on China by Friday?",
+        "volume": 72639.859769,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-kisna-louise-win-the-2025-seychelles-presidential-election_545061.csv",
+        "question": "Will Kisna Louise win the 2025 Seychelles presidential election?",
+        "volume": 72050.84705,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-joe-biden-attend-pope-francis-funeral_538975.csv",
+        "question": "Will Joe Biden attend Pope Francis' funeral?",
+        "volume": 71956.338345,
+        "polarity": 1,
+        "matched_keywords": [
+          "biden"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-cdp-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564630.csv",
+        "question": "Will CDP hold the second most seats in the House of Councillors following the 2025 Japan election?",
+        "volume": 71930.355117,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "house"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-poilievre-say-tariffs-3-times-during-canadian-election-debate-on-april-17_537295.csv",
+        "question": "Will Poilievre say \"Tariffs\" 3+ times during Canadian Election Debate on April 17?",
+        "volume": 70121.989819,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-alain-st-ange-win-the-2025-seychelles-presidential-election_545057.csv",
+        "question": "Will Alain St Ange win the 2025 Seychelles presidential election?",
+        "volume": 70065.263501,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-na-kyung-won-win-2nd-place-in-the-south-korean-presidential-election_541397.csv",
+        "question": "Will Na Kyung-won win 2nd place in the South Korean presidential election?",
+        "volume": 68774.3995,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-poilievre-say-trump-3-times-during-canadian-election-debate-on-april-17_537293.csv",
+        "question": "Will Poilievre say \"Trump\" 3+ times during Canadian Election Debate on April 17?",
+        "volume": 66875.53055,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump",
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/south-korea-election-scheduled-by-friday_534187.csv",
+        "question": "South Korea election scheduled by Friday?",
+        "volume": 66313.73388,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-poilievre-say-canada-first-during-canadian-election-debate-on-april-17_537301.csv",
+        "question": "Will Poilievre say \"Canada First\" during Canadian Election Debate on April 17?",
+        "volume": 65497.19787,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-valid-votes-be-fewer-than-5pt8-million-in-bolivia-election_574991.csv",
+        "question": "Will valid votes be fewer than 5.8 million in Bolivia election?",
+        "volume": 64393.604428,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-charles-de-clarisse-win-the-2025-seychelles-presidential-election_545063.csv",
+        "question": "Will Charles De Clarisse win the 2025 Seychelles presidential election?",
+        "volume": 63488.026508,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-won-hee-ryong-win-2nd-place-in-the-south-korean-presidential-election_541403.csv",
+        "question": "Will Won Hee-ryong win 2nd place in the South Korean presidential election?",
+        "volume": 61530.1277,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-ralph-volcre-win-the-2025-seychelles-presidential-election_545058.csv",
+        "question": "Will Ralph Volcère win the 2025 Seychelles presidential election?",
+        "volume": 60082.702563,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-cho-kuk-win-2nd-place-in-the-south-korean-presidential-election_541400.csv",
+        "question": "Will Cho Kuk win 2nd place in the South Korean presidential election?",
+        "volume": 59571.6805,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-oh-se-hoon-win-2nd-place-in-the-south-korean-presidential-election_541405.csv",
+        "question": "Will Oh Se-hoon win 2nd place in the South Korean presidential election?",
+        "volume": 59368.0465,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-robin-johnston-win-the-2025-seychelles-presidential-election_545059.csv",
+        "question": "Will Robin Johnston win the 2025 Seychelles presidential election?",
+        "volume": 57409.679761,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-poilievre-say-elon-or-musk-during-canadian-election-debate-on-april-17_537296.csv",
+        "question": "Will Poilievre say \"Elon\" or \"Musk\" during Canadian Election Debate on April 17?",
+        "volume": 55463.613038,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-pap-win-less-than-75-seats-in-the-singapore-election_539224.csv",
+        "question": "Will PAP win less than 75 seats in the Singapore election?",
+        "volume": 54387.062141,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-carney-say-immigration-3-times-during-canadian-election-debate-on-april-17_537273.csv",
+        "question": "Will Carney say \"Immigration\" 3+ times during Canadian Election Debate on April 17?",
+        "volume": 54169.486637,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-kim-kyong-soo-win-2nd-place-in-the-south-korean-presidential-election_541404.csv",
+        "question": "Will Kim Kyong-soo win 2nd place in the South Korean presidential election?",
+        "volume": 53192.282817,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/spain-snap-election-called-in-2025_547957.csv",
+        "question": "Spain snap election called in 2025?",
+        "volume": 53033.640189,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/trump-x-xi-talk-before-june_544925.csv",
+        "question": "Trump x Xi talk before June?",
+        "volume": 52975.52629,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-robert-moumou-win-the-2025-seychelles-presidential-election_545062.csv",
+        "question": "Will Robert Moumou win the 2025 Seychelles presidential election?",
+        "volume": 52264.502312,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-valid-votes-be-more-than-6pt2-million-in-bolivia-election_574994.csv",
+        "question": "Will valid votes be more than 6.2 million in Bolivia election?",
+        "volume": 49911.128861,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-joyce-banda-win-the-2025-malawi-presidential-election-739_545041.csv",
+        "question": "Will Joyce Banda win the 2025 Malawi presidential election?",
+        "volume": 49574.23734,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-kim-boo-kyum-win-2nd-place-in-the-south-korean-presidential-election_541402.csv",
+        "question": "Will Kim Boo-kyum win 2nd place in the South Korean presidential election?",
+        "volume": 47988.4685,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-atupele-muluzi-win-the-2025-malawi-presidential-election-619_545038.csv",
+        "question": "Will Atupele Muluzi win the 2025 Malawi presidential election?",
+        "volume": 47697.97624,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-dalitso-kabame-win-the-2025-malawi-presidential-election-138_545039.csv",
+        "question": "Will Dalitso Kabame win the 2025 Malawi presidential election?",
+        "volume": 44535.105182,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-donald-trump-attend-pope-francis-funeral_538966.csv",
+        "question": "Will Donald Trump attend Pope Francis' funeral?",
+        "volume": 43041.506676,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-enoch-chihana-win-the-2025-malawi-presidential-election-382_545040.csv",
+        "question": "Will Enoch Chihana win the 2025 Malawi presidential election?",
+        "volume": 41259.08266,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-17-18m_535707.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be between 17-18m?",
+        "volume": 40129.839646,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-danny-faure-win-the-2025-seychelles-presidential-election_545060.csv",
+        "question": "Will Danny Faure win the 2025 Seychelles presidential election?",
+        "volume": 37880.08031,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-20-21m_535710.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be between 20-21m?",
+        "volume": 37697.322903,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-trump-meet-with-zelenskyy-before-august_555844.csv",
+        "question": "Will Trump meet with Zelenskyy before August?",
+        "volume": 37445.560039,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-pap-win-between-87-and-89-seats-in-the-singapore-election_539229.csv",
+        "question": "Will PAP win between 87 and 89 seats in the Singapore election?",
+        "volume": 35543.759584,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-the-winner-of-czech-parliamentary-election-form-a-government_567268.csv",
+        "question": "Will ANO form a government after Czech election ?",
+        "volume": 32366.864563,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-19-20m_535709.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be between 19-20m?",
+        "volume": 31315.843943,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-trump-visit-turkey-before-june_544904.csv",
+        "question": "Will Trump visit Turkey before June?",
+        "volume": 27958.089394,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-pap-win-90-or-more-seats-in-the-singapore-election_539230.csv",
+        "question": "Will PAP win 90 or more seats in the Singapore election?",
+        "volume": 24336.042426,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-pope-leo-xiv-meet-with-donald-trump-in-2025_546091.csv",
+        "question": "Will Pope Leo XIV meet with Donald Trump in 2025?",
+        "volume": 23666.772927,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-greater-than-21m_535711.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be greater than 21m?",
+        "volume": 21700.074932,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-pap-win-between-84-and-86-seats-in-the-singapore-election_539228.csv",
+        "question": "Will PAP win between 84 and 86 seats in the Singapore election?",
+        "volume": 21494.894441,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/trump-burger-owner-deported-by-september-30_574584.csv",
+        "question": "\"Trump Burger\" owner deported by September 30?",
+        "volume": 21000.345333,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-melania-trump-attend-pope-francis-funeral_538967.csv",
+        "question": "Will Melania Trump attend Pope Francis' funeral?",
+        "volume": 20879.709051,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-luis-abinader-win-the-2024-dominican-republic-presidential-election_501582.csv",
+        "question": "Will Luis Abinader win the 2024 Dominican Republic presidential election?",
+        "volume": 20526.187089,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-less-than-16m_535705.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be less than 16m?",
+        "volume": 19913.903335,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-pap-win-between-75-and-77-seats-in-the-singapore-election_539225.csv",
+        "question": "Will PAP win between 75 and 77 seats in the Singapore election?",
+        "volume": 19317.411554,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-16-17m_535706.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be between 16-17m?",
+        "volume": 18634.872952,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/romania-parliamentary-election-called-in-2025_562257.csv",
+        "question": "Romania Parliamentary Election called in 2025?",
+        "volume": 18568.244464,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-pap-win-between-81-and-83-seats-in-the-singapore-election_539227.csv",
+        "question": "Will PAP win between 81 and 83 seats in the Singapore election?",
+        "volume": 17908.394629,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-pap-win-between-78-and-80-seats-in-the-singapore-election_539226.csv",
+        "question": "Will PAP win between 78 and 80 seats in the Singapore election?",
+        "volume": 17356.679448,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-biden-let-ukraine-strike-russia-with-us-weapons_501910.csv",
+        "question": "Will Biden let Ukraine strike Russia with US weapons?",
+        "volume": 16536.204367,
+        "polarity": 1,
+        "matched_keywords": [
+          "biden"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-ldp-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564629.csv",
+        "question": "Will LDP hold the second most seats in the House of Councillors following the 2025 Japan election?",
+        "volume": 16022.015836,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "house"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-valid-votes-be-between-6-6pt2-million-in-bolivia-election_574993.csv",
+        "question": "Will valid votes be between 6-6.2 million in Bolivia election?",
+        "volume": 15762.749698,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-rutte-say-trump-during-nato-public-forum-address-on-june-24_553599.csv",
+        "question": "Will Rutte say \"Trump\" during NATO Public Forum Address on June 24?",
+        "volume": 15713.689954,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-trump-visit-pakistan-by-september-30_564627.csv",
+        "question": "Will Trump visit Pakistan by September 30?",
+        "volume": 14646.075301,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-poilievre-say-crypto-or-bitcoin-during-canadian-election-debate-on-april-17_537305.csv",
+        "question": "Will Poilievre say \"Crypto\" or \"Bitcoin\" during Canadian Election Debate on April 17?",
+        "volume": 13251.07805,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-valid-votes-be-between-5pt8-6-million-in-bolivia-election_574992.csv",
+        "question": "Will valid votes be between 5.8-6 million in Bolivia election?",
+        "volume": 13133.195958,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-diy-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564638.csv",
+        "question": "Will DIY hold the second most seats in the House of Councillors following the 2025 Japan election?",
+        "volume": 12883.176147,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "house"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-family-first-win-the-seat-of-bennelong-in-the-2025-australian-election_537451.csv",
+        "question": "Will Family First win the Seat of Bennelong in the 2025 Australian Election?",
+        "volume": 11616.978321,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-carney-say-trudeau-during-canadian-election-debate-on-april-17_537284.csv",
+        "question": "Will Carney say \"Trudeau\" during Canadian Election Debate on April 17?",
+        "volume": 11274.751878,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-voter-turnout-in-the-2025-canadian-federal-election-be-between-18-19m_535708.csv",
+        "question": "Will voter turnout in the 2025 Canadian federal election be between 18-19m?",
+        "volume": 10969.444312,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-poilievre-say-trudeau-during-canadian-election-debate-on-april-17_537303.csv",
+        "question": "Will Poilievre say \"Trudeau\" during Canadian Election Debate on April 17?",
+        "volume": 10513.190407,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "geopolitics__foreign_policy_comprehensive/will-poilievre-say-immigration-3-times-during-canadian-election-debate-on-april-17_537292.csv",
+        "question": "Will Poilievre say \"Immigration\" 3+ times during Canadian Election Debate on April 17?",
+        "volume": 10323.890666,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/democrats-and-republicans-both-lose-the-2024-presidential-election_253836.csv",
+        "question": "Democrats and Republicans both lose the 2024 Presidential Election?",
+        "volume": 20963826.152231,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "democrat",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-candidate-from-another-party-win-ohio-us-senate-election_500120.csv",
+        "question": "Will a candidate from another party win Ohio US Senate Election?",
+        "volume": 13006615.346782,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "senate"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-balance-of-power-r-prez-r-senate-r-house_500631.csv",
+        "question": "2024 Balance of Power: R Prez R Senate R House",
+        "volume": 11132803.610888,
+        "polarity": 1,
+        "matched_keywords": [
+          "senate",
+          "house"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-balance-of-power-republican-presidency-and-senate-democratic-house_500637.csv",
+        "question": "2024 Balance of Power: R Prez, R Senate, D House",
+        "volume": 9322470.30561,
+        "polarity": 1,
+        "matched_keywords": [
+          "senate",
+          "house"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-republican-win-arizona-us-senate-election_500615.csv",
+        "question": "Will a Republican win Arizona US Senate Election?",
+        "volume": 8258327.18658,
+        "polarity": -1,
+        "matched_keywords": [
+          "election",
+          "senate",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-presidential-election-gop-wins-by-65-104_253677.csv",
+        "question": "2024 presidential election: GOP wins by 65-104",
+        "volume": 7563202.909916,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-presidential-election-gop-wins-by-215_253675.csv",
+        "question": "2024 presidential election: GOP wins by 215+",
+        "volume": 7262055.993012,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-democrat-win-arizona-us-senate-election_500614.csv",
+        "question": "Will a Democrat win Arizona US Senate Election?",
+        "volume": 6754633.942725,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "senate",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-presidential-election-gop-wins-by-35-64_253678.csv",
+        "question": "2024 presidential election: GOP wins by 35-64",
+        "volume": 6753406.418423,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-balance-of-power-republican-presidency-democratic-house-and-senate_500639.csv",
+        "question": "2024 Balance of Power: R Prez, D Senate, D House",
+        "volume": 6481908.722395,
+        "polarity": 1,
+        "matched_keywords": [
+          "senate",
+          "house"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-presidential-election-gop-wins-by-105-154_253704.csv",
+        "question": "2024 presidential election: GOP wins by 105-154",
+        "volume": 6473740.733323,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-balance-of-power-republican-presidency-and-house-democratic-senate_500636.csv",
+        "question": "2024 Balance of Power: R Prez, D Senate, R House",
+        "volume": 6332605.568078,
+        "polarity": 1,
+        "matched_keywords": [
+          "senate",
+          "house"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-presidential-election-democrats-win-by-5-14_253683.csv",
+        "question": "2024 presidential election: Democrats win by 5-14",
+        "volume": 6235007.012558,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-presidential-election-democrats-win-by-105-154_253687.csv",
+        "question": "2024 presidential election: Democrats win by 105-154",
+        "volume": 6153981.286456,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-presidential-election-democrats-win-by-215_253688.csv",
+        "question": "2024 presidential election: Democrats win by 215+",
+        "volume": 6016787.147049,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-balance-of-power-democratic-presidency-and-senate-republican-house_500635.csv",
+        "question": "2024 Balance of Power: D Prez, D Senate, R House",
+        "volume": 5833432.223511,
+        "polarity": 1,
+        "matched_keywords": [
+          "senate",
+          "house"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-presidential-election-democrats-win-by-15-34_253684.csv",
+        "question": "2024 presidential election: Democrats win by 15-34",
+        "volume": 5813696.52381,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-presidential-election-gop-wins-by-1-4_253680.csv",
+        "question": "2024 presidential election: GOP wins by 1-4",
+        "volume": 5813309.892014,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-presidential-election-democrats-win-by-0-4_253682.csv",
+        "question": "2024 presidential election: Democrats win by 0-4",
+        "volume": 5777920.118906,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-presidential-election-democrats-win-by-65-104_253686.csv",
+        "question": "2024 presidential election: Democrats win by 65-104",
+        "volume": 5777360.064778,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-joe-biden-win-the-us-2024-democratic-presidential-nomination_240382.csv",
+        "question": "[Single Market] Will Joe Biden win the U.S. 2024 Democratic presidential nomination?",
+        "volume": 5770423.692215,
+        "polarity": 1,
+        "matched_keywords": [
+          "biden",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-balance-of-power-democratic-presidency-republican-house-and-senate_500638.csv",
+        "question": "2024 Balance of Power: D Prez, R Senate, R House",
+        "volume": 5546240.024256,
+        "polarity": 1,
+        "matched_keywords": [
+          "senate",
+          "house"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-election-democratic-presidency-and-house-republican-senate_500632.csv",
+        "question": "2024 Balance of Power: D Prez, R Senate, D House",
+        "volume": 5535870.047873,
+        "polarity": 1,
+        "matched_keywords": [
+          "senate",
+          "house"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/democratic-sweep-in-2024-election_500630.csv",
+        "question": "2024 Balance of Power: D Prez, D Senate, D House",
+        "volume": 5444340.53142,
+        "polarity": 1,
+        "matched_keywords": [
+          "senate",
+          "house"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-presidential-election-gop-wins-by-5-14_253681.csv",
+        "question": "2024 presidential election: GOP wins by 5-14",
+        "volume": 5436305.368101,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-presidential-election-democrats-win-by-155-214_253705.csv",
+        "question": "2024 presidential election: Democrats win by 155-214",
+        "volume": 5393718.822278,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-presidential-election-gop-wins-by-155-214_253676.csv",
+        "question": "2024 presidential election: GOP wins by 155-214",
+        "volume": 5230770.736357,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-presidential-election-gop-wins-by-15-34_253679.csv",
+        "question": "2024 presidential election: GOP wins by 15-34",
+        "volume": 5040359.62268,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-candidate-from-another-party-win-arizona-us-senate-election_500616.csv",
+        "question": "Will a candidate from another party win Arizona US Senate Election?",
+        "volume": 4982822.83402,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "senate"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-republicans-have-55-seats-in-senate-after-election_501700.csv",
+        "question": "Will Republicans have 55 seats in Senate after election?",
+        "volume": 4595290.400508,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "senate",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/2024-presidential-election-democrats-win-by-35-64_253685.csv",
+        "question": "2024 presidential election: Democrats win by 35-64",
+        "volume": 4503321.804578,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-candidate-from-another-party-win-montana-us-senate-election_500116.csv",
+        "question": "Will a candidate from another party win Montana US Senate Election?",
+        "volume": 2701136.853558,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "senate"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-nicolas-maduro-win-the-2024-venezuela-presidential-election_502002.csv",
+        "question": "Will Nicolas Maduro Win the 2024 Venezuela presidential election?",
+        "volume": 2594710.242202,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/presidential-election-republicans-win-a-solid-blue-state_501062.csv",
+        "question": "Trump wins a solid blue state?",
+        "volume": 2292725.611237,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-republicans-have-56-or-more-seats-in-senate-after-election_501701.csv",
+        "question": "Will Republicans have 56 or more seats in Senate after election?",
+        "volume": 2267278.199233,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "senate",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-candidate-from-another-party-win-colorado-presidential-election_255067.csv",
+        "question": "Will a candidate from another party win Colorado Presidential Election?",
+        "volume": 2261038.457125,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-candidate-from-another-party-win-arkansas-presidential-election_255057.csv",
+        "question": "Will a candidate from another party win Arkansas Presidential Election?",
+        "volume": 1808562.113133,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-edmundo-gonzalez-win-the-2024-venezuela-presidential-election_502006.csv",
+        "question": "Will Edmundo González win the 2024 Venezuela presidential election?",
+        "volume": 1734378.789587,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-republican-win-ohio-us-senate-election_500118.csv",
+        "question": "Will a Republican win Ohio US Senate Election?",
+        "volume": 1556618.387565,
+        "polarity": -1,
+        "matched_keywords": [
+          "election",
+          "senate",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-democrat-win-michigan-senate-election_500105.csv",
+        "question": "Will a Democrat win Nevada US Senate Election?",
+        "volume": 1540056.717832,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "senate",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-republicans-have-49-or-fewer-seats-in-senate-after-election_501694.csv",
+        "question": "Will Republicans have 49 or fewer seats in Senate after election?",
+        "volume": 1537159.776966,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "senate",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-democrat-win-colorado-in-the-2024-us-presidential-election_255065.csv",
+        "question": "Will a Democrat win Colorado Presidential Election?",
+        "volume": 1522857.242694,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-republicans-have-53-seats-in-senate-after-election_501698.csv",
+        "question": "Will Republicans have 53 seats in Senate after election?",
+        "volume": 1285723.48474,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "senate",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-democrat-win-california-in-the-2024-us-presidential-election_255060.csv",
+        "question": "Will a Democrat win California Presidential Election?",
+        "volume": 1078748.419647,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-candidate-from-another-party-win-california-presidential-election_255062.csv",
+        "question": "Will a candidate from another party win California Presidential Election?",
+        "volume": 1065194.379936,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/dems-flip-a-2020-trump-state_500924.csv",
+        "question": "Kamala flips a 2020 Trump state?",
+        "volume": 1064673.512691,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-republican-win-nevada-us-senate-election_500106.csv",
+        "question": "Will a Republican win Nevada US Senate Election?",
+        "volume": 1056287.755275,
+        "polarity": -1,
+        "matched_keywords": [
+          "election",
+          "senate",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-republicans-have-54-seats-in-senate-after-election_501699.csv",
+        "question": "Will Republicans have 54 seats in Senate after election?",
+        "volume": 1046717.85044,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "senate",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-republican-win-colorado-in-the-2024-us-presidential-election_255066.csv",
+        "question": "Will a Republican win Colorado Presidential Election?",
+        "volume": 1022853.789162,
+        "polarity": -1,
+        "matched_keywords": [
+          "election",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/trump-margin-of-victory-in-new-hampshire-primary-15_253891.csv",
+        "question": "Trump margin of victory in New Hampshire Primary >15%",
+        "volume": 997617.257422,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-republican-win-california-in-the-2024-us-presidential-election_255061.csv",
+        "question": "Will a Republican win California Presidential Election?",
+        "volume": 990768.222498,
+        "polarity": -1,
+        "matched_keywords": [
+          "election",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-democrat-win-ohio-us-senate-election_500117.csv",
+        "question": "Will a Democrat win Ohio US Senate Election?",
+        "volume": 892763.549064,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "senate",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/trump-increase-share-of-black-voters_502046.csv",
+        "question": "Trump gets more black voters than in 2020?",
+        "volume": 888499.13331,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-antonio-ecarri-angola-win-the-2024-venezuela-presidential-election_502003.csv",
+        "question": "Will Antonio Ecarri Angola Win the 2024 Venezuela presidential election?",
+        "volume": 858714.829516,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-democrat-win-alaska-in-the-2024-us-presidential-election_255044.csv",
+        "question": "Will a Democrat win Alaska Presidential Election?",
+        "volume": 835760.561065,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-republican-win-alaska-in-the-2024-us-presidential-election_255045.csv",
+        "question": "Will a Republican win Alaska Presidential Election?",
+        "volume": 796279.059822,
+        "polarity": -1,
+        "matched_keywords": [
+          "election",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-republicans-have-52-seats-in-senate-after-election_501697.csv",
+        "question": "Will Republicans have 52 seats in Senate after election?",
+        "volume": 760865.143349,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "senate",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-democrat-win-montana-us-senate-election_500114.csv",
+        "question": "Will a Democrat win Montana US Senate Election?",
+        "volume": 686243.598846,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "senate",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-robert-f-kennedy-jr-win-the-us-2024-democratic-presidential-nomination_250482.csv",
+        "question": "[Single Market] Will Robert F. Kennedy Jr. win the U.S. 2024 Democratic presidential nomination?",
+        "volume": 641848.952562,
+        "polarity": 1,
+        "matched_keywords": [
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-republican-win-montana-us-senate-election_500115.csv",
+        "question": "Will a Republican win Montana US Senate Election?",
+        "volume": 621186.16041,
+        "polarity": -1,
+        "matched_keywords": [
+          "election",
+          "senate",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-gavin-newsom-win-the-us-2024-democratic-presidential-nomination_246667.csv",
+        "question": "[Single Market] Will Gavin Newsom win the U.S. 2024 Democratic presidential nomination?",
+        "volume": 576046.71026,
+        "polarity": 1,
+        "matched_keywords": [
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-another-candidate-win-the-2024-venezuela-presidential-election-ites_502005.csv",
+        "question": "Will another candidate Win the 2024 Venezuela presidential election?",
+        "volume": 537980.832049,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-javier-bertucci-win-the-2024-venezuela-presidential-election_502004.csv",
+        "question": "Will Javier Bertucci Win the 2024 Venezuela presidential election?",
+        "volume": 426456.694772,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-candidate-from-another-party-win-alaska-presidential-election_255047.csv",
+        "question": "Will a candidate from another party win Alaska Presidential Election?",
+        "volume": 426228.126714,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/trump-margin-of-victory-in-new-hampshire-primary-10-12pt5_253896.csv",
+        "question": "Trump margin of victory in New Hampshire Primary 10-12.5%",
+        "volume": 344986.22496499994,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/republicans-flip-a-2020-biden-state_500925.csv",
+        "question": "Trump flips a 2020 Biden state?",
+        "volume": 338528.214849,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump",
+          "biden"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/biden-campaign-accepts-crypto-donations-before-august_502799.csv",
+        "question": "Biden campaign accepts crypto donations before August?",
+        "volume": 336293.770823,
+        "polarity": 1,
+        "matched_keywords": [
+          "biden"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-republican-win-kansas-in-the-2024-us-presidential-election_255117.csv",
+        "question": "Will a Republican win Kansas Presidential Election?",
+        "volume": 330794.585408,
+        "polarity": -1,
+        "matched_keywords": [
+          "election",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-nigel-farage-win-election-to-uk-parliament_502041.csv",
+        "question": "Will Nigel Farage win election to UK parliament?",
+        "volume": 326337.441075,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-republicans-have-50-seats-in-senate-after-election_501695.csv",
+        "question": "Will Republicans have 50 seats in Senate after election?",
+        "volume": 321803.188168,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "senate",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-candidate-from-another-party-win-kansas-presidential-election_255118.csv",
+        "question": "Will a candidate from another party win Kansas Presidential Election?",
+        "volume": 319580.156672,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/trump-margin-of-victory-in-new-hampshire-primary-12pt5-15_253894.csv",
+        "question": "Trump margin of victory in New Hampshire Primary 12.5-15%",
+        "volume": 313736.56215199997,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-candidate-from-another-party-win-nevada-us-senate-election_500107.csv",
+        "question": "Will a candidate from another party win Nevada US Senate Election?",
+        "volume": 295575.655242,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "senate"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-republicans-have-51-seats-in-senate-after-election_501696.csv",
+        "question": "Will Republicans have 51 seats in Senate after election?",
+        "volume": 271918.963629,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "senate",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/trump-margin-of-victory-in-new-hampshire-primary-7pt5-10_253897.csv",
+        "question": "Trump margin of victory in New Hampshire Primary 7.5-10%",
+        "volume": 266382.937415,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-candidate-from-another-party-win-alabama-presidential-election_255037.csv",
+        "question": "Will a candidate from another party win Alabama Presidential Election?",
+        "volume": 241200.090557,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-democrat-win-kansas-in-the-2024-us-presidential-election_255116.csv",
+        "question": "Will a Democrat win Kansas Presidential Election?",
+        "volume": 224269.290234,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-republican-win-alabama-in-the-2024-us-presidential-election_255036.csv",
+        "question": "Will a Republican win Alabama Presidential Election?",
+        "volume": 218302.372288,
+        "polarity": -1,
+        "matched_keywords": [
+          "election",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/conservatives-win-the-second-most-seats-in-next-uk-election_502267.csv",
+        "question": "Conservatives win the second most seats in next UK election? ",
+        "volume": 185828.817133,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/reform-wins-the-second-most-seats-in-next-uk-election_502269.csv",
+        "question": "Reform wins the second most seats in next UK election? ",
+        "volume": 185284.928663,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-republican-win-arkansas-in-the-2024-us-presidential-election_255056.csv",
+        "question": "Will a Republican win Arkansas Presidential Election?",
+        "volume": 156941.381624,
+        "polarity": -1,
+        "matched_keywords": [
+          "election",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-trump-lose-the-new-hampshire-primary_253901.csv",
+        "question": "Will Trump lose the New Hampshire Primary?",
+        "volume": 152499.560264,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-trump-announce-his-vp-pick-later_500430.csv",
+        "question": "Will Trump announce his VP pick later?",
+        "volume": 140195.79014,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-trump-announce-his-vp-pick-in-may_500427.csv",
+        "question": "Will Trump announce his VP pick in May?",
+        "volume": 127791.023218,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-biden-be-on-the-ohio-presidential-ballot_501776.csv",
+        "question": "Will Biden be on Ohio Presidential Ballot?",
+        "volume": 126405.755937,
+        "polarity": 1,
+        "matched_keywords": [
+          "biden"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-nikki-haley-endorse-trump-before-june_501198.csv",
+        "question": "Will Nikki Haley endorse Trump before June?",
+        "volume": 122153.45488,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-democrat-win-alabama-in-the-2024-us-presidential-election_255035.csv",
+        "question": "Will a Democrat win Alabama Presidential Election?",
+        "volume": 101648.309655,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/trump-margin-of-victory-in-new-hampshire-primary-0-2pt5_253898.csv",
+        "question": "Trump margin of victory in New Hampshire Primary 0-2.5%",
+        "volume": 99924.953131,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-trump-announce-his-vp-pick-in-april_500426.csv",
+        "question": "Will Trump announce his VP pick in April?",
+        "volume": 96470.835958,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/faithless-elector-in-us-election_502705.csv",
+        "question": "Faithless elector in US election?",
+        "volume": 96366.97054,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-trump-announce-his-vp-pick-in-july_500429.csv",
+        "question": "Will Trump announce his VP pick in July?",
+        "volume": 94922.759018,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/trump-margin-of-victory-in-new-hampshire-primary-5-7pt5_253899.csv",
+        "question": "Trump margin of victory in New Hampshire Primary 5-7.5%",
+        "volume": 93899.713299,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-democrat-win-washington-dc-presidential-election_501012.csv",
+        "question": "Will a Democrat win Washington DC Presidential Election?",
+        "volume": 93874.99787,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/biden-drops-out-before-may_500562.csv",
+        "question": "Biden drops out before May?",
+        "volume": 91667.675465,
+        "polarity": 1,
+        "matched_keywords": [
+          "biden"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-kamala-harris-win-the-us-2024-democratic-presidential-nomination_240383.csv",
+        "question": "[Single Market] Will Kamala Harris win the U.S. 2024 Democratic presidential nomination?",
+        "volume": 86512.574076,
+        "polarity": 1,
+        "matched_keywords": [
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/trump-margin-of-victory-in-iowa-caucus-35-40_253765.csv",
+        "question": "Trump margin of victory in Iowa Caucus 35-40%",
+        "volume": 84533.105041,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/trump-margin-of-victory-in-iowa-caucus-40_253766.csv",
+        "question": "Trump margin of victory in Iowa Caucus >40%",
+        "volume": 84429.919685,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-trump-announce-his-vp-pick-in-june_500428.csv",
+        "question": "Will Trump announce his VP pick in June?",
+        "volume": 83537.732073,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/liberal-democrats-win-the-second-most-seats-in-next-uk-election_502268.csv",
+        "question": "Liberal Democrats win the second most seats in next UK election? ",
+        "volume": 81654.21448,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-hillary-clinton-win-the-us-2024-democratic-presidential-nomination_240385.csv",
+        "question": "[Single Market] Will Hillary Clinton win the U.S. 2024 Democratic presidential nomination?",
+        "volume": 80797.384269,
+        "polarity": 1,
+        "matched_keywords": [
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/trump-margin-of-victory-in-new-hampshire-primary-2pt5-5_253900.csv",
+        "question": "Trump margin of victory in New Hampshire Primary 2.5-5%",
+        "volume": 79804.463649,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-cori-bush-win-the-mo-1-democratic-house-primary_500753.csv",
+        "question": "Will Cori Bush win the MO-1 Democratic House Primary?",
+        "volume": 76625.604917,
+        "polarity": 1,
+        "matched_keywords": [
+          "house",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-trump-win-the-michigan-primary-by-between-20-30-of-the-vote_254669.csv",
+        "question": "Will Trump win the Michigan Primary by between 20-30% of the vote?",
+        "volume": 75105.569442,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/trump-margin-of-victory-in-iowa-caucus-30-35_253764.csv",
+        "question": "Trump margin of victory in Iowa Caucus 30-35%",
+        "volume": 74964.85853499999,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/trump-convicted-of-another-felony-before-election_502232.csv",
+        "question": "Trump convicted of another felony before election?",
+        "volume": 73860.445713,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump",
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-republican-win-washington-dc-presidential-election_501013.csv",
+        "question": "Will a Republican win Washington DC Presidential Election?",
+        "volume": 73030.340923,
+        "polarity": -1,
+        "matched_keywords": [
+          "election",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-trump-win-the-michigan-primary-by-between-50-60-of-the-vote_254665.csv",
+        "question": "Will Trump win the Michigan Primary by between 50-60% of the vote?",
+        "volume": 72815.182906,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/labour-wins-the-second-most-seats-in-next-uk-election_502292.csv",
+        "question": "Labour wins the second most seats in next UK election?",
+        "volume": 72733.583377,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-stancil-wins-minnesota-61a-house-primary_502255.csv",
+        "question": "Will Stancil wins Minnesota House Democratic Primary?",
+        "volume": 68734.352967,
+        "polarity": 1,
+        "matched_keywords": [
+          "house",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/trump-margin-of-victory-in-iowa-caucus-20_253760.csv",
+        "question": "Trump margin of victory in Iowa Caucus <20%",
+        "volume": 58933.875558,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/trump-margin-of-victory-in-iowa-caucus-25-30_253763.csv",
+        "question": "Trump margin of victory in Iowa Caucus 25-30%",
+        "volume": 58545.832415,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-trump-win-the-michigan-primary-by-more-than-60-of-the-vote_254664.csv",
+        "question": "Will Trump win the Michigan Primary by more than 60% of the vote?",
+        "volume": 56603.066529,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-democrat-win-arkansas-in-the-2024-us-presidential-election_255055.csv",
+        "question": "Will a Democrat win Arkansas Presidential Election?",
+        "volume": 56355.385326,
+        "polarity": 1,
+        "matched_keywords": [
+          "election",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-biden-show-up-for-debate_502602.csv",
+        "question": "Will Biden show up for debate?",
+        "volume": 56017.337824,
+        "polarity": 1,
+        "matched_keywords": [
+          "biden"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/trump-margin-of-victory-in-iowa-caucus-20-25_253762.csv",
+        "question": "Trump margin of victory in Iowa Caucus 20-25%",
+        "volume": 55430.978938,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-trump-win-the-michigan-primary-by-between-40-50-of-the-vote_254666.csv",
+        "question": "Will Trump win the Michigan Primary by between 40-50% of the vote?",
+        "volume": 55318.041207,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-todd-fine-win-the-2024-us-presidential-election_501393.csv",
+        "question": "Will Todd Fine win the 2024 US Presidential Election?",
+        "volume": 49913.588492,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-a-candidate-from-another-party-win-washington-dc-presidential-election_501014.csv",
+        "question": "Will a candidate from another party win Washington DC Presidential Election?",
+        "volume": 49392.804242,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-wesley-bell-win-the-mo-1-democratic-house-primary_500754.csv",
+        "question": "Will Wesley Bell win the MO-1 Democratic House Primary?",
+        "volume": 46338.288644,
+        "polarity": 1,
+        "matched_keywords": [
+          "house",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-trump-win-the-michigan-primary-by-between-30-40-of-the-vote_254667.csv",
+        "question": "Will Trump win the Michigan Primary by between 30-40% of the vote?",
+        "volume": 44362.708338,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-trump-win-the-michigan-primary-by-less-than-20-of-the-vote_254668.csv",
+        "question": "Will Trump win the Michigan Primary by less than 20% of the vote?",
+        "volume": 43185.227266999995,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/trump-on-ballot-in-every-state_501945.csv",
+        "question": "Trump on ballot in every state?",
+        "volume": 42314.370084,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-sam-brown-win-the-2024-nevada-senate-republican-primary_502152.csv",
+        "question": "Will Sam Brown win the 2024 Nevada Senate Republican Primary?",
+        "volume": 33738.466225,
+        "polarity": 1,
+        "matched_keywords": [
+          "senate",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/another-party-wins-the-second-most-seats-in-next-uk-election_502272.csv",
+        "question": "Another party wins the second most seats in next UK election? ",
+        "volume": 30326.116997,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/greens-win-the-second-most-seats-in-next-uk-election_502271.csv",
+        "question": "Greens win the second most seats in next UK election? ",
+        "volume": 30064.230521,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/biden-campaign-to-accept-crypto-donations-in-may_501739.csv",
+        "question": "Biden campaign accepts crypto donations in May?",
+        "volume": 28907.477336,
+        "polarity": 1,
+        "matched_keywords": [
+          "biden"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-pete-buttigieg-win-the-us-2024-democratic-presidential-nomination_240384.csv",
+        "question": "[Single Market] Will Pete Buttigieg win the U.S. 2024 Democratic presidential nomination?",
+        "volume": 26606.36708,
+        "polarity": 1,
+        "matched_keywords": [
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/istanbul-mayoral-election-2024-will-chp-win_254165.csv",
+        "question": "Istanbul Mayoral Election 2024: Will CHP win?",
+        "volume": 25660.454637,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-ryan-foster-win-the-mi-12-democratic-house-primary_501360.csv",
+        "question": "Will Ryan Foster win the MI-12 Democratic House Primary?",
+        "volume": 25558.552442,
+        "polarity": 1,
+        "matched_keywords": [
+          "house",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-alexandria-ocasio-cortez-win-the-ny-14-democratic-house-primary_501356.csv",
+        "question": "Will Alexandria Ocasio-Cortez win the NY-14 Democratic House Primary?",
+        "volume": 25145.333786,
+        "polarity": 1,
+        "matched_keywords": [
+          "house",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-rashida-tlaib-win-the-mi-12-democratic-house-primary_501359.csv",
+        "question": "Will Rashida Tlaib win the MI-12 Democratic House Primary?",
+        "volume": 23242.388558,
+        "polarity": 1,
+        "matched_keywords": [
+          "house",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-royce-kinniebrew-win-the-mi-12-democratic-house-primary_501361.csv",
+        "question": "Will Royce Kinniebrew win the MI-12 Democratic House Primary?",
+        "volume": 21607.6911,
+        "polarity": 1,
+        "matched_keywords": [
+          "house",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-luis-abinader-win-the-2024-dominican-republic-presidential-election_501582.csv",
+        "question": "Will Luis Abinader win the 2024 Dominican Republic presidential election?",
+        "volume": 20526.187089,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-andy-kim-win-new-jersey-dem-senate-primary_502030.csv",
+        "question": "Will Andy Kim win New Jersey Dem Senate Primary?",
+        "volume": 20319.583829,
+        "polarity": 1,
+        "matched_keywords": [
+          "senate"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-trump-lose-the-2024-iowa-caucus_253761.csv",
+        "question": "Will Trump lose the 2024 Iowa Caucus?",
+        "volume": 19806.269334,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-marty-dolan-win-the-ny-14-democratic-house-primary_501357.csv",
+        "question": "Will Marty Dolan win the NY-14 Democratic House Primary?",
+        "volume": 19408.671677,
+        "polarity": 1,
+        "matched_keywords": [
+          "house",
+          "democrat"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/istanbul-mayoral-election-2024-will-ak-win_254166.csv",
+        "question": "Istanbul Mayoral Election 2024: Will AK win?",
+        "volume": 17905.297573,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-trump-announce-his-vp-pick-in-march_500425.csv",
+        "question": "Will Trump announce his VP pick in March?",
+        "volume": 17696.574,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-the-rcp-polling-spread-between-trump-and-biden-be-less-than-trump-1pt4-2_500398.csv",
+        "question": "RCP polling: Trump by less than 1.4 on April 5?",
+        "volume": 16098.975044,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-tony-grady-win-the-2024-nevada-senate-republican-primary_502155.csv",
+        "question": "Will Tony Grady win the 2024 Nevada Senate Republican Primary?",
+        "volume": 14309.953,
+        "polarity": 1,
+        "matched_keywords": [
+          "senate",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-jeff-gunter-win-the-2024-nevada-senate-republican-primary_502153.csv",
+        "question": "Will Jeff Gunter win the 2024 Nevada Senate Republican Primary?",
+        "volume": 12602.113052,
+        "polarity": 1,
+        "matched_keywords": [
+          "senate",
+          "republican"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/istanbul-mayoral-election-2024-will-another-party-win_254167.csv",
+        "question": "Istanbul Mayoral Election 2024: Will another party win?",
+        "volume": 12022.06,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-arnar-r-jnsson-win-the-iceland-presidential-election_501883.csv",
+        "question": "Will Arnar Þór Jónsson win the Iceland Presidential Election?",
+        "volume": 11054.562554,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-the-rcp-polling-spread-between-trump-and-biden-be-between-trump-1pt7-1pt9-1_500401.csv",
+        "question": "RCP: Trump by +2.0-2.2 on April 5?",
+        "volume": 11012.050999,
+        "polarity": -1,
+        "matched_keywords": [
+          "trump"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-halla-tmasdttir-win-the-iceland-presidential-election_501880.csv",
+        "question": "Will Halla Tómasdóttir win the Iceland Presidential Election?",
+        "volume": 10884.343165,
+        "polarity": 1,
+        "matched_keywords": [
+          "election"
+        ]
+      },
+      {
+        "filename": "politics_(us_election)/will-jim-marchant-win-the-2024-nevada-senate-republican-primary_502154.csv",
+        "question": "Will Jim Marchant win the 2024 Nevada Senate Republican Primary?",
+        "volume": 10602.559998,
+        "polarity": 1,
+        "matched_keywords": [
+          "senate",
+          "republican"
+        ]
+      }
+    ],
+    "excluded_files": [],
+    "low_volume_files": [
+      "custom_world_affairs/will-carney-say-crypto-or-bitcoin-during-canadian-election-debate-on-april-17_537286.csv",
+      "custom_world_affairs/will-another-candidate-win-the-2024-dominican-republic-presidential-election_501586.csv",
+      "custom_world_affairs/will-labor-win-the-seat-of-brisbane-in-the-2025-australian-election_537440.csv",
+      "custom_world_affairs/will-the-liberals-win-the-seat-of-bennelong-in-the-2025-australian-election_537447.csv",
+      "custom_world_affairs/will-poilievre-say-common-sense-during-canadian-election-debate-on-april-17_537299.csv",
+      "custom_world_affairs/will-carney-say-trump-3-times-during-canadian-election-debate-on-april-17_537274.csv",
+      "custom_world_affairs/will-dpp-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564634.csv",
+      "custom_world_affairs/will-poilievre-say-pipeline-during-canadian-election-debate-on-april-17_537300.csv",
+      "custom_world_affairs/will-trumpet-of-patriots-win-the-seat-of-bennelong-in-the-2025-australian-election_537454.csv",
+      "custom_world_affairs/will-heart-party-win-the-seat-of-bennelong-in-the-2025-australian-election_537448.csv",
+      "custom_world_affairs/will-one-nation-win-the-seat-of-bennelong-in-the-2025-australian-election_537452.csv",
+      "custom_world_affairs/will-craig-bennett-win-the-seat-of-bennelong-in-the-2025-australian-election_537453.csv",
+      "custom_world_affairs/will-poilievre-say-ai-or-artificial-intelligence-during-canadian-election-debate-on-april-17_537304.csv",
+      "custom_world_affairs/will-poilievre-say-india-or-indian-during-canadian-election-debate-on-april-17_537302.csv",
+      "custom_world_affairs/will-leonel-fernandez-win-the-2024-dominican-republic-presidential-election_501584.csv",
+      "custom_world_affairs/will-carney-say-tariffs-3-times-during-canadian-election-debate-on-april-17_537276.csv",
+      "custom_world_affairs/will-carney-say-ai-or-artificial-intelligence-during-canadian-election-debate-on-april-17_537285.csv",
+      "custom_world_affairs/will-abel-martinez-win-the-2024-dominican-republic-presidential-election_501583.csv",
+      "custom_world_affairs/will-sdp-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564637.csv",
+      "custom_world_affairs/will-komeito-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564631.csv",
+      "custom_world_affairs/will-carney-say-carbon-tax-during-canadian-election-debate-on-april-17_537281.csv",
+      "custom_world_affairs/will-jcp-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564633.csv",
+      "custom_world_affairs/will-poilievre-say-carbon-tax-during-canadian-election-debate-on-april-17_537298.csv",
+      "custom_world_affairs/will-the-liberal-national-party-win-the-seat-of-brisbane-in-the-2025-australian-election_537443.csv",
+      "custom_world_affairs/will-poilievre-say-french-3-times-during-canadian-election-debate-on-april-17_537294.csv",
+      "custom_world_affairs/will-kwon-yeong-guk-win-2nd-place-in-the-south-korean-presidential-election_541408.csv",
+      "custom_world_affairs/will-jip-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564632.csv",
+      "custom_world_affairs/will-cpj-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564639.csv",
+      "custom_world_affairs/will-mintsuku-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564636.csv",
+      "custom_world_affairs/will-carney-say-pipeline-during-canadian-election-debate-on-april-17_537283.csv",
+      "custom_world_affairs/will-carney-say-elon-or-musk-during-canadian-election-debate-on-april-17_537277.csv",
+      "custom_world_affairs/will-reiwa-shinsengumi-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564635.csv",
+      "custom_world_affairs/will-the-greens-win-the-seat-of-bennelong-in-the-2025-australian-election_537450.csv",
+      "custom_world_affairs/will-carney-say-hockey-during-canadian-election-debate-on-april-17_537280.csv",
+      "custom_world_affairs/will-carney-say-french-3-times-during-canadian-election-debate-on-april-17_537275.csv",
+      "custom_world_affairs/will-carney-say-doug-or-ford-during-canadian-election-debate-on-april-17_537282.csv",
+      "custom_world_affairs/will-carney-say-elbows-up-during-canadian-election-debate-on-april-17_537278.csv",
+      "custom_world_affairs/will-poilievre-say-land-lumber-during-canadian-election-debate-on-april-17_537297.csv",
+      "custom_world_affairs/will-carney-say-land-reform-during-canadian-election-debate-on-april-17_537279.csv",
+      "custom_world_affairs/will-one-nation-win-the-seat-of-brisbane-in-the-2025-australian-election_537439.csv",
+      "custom_world_affairs/will-fusion-win-the-seat-of-brisbane-in-the-2025-australian-election_537446.csv",
+      "custom_world_affairs/will-trumpet-of-patriots-win-the-seat-of-brisbane-in-the-2025-australian-election_537444.csv",
+      "custom_world_affairs/will-family-first-win-the-seat-of-brisbane-in-the-2025-australian-election_537441.csv",
+      "custom_world_affairs/will-people-first-win-the-seat-of-brisbane-in-the-2025-australian-election_537445.csv",
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      "custom_world_affairs/spain-snap-election-called-by-june-30-2026_644510.csv",
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      "geopolitics__foreign_policy_comprehensive/will-carney-say-crypto-or-bitcoin-during-canadian-election-debate-on-april-17_537286.csv",
+      "geopolitics__foreign_policy_comprehensive/will-another-candidate-win-the-2024-dominican-republic-presidential-election_501586.csv",
+      "geopolitics__foreign_policy_comprehensive/will-labor-win-the-seat-of-brisbane-in-the-2025-australian-election_537440.csv",
+      "geopolitics__foreign_policy_comprehensive/will-the-liberals-win-the-seat-of-bennelong-in-the-2025-australian-election_537447.csv",
+      "geopolitics__foreign_policy_comprehensive/will-poilievre-say-common-sense-during-canadian-election-debate-on-april-17_537299.csv",
+      "geopolitics__foreign_policy_comprehensive/will-carney-say-trump-3-times-during-canadian-election-debate-on-april-17_537274.csv",
+      "geopolitics__foreign_policy_comprehensive/will-dpp-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564634.csv",
+      "geopolitics__foreign_policy_comprehensive/will-poilievre-say-pipeline-during-canadian-election-debate-on-april-17_537300.csv",
+      "geopolitics__foreign_policy_comprehensive/will-trumpet-of-patriots-win-the-seat-of-bennelong-in-the-2025-australian-election_537454.csv",
+      "geopolitics__foreign_policy_comprehensive/will-heart-party-win-the-seat-of-bennelong-in-the-2025-australian-election_537448.csv",
+      "geopolitics__foreign_policy_comprehensive/will-one-nation-win-the-seat-of-bennelong-in-the-2025-australian-election_537452.csv",
+      "geopolitics__foreign_policy_comprehensive/will-craig-bennett-win-the-seat-of-bennelong-in-the-2025-australian-election_537453.csv",
+      "geopolitics__foreign_policy_comprehensive/will-poilievre-say-ai-or-artificial-intelligence-during-canadian-election-debate-on-april-17_537304.csv",
+      "geopolitics__foreign_policy_comprehensive/will-poilievre-say-india-or-indian-during-canadian-election-debate-on-april-17_537302.csv",
+      "geopolitics__foreign_policy_comprehensive/will-leonel-fernandez-win-the-2024-dominican-republic-presidential-election_501584.csv",
+      "geopolitics__foreign_policy_comprehensive/will-carney-say-tariffs-3-times-during-canadian-election-debate-on-april-17_537276.csv",
+      "geopolitics__foreign_policy_comprehensive/will-carney-say-ai-or-artificial-intelligence-during-canadian-election-debate-on-april-17_537285.csv",
+      "geopolitics__foreign_policy_comprehensive/will-abel-martinez-win-the-2024-dominican-republic-presidential-election_501583.csv",
+      "geopolitics__foreign_policy_comprehensive/will-sdp-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564637.csv",
+      "geopolitics__foreign_policy_comprehensive/will-komeito-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564631.csv",
+      "geopolitics__foreign_policy_comprehensive/will-carney-say-carbon-tax-during-canadian-election-debate-on-april-17_537281.csv",
+      "geopolitics__foreign_policy_comprehensive/will-jcp-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564633.csv",
+      "geopolitics__foreign_policy_comprehensive/will-poilievre-say-carbon-tax-during-canadian-election-debate-on-april-17_537298.csv",
+      "geopolitics__foreign_policy_comprehensive/will-the-liberal-national-party-win-the-seat-of-brisbane-in-the-2025-australian-election_537443.csv",
+      "geopolitics__foreign_policy_comprehensive/will-poilievre-say-french-3-times-during-canadian-election-debate-on-april-17_537294.csv",
+      "geopolitics__foreign_policy_comprehensive/will-kwon-yeong-guk-win-2nd-place-in-the-south-korean-presidential-election_541408.csv",
+      "geopolitics__foreign_policy_comprehensive/will-jip-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564632.csv",
+      "geopolitics__foreign_policy_comprehensive/will-cpj-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564639.csv",
+      "geopolitics__foreign_policy_comprehensive/will-mintsuku-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564636.csv",
+      "geopolitics__foreign_policy_comprehensive/will-carney-say-pipeline-during-canadian-election-debate-on-april-17_537283.csv",
+      "geopolitics__foreign_policy_comprehensive/will-carney-say-elon-or-musk-during-canadian-election-debate-on-april-17_537277.csv",
+      "geopolitics__foreign_policy_comprehensive/will-reiwa-shinsengumi-hold-the-second-most-seats-in-the-house-of-councillors-following-the-2025-japan-election_564635.csv",
+      "geopolitics__foreign_policy_comprehensive/will-the-greens-win-the-seat-of-bennelong-in-the-2025-australian-election_537450.csv",
+      "geopolitics__foreign_policy_comprehensive/will-carney-say-hockey-during-canadian-election-debate-on-april-17_537280.csv",
+      "geopolitics__foreign_policy_comprehensive/will-carney-say-french-3-times-during-canadian-election-debate-on-april-17_537275.csv",
+      "geopolitics__foreign_policy_comprehensive/will-carney-say-doug-or-ford-during-canadian-election-debate-on-april-17_537282.csv",
+      "geopolitics__foreign_policy_comprehensive/will-carney-say-elbows-up-during-canadian-election-debate-on-april-17_537278.csv",
+      "geopolitics__foreign_policy_comprehensive/will-poilievre-say-land-lumber-during-canadian-election-debate-on-april-17_537297.csv",
+      "geopolitics__foreign_policy_comprehensive/will-carney-say-land-reform-during-canadian-election-debate-on-april-17_537279.csv",
+      "geopolitics__foreign_policy_comprehensive/will-one-nation-win-the-seat-of-brisbane-in-the-2025-australian-election_537439.csv",
+      "geopolitics__foreign_policy_comprehensive/spain-snap-election-called-by-june-30-2026_644510.csv",
+      "geopolitics__foreign_policy_comprehensive/will-fusion-win-the-seat-of-brisbane-in-the-2025-australian-election_537446.csv",
+      "geopolitics__foreign_policy_comprehensive/will-trumpet-of-patriots-win-the-seat-of-brisbane-in-the-2025-australian-election_537444.csv",
+      "geopolitics__foreign_policy_comprehensive/will-family-first-win-the-seat-of-brisbane-in-the-2025-australian-election_537441.csv",
+      "geopolitics__foreign_policy_comprehensive/will-people-first-win-the-seat-of-brisbane-in-the-2025-australian-election_537445.csv",
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      "politics_(us_election)/will-jon-gnarr-win-the-iceland-presidential-election_501882.csv",
+      "politics_(us_election)/will-another-candidate-win-the-2024-dominican-republic-presidential-election_501586.csv",
+      "politics_(us_election)/will-another-candidate-win-the-mo-1-democratic-house-primary_500757.csv",
+      "politics_(us_election)/will-maria-chappelle-nadal-win-the-mo-1-democratic-house-primary_500755.csv",
+      "politics_(us_election)/will-katrin-jakobsdottir-win-the-iceland-presidential-election_501878.csv",
+      "politics_(us_election)/will-another-candidate-win-the-iceland-presidential-election_501884.csv",
+      "politics_(us_election)/will-another-candidate-win-the-ny-14-democratic-house-primary_501358.csv",
+      "politics_(us_election)/will-the-rcp-polling-spread-between-trump-and-biden-be-between-trump-1pt7-1pt9-2_500400.csv",
+      "politics_(us_election)/will-another-candidate-win-the-2024-nevada-senate-republican-primary_502156.csv",
+      "politics_(us_election)/will-halla-hrund-logadottir-win-the-iceland-presidential-election_501881.csv",
+      "politics_(us_election)/will-the-rcp-polling-spread-between-trump-and-biden-be-between-trump-2pt3-2pt5_500403.csv",
+      "politics_(us_election)/will-ron-harshaw-win-the-mo-1-democratic-house-primary_500756.csv",
+      "politics_(us_election)/will-baldur-thorhallsson-win-the-iceland-presidential-election_501879.csv",
+      "politics_(us_election)/will-dean-phillips-win-the-us-democratic-presidential-nomination_252838.csv",
+      "politics_(us_election)/will-the-rcp-polling-spread-between-trump-and-biden-be-less-than-trump-1pt4-1_500405.csv",
+      "politics_(us_election)/will-leonel-fernandez-win-the-2024-dominican-republic-presidential-election_501584.csv",
+      "politics_(us_election)/will-the-rcp-polling-spread-between-trump-and-biden-be-between-trump-1pt4-1pt6-1_500399.csv",
+      "politics_(us_election)/will-abel-martinez-win-the-2024-dominican-republic-presidential-election_501583.csv",
+      "politics_(us_election)/will-another-candidate-win-the-mi-12-democratic-house-primary_501362.csv"
+    ]
+  }
+}

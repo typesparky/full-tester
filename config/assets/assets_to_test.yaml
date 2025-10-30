@@ -1,0 +1,19 @@
+assets:
+  - name: SP500
+    ticker: SPY
+    data_source: "local_csv"
+    data_file: "Data/SP500 Historical Data.csv"
+    price_column: "Price"
+  - name: Oil
+    ticker: USO
+    data_source: "local_csv"
+    data_file: "Data/Crude Oil WTI Futures Historical Data.csv"
+    price_column: "Price"
+  - name: Gold
+    ticker: GLD
+    data_source: "local_csv"
+    data_file: "Data/Gold Futures Historical Data.csv"
+    price_column: "Price"
+
+default_data_source: "local_csv"
+date_column_format: "%b %d, %Y"  # For local CSV date parsing
